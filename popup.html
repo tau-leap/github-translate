@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>GitHub Translate</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <label class="field" for="locale">
+      <span class="label">翻訳する言語</span>
+      <select id="locale"></select>
+    </label>
+    <div class="report">
+      <button type="button" id="report-untranslated">未訳を報告</button>
+      <button type="button" id="report-fix">訳の修正を提案</button>
+      <p class="hint">GitHub の Issue 作成画面を開きます。選択中のテキストと表示中のページ URL が入ります（送信前に編集できます）。</p>
+    </div>
+    <script src="src/config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

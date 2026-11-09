@@ -1,0 +1,48 @@
+name: 不具合の報告
+description: 表示が崩れる・訳が二重に付く・ページが重くなるなどの不具合
+title: "[不具合] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 何が起きたか
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1. https://github.com/... を開く
+        2. ... をクリック
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作
+    validations:
+      required: false
+  - type: input
+    id: page_url
+    attributes:
+      label: ページ URL（任意）
+      description: 非公開リポジトリの場合は伏せてかまいません。
+    validations:
+      required: false
+  - type: input
+    id: versions
+    attributes:
+      label: 拡張機能と Chrome のバージョン
+      description: 拡張機能のバージョンは chrome://extensions で確認できます。
+      placeholder: GitHub Translate 1.10.0 / Chrome 142
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: スクリーンショット（任意）
+    validations:
+      required: false

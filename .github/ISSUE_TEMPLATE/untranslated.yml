@@ -1,0 +1,42 @@
+name: 未訳の報告
+description: 日本語が付いていない GitHub の UI 文言を報告する
+title: "[未訳] "
+labels: ["untranslated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        日本語が付いていない UI 文言を教えてください。拡張機能のポップアップの「未訳を報告」から開くと、ページ URL と選択中のテキストが入ります。
+        非公開リポジトリの URL やリポジトリ名を載せたくない場合は、書き換えるか消してから送信してください。
+        README・Issue 本文・コメントなど、ユーザーが書いた文章は翻訳の対象外です。
+  - type: input
+    id: page_url
+    attributes:
+      label: ページ URL
+      description: 文言が表示されていたページ（例：https://github.com/<owner>/<repo>/settings）
+      placeholder: https://github.com/...
+    validations:
+      required: false
+  - type: textarea
+    id: english_text
+    attributes:
+      label: 英語の文言
+      description: 画面に表示されているとおりに書いてください（大文字・小文字・記号もそのまま）。複数ある場合は 1 行に 1 つ。
+      placeholder: New pull request
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_ja
+    attributes:
+      label: 訳の案（任意）
+      description: 思いつく訳があれば。空欄でもかまいません。
+      placeholder: 新しいプルリクエスト
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: スクリーンショット（任意）
+      description: 画像を貼り付けるかドラッグしてください。どこに出ている文言か分かると助かります。
+    validations:
+      required: false

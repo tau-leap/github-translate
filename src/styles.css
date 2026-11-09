@@ -1,0 +1,46 @@
+.ght-annot {
+  display: inline;
+  margin-inline-start: 0.25em;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  opacity: 0.65;
+  color: inherit;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ActionList サイドバー: Truncate の外に出した訳はラベル下に表示 */
+[class*="ActionList"] [class*="ItemLabel"] > .ght-annot {
+  display: block;
+  margin-inline-start: 0;
+  margin-top: 0.1em;
+  white-space: normal;
+}
+
+.ght-annot::before {
+  content: none;
+}
+
+.ght-tip {
+  position: fixed;
+  z-index: 2147483646;
+  max-width: 16rem;
+  padding: 0.35em 0.65em;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--fgColor-onEmphasis, var(--color-fg-on-emphasis, #fff));
+  background: var(--bgColor-emphasis, var(--color-neutral-emphasis-plus, #1f2328));
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  user-select: none;
+  white-space: normal;
+}
+
+.ght-tip[hidden] {
+  display: none !important;
+}

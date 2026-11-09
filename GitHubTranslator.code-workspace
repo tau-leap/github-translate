@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "name": "GitHubTranslator-chrome-extension",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.title": "GitHubTranslator-chrome-extension — ${activeEditorShort}",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "cSpell.useGitignore": true,
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#24292f",
+      "titleBar.activeForeground": "#ffffff",
+      "titleBar.inactiveBackground": "#1b1f23",
+      "titleBar.inactiveForeground": "#8b949e",
+      "activityBar.background": "#24292f",
+      "activityBar.foreground": "#ffffff",
+      "activityBarBadge.background": "#2f81f7",
+      "activityBarBadge.foreground": "#ffffff",
+      "statusBar.background": "#1b1f23",
+      "statusBar.foreground": "#ffffff"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+}

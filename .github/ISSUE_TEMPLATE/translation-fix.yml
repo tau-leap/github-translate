@@ -1,0 +1,39 @@
+name: 訳の修正
+description: 今の訳が分かりにくい・間違っているときに修正を提案する
+title: "[訳の修正] "
+labels: ["translation-fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        今の訳を変えたほうがよいところを教えてください。用語の方針は [CONTRIBUTING.md](https://github.com/tau-leap/github-translate/blob/main/CONTRIBUTING.md) にあります。
+        非公開リポジトリの URL を載せたくない場合は、書き換えるか消してから送信してください。
+  - type: input
+    id: page_url
+    attributes:
+      label: ページ URL（任意）
+      placeholder: https://github.com/...
+    validations:
+      required: false
+  - type: textarea
+    id: current
+    attributes:
+      label: 今の表示
+      description: 英語の文言と、今付いている日本語（例：Blame → 責任者）
+      placeholder: Blame → 責任者
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 提案する訳
+      placeholder: Blame → 行ごとの変更履歴
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 理由
+      description: なぜこの訳がよいか（GitHub 公式ドキュメントの訳、よく使われる言い方など）
+    validations:
+      required: false

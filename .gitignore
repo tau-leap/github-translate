@@ -1,0 +1,29 @@
+dist/
+*.zip
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+!.env.sample
+env.local
+*.pem
+*.p12
+*.p8
+*.mobileprovision
+*.keystore
+*.jks
+.npmrc
+.netrc
+credentials.json
+**/GoogleService-Info.plist
+**/google-services.json
+
+
+# Chrome extension signing keys / packed builds
+*.crx
+*.key
+
+# OS / editor
+.DS_Store
+node_modules/
