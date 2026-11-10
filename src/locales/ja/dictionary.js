@@ -776,6 +776,10 @@ var GHT_LOCALE_DICTIONARY = {
   "If restricted, issues will still be readable by everyone who can see this repository.":
     "制限しても、リポジトリを閲覧できるユーザーは課題を読み取れます。",
   "Allow auto-merge": "自動マージを許可",
+  "Pull request limits": "プルリクエストの制限",
+  "Limit open pull requests from users without write access":
+    "書き込み権限のないユーザーが開けるプルリクエストを制限",
+  Pushes: "プッシュ",
   "Rulesets": "ルールセット",
   "Rules": "ルール",
   "New ruleset": "新しいルールセット",
@@ -2578,6 +2582,10 @@ var GHT_LOCALE_DICTIONARY = {
   "Reported content": "報告されたコンテンツ",
   "Abuse reports": "不正利用の報告",
   "Temporary interaction limits": "一時的な操作制限",
+  "Temporary interaction restrictions": "一時的な操作の制限",
+  "Limit to existing users": "既存のユーザーに限定",
+  "Limit to prior contributors": "過去のコントリビューターに限定",
+  "Limit to repository collaborators": "リポジトリのコラボレーターに限定",
 
   // --- Policy insights ---
   "Actions policy insights": "Actions ポリシーの分析",
