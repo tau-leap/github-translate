@@ -93,7 +93,8 @@ Issue を送信するかどうかはその画面で利用者が決めます。
 
 [MIT License](LICENSE) © 2026 TauLeap
 
-問い合わせ: [tauleap.com](https://tauleap.com) / support@tauleap.com
+フィードバック: [tauleap.com/product/github-translate/feedback](https://tauleap.com/product/github-translate/feedback/)  
+問い合わせ: support@tauleap.com
 
 ---
 

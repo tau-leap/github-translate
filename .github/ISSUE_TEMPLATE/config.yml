@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: TauLeap（問い合わせ先・ほかの製品）
+  - name: Feedback（テンプレート一覧・メール）
+    url: https://tauleap.com/product/github-translate/feedback/
+    about: Issue テンプレートの案内と、GitHub アカウントがない場合のメール連絡先です。
+  - name: TauLeap（ほかの製品）
     url: https://tauleap.com
-    about: GitHub アカウントがない場合や Issue にしにくい内容は support@tauleap.com へどうぞ。
+    about: ほかの TauLeap 製品についてはこちら。
