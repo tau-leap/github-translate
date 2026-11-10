@@ -1,12 +1,12 @@
 {
   "folders": [
     {
-      "name": "GitHubTranslator-chrome-extension",
+      "name": "GitHubTranslate",
       "path": "."
     }
   ],
   "settings": {
-    "window.title": "GitHubTranslator-chrome-extension — ${activeEditorShort}",
+    "window.title": "GitHubTranslate — ${activeEditorShort}",
     "terminal.integrated.cwd": "${workspaceFolder}",
     "cSpell.useGitignore": true,
     "workbench.colorCustomizations": {
