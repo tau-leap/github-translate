@@ -501,7 +501,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Resolve conflicts": "競合を解決",
   "Use the command line": "コマンドラインを使う",
   "Merge info": "マージ情報",
-  "Add a comment": "コメントを追加",
   "Start a review": "レビューを開始",
   "Add single comment": "単一コメントを追加",
   "Add review comment": "レビューコメントを追加",
@@ -549,7 +548,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Projects": "プロジェクト",
   "Milestone": "マイルストーン",
   "Notifications": "通知",
-  "Lock conversation": "会話をロック",
   "Allow edits by maintainers": "メンテナーによる編集を許可",
   "Allow edits and access to secrets by maintainers":
     "メンテナーの編集とシークレットアクセスを許可",
@@ -559,7 +557,6 @@ var GHT_LOCALE_DICTIONARY = {
     "書き込み権限のあるレビュー担当による承認が 1 件以上必要です。",
   "Changes approved": "変更は承認されました",
   "No description provided.": "説明がありません。",
-  "Add a description": "説明を追加",
   "Always": "常に",
   "Never": "しない",
   "For all conversations": "すべての会話",
@@ -625,7 +622,6 @@ var GHT_LOCALE_DICTIONARY = {
     "プロジェクトは、作業の計画と追跡のためのカスタマイズ可能で柔軟なツールです。",
   "Templates can be used to quickly get started with a new project.":
     "テンプレートを使うと、新しいプロジェクトを素早く始められます。",
-  "New project": "新しいプロジェクト",
   "Link a project": "プロジェクトをリンク",
   Sandboxes: "サンドボックス",
   "Cloud sandbox access": "クラウドサンドボックスアクセス",
@@ -642,7 +638,6 @@ var GHT_LOCALE_DICTIONARY = {
   Priority: "優先度",
   Size: "サイズ",
   Iteration: "イテレーション",
-  "No projects": "プロジェクトはありません",
   "Create a project": "プロジェクトを作成",
   "Add item": "アイテムを追加",
   "New item": "新しいアイテム",
@@ -827,7 +822,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Maintain": "メンテナンス",
   "Triage": "トリアージ",
   "Default repository permission": "デフォルトのリポジトリ権限",
-  "Save changes": "変更を保存",
   "Update settings": "設定を更新",
   "Repository details": "リポジトリの詳細",
   "Include in the home page": "ホームページに含める",
@@ -840,7 +834,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Upload an image to customize your repository\u2019s social media preview.":
     "画像をアップロードして、リポジトリのソーシャルプレビューをカスタマイズします。",
   "Features": "機能",
-  "Preserve this repository": "このリポジトリを保持",
   "Archiving a repository": "リポジトリのアーカイブ",
   "Leave a comment about why you are transferring": "移譲する理由をコメント",
   "I understand, transfer this repository": "理解したので移譲する",
@@ -1139,7 +1132,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Personal access tokens": "個人アクセストークン",
   "Tokens (classic)": "トークン（クラシック）",
   "OAuth Apps": "OAuth アプリ",
-  "GitHub Apps": "GitHub アプリ",
   "Profile picture": "プロフィール画像",
   "Edit profile": "プロフィールを編集",
   Name: "名前",
@@ -1277,8 +1269,6 @@ var GHT_LOCALE_DICTIONARY = {
   "repository results": "リポジトリの結果",
   "issue results": "課題の結果",
   "Show more": "さらに表示",
-  "Jump to": "ジャンプ",
-  "Owners": "オーナー",
   "Saved searches": "保存した検索",
 
   // --- Organization ---
@@ -1339,7 +1329,6 @@ var GHT_LOCALE_DICTIONARY = {
   Archive: "アーカイブ",
   Logs: "ログ",
   "Verified domains": "検証済みドメイン",
-  "Rulesets": "ルールセット",
   Policies: "ポリシー",
   "Deleted repositories": "削除されたリポジトリ",
   "Account settings": "アカウント設定",
@@ -1626,7 +1615,6 @@ var GHT_LOCALE_DICTIONARY = {
   "IDE code generation": "IDE コード生成",
 
   // --- Settings: Copilot Code review ---
-  "Code review": "コードレビュー",
   "Copilot Code review": "Copilot コードレビュー",
   "With Copilot code review, you can add Copilot as a reviewer to your pull requests, including drafts. You can also select lines in Visual Studio Code and ask Copilot to review and comment on specific sections.":
     "Copilot コードレビューでは、下書きを含むプルリクエストに Copilot をレビュアーとして追加できます。VS Code で行を選び、特定箇所のレビューやコメントを依頼することもできます。",
@@ -1659,7 +1647,6 @@ var GHT_LOCALE_DICTIONARY = {
     "デフォルトブランチ用のルールセットを作成",
 
   // --- Settings: Copilot Cloud agent ---
-  "Cloud agent": "クラウドエージェント",
   "Copilot cloud agent": "Copilot クラウドエージェント",
   "Learn more about Copilot cloud agent":
     "Copilot クラウドエージェントについて詳しく見る",
@@ -1789,7 +1776,6 @@ var GHT_LOCALE_DICTIONARY = {
   "See all": "すべて見る",
   "See more": "もっと見る",
   "Show less": "少なく表示",
-  "Show more": "さらに表示",
   "Load more": "さらに読み込む",
   "Load more...": "さらに読み込む...",
   Dismiss: "閉じる",
@@ -1855,7 +1841,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Home": "ホーム",
   "For you": "おすすめ",
   "Following": "フォロー中",
-  "Filter": "フィルター",
   "Date range": "期間",
   Today: "今日",
   "This week": "今週",
@@ -1893,7 +1878,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Repository navigation": "リポジトリナビゲーション",
   "Repository": "リポジトリ",
   "Issue": "課題",
-  "Pull request": "プルリクエスト",
   "Commit": "コミット",
   "File": "ファイル",
   "Directory": "ディレクトリ",
@@ -1917,7 +1901,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Security overview": "セキュリティ概要",
   "Code scanning alerts": "コードスキャン警告",
   "Secret scanning alerts": "シークレットスキャン警告",
-  "New codespace": "新しい コードスペース",
   "Open in github.dev": "github.dev で開く",
   "Open in Visual Studio Code": "VS Code で開く",
   "Copy url to clipboard": "URL をコピー",
@@ -1927,7 +1910,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Custom": "カスタム",
   "Participating and @mentions": "参加中と @メンション",
   "Ignore": "無視",
-  "Stop ignoring": "無視を解除",
   "All activity": "すべてのアクティビティ",
 
   Runners: "ランナー",
