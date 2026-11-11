@@ -45,27 +45,32 @@ README やコメント、Issue / PR 本文、コード、ユーザー名は翻�
 2. Chrome で `chrome://extensions` を開き、右上の「デベロッパー モード」を ON にする
 3. 「パッケージ化されていない拡張機能を読み込む」から、  
 このリポジトリのフォルダ（`manifest.json` がある場所）を選ぶ
-4. 辞書などを編集したら、`chrome://extensions` で拡張機能の再読み込みボタンを押し、GitHub のページも再読み込みする
+4. 辞書などを編集したら、`chrome://extensions` で拡張機能の再読み込みボタンを押し、  
+GitHub のページも再読み込みする
 
 ## 翻訳を追加・修正する
 
-いちばん簡単なのは、拡張機能のポップアップの **「未訳を報告」** から Issue を作ることです。
-表示中のページ URL と、ページで選択していたテキストが入った状態で Issue 作成画面が開きます。
-（[Issue から直接報告](https://github.com/tau-leap/github-translate/issues/new/choose)することもできます）
+いちばん簡単なのは、拡張機能のポップアップの **「未訳を報告」** から Issue を作ることです。  
+表示中のページ URL と、ページで選択していたテキストが入った状態で Issue 作成画面が開きます。  
+（[Issue から直接報告](https://github.com/tau-leap/github-translate/issues/new/choose)することもできます）  
 
-自分で辞書を直して Pull Request を送ってくれる場合は、`src/locales/ja/dictionary.js` に
-英語キーと訳を追加してください。注意点:
+自分で辞書を直して Pull Request を送ってくれる場合は、`src/locales/ja/dictionary.js` に  
+英語キーと訳を追加してください。  
 
-- **完全一致**: キーは画面の表示どおりに書きます。前後の空白は無視されますが、それ以外は 1 文字でも違うと一致しません
-- **アポストロフィ**: GitHub はまっすぐな `'` と曲がった `’` の両方を使います。  画面と同じ方を使い、両方出る場合は両方のキーを入れます
-- **大文字・小文字**: `Settings` と `SETTINGS` は別のキーです。大文字の見出しなどは、そのキーも追加します
+注意点:  
+- **完全一致**: キーは画面の表示どおりに書きます。前後の空白は無視されますが、  
+それ以外は 1 文字でも違うと一致しません
+- **アポストロフィ**: GitHub はまっすぐな `'` と曲がった `’` の両方を使います。  
+画面と同じ方を使い、両方出る場合は両方のキーを入れます
+- **大文字・小文字**: `Settings` と `SETTINGS` は別のキーです。  
+大文字の見出しなどは、そのキーも追加します
 - **製品名**: GitHub Copilot、GitHub Skills、MCP、AI などの製品名・固有名詞そのものには訳を付けません
 
 用語の決まりと PR の流れは [CONTRIBUTING.md](CONTRIBUTING.md) にあります。
 
 ## 言語を追加する
 
-翻訳データは `src/locales/<言語コード>/` に置きます。
+翻訳データは `src/locales/<言語コード>/` に置きます。  
 `dictionary.js`（横並びの短い訳）と `descriptions.js`（ホバー時の概念説明）の
 2 ファイルが必要です。
 
@@ -106,14 +111,16 @@ github.com menus, buttons, and tabs. The English UI stays as-is. User content
 (READMEs, comments, issue/PR bodies, code, usernames) is never translated.
 
 - **Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/github-translate/ignplaeoffkjaffgbhclflhmegllfipm)
-- **How it works:** a bundled dictionary (`src/locales/ja/dictionary.js`). UI text is whitespace-normalized and trimmed,   
+- **How it works:** a bundled dictionary (`src/locales/ja/dictionary.js`).  
+UI text is whitespace-normalized and trimmed,   
 then matched **exactly** against the dictionary keys. Hover descriptions live in `src/locales/ja/descriptions.js`.  
  No translation API, no network requests, no data collection.
 - **Develop:** open `chrome://extensions`, turn on Developer mode, click "Load unpacked", and pick this folder.
 - **Contribute:** use "未訳を報告" (report untranslated text) in the extension popup,  
 open an [issue](https://github.com/tau-leap/github-translate/issues/new/choose),  
 or send a PR that edits `dictionary.js`.  
-Keys must match the on-screen text exactly (straight `'` vs curly `’` and upper-case variants are separate keys).  
+Keys must match the on-screen text exactly  
+ (straight `'` vs curly `’` and upper-case variants are separate keys).  
 Product names such as GitHub Copilot or MCP are not translated. See [CONTRIBUTING.md](CONTRIBUTING.md) (Japanese).  
 - **Releases:** only the maintainer (TauLeap) publishes to the Chrome Web Store.
 - **License:** [MIT](LICENSE)

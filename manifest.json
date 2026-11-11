@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitHub Translate",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "github.com の UI ラベルの右に、小さめの翻訳テキストを常時並記します。",
   "icons": {
     "16": "icons/icon16.png",
