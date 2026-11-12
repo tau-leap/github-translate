@@ -1869,6 +1869,16 @@ var GHT_LOCALE_DICTIONARY = {
   "Uninstall": "アンインストール",
   "Permissions": "権限",
   "Developer": "開発者",
+  "Featured": "注目",
+  "All apps": "すべてのアプリ",
+  "All actions": "すべてのアクション",
+  "Recently added": "最近追加",
+  "Create extension": "拡張機能を作成",
+  "Project management": "プロジェクト管理",
+  "Continuous integration": "継続的インテグレーション",
+  "Dependency management": "依存関係の管理",
+  "Testing": "テスト",
+  "Utilities": "ユーティリティ",
 
   // --- Keyboard / accessibility labels often visible ---
   Menu: "メニュー",
