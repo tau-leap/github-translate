@@ -1,0 +1,28 @@
+name: 自動化スクリプトのテスト
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: node --check と単体テスト
+        run: |
+          node --check scripts/from-issues.js
+          node --check scripts/scan-pages.js
+          node --check scripts/collect-in-page.js
+          node --check scripts/lib/matching.js
+          node --check scripts/lib/parse-issue.js
+          node --check scripts/lib/dictionary-file.js
+          node --check src/locales/ja/dictionary.js
+          node --check src/locales/ja/descriptions.js
+          node --test scripts/lib/*.test.js

@@ -1,0 +1,52 @@
+name: 翻訳 Issue から辞書 PR
+
+on:
+  schedule:
+    # 毎日 12:00 JST（03:00 UTC）
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "GitHub に Issue / PR を書かず、対象の確認だけする"
+        type: boolean
+        default: false
+      max_entries:
+        description: "1 回の PR に含める最大件数"
+        type: string
+        default: "40"
+
+concurrency:
+  group: ght-from-issues
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  from-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GHT_GITHUB_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 構文と単体テスト
+        run: |
+          node --check scripts/from-issues.js
+          node --test scripts/lib/*.test.js
+
+      - name: Issue を辞書 PR にまとめる
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHT_GITHUB_TOKEN || github.token }}
+          GHT_GITHUB_TOKEN: ${{ secrets.GHT_GITHUB_TOKEN }}
+          GHT_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          GHT_MAX_ENTRIES: ${{ github.event.inputs.max_entries || '40' }}
+          GHT_BASE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: node scripts/from-issues.js

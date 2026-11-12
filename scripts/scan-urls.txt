@@ -1,0 +1,35 @@
+# 公開されている github.com の定型 UI を優先してスキャンする。
+# ログインが必要な URL は、GHT_PLAYWRIGHT_STORAGE_STATE があるときだけ結果を採用する。
+
+https://github.com/
+https://github.com/login
+https://github.com/signup
+https://github.com/explore
+https://github.com/topics
+https://github.com/trending
+https://github.com/marketplace
+https://github.com/pricing
+https://github.com/features
+https://github.com/features/actions
+https://github.com/features/copilot
+https://github.com/mcp
+https://github.com/sponsors
+https://github.com/github
+https://github.com/github/docs
+https://github.com/github/docs/issues
+https://github.com/github/docs/pulls
+https://github.com/github/docs/actions
+https://github.com/github/docs/security
+https://github.com/github/docs/pulse
+https://github.com/github/docs/releases
+https://github.com/cli/cli
+https://github.com/cli/cli/issues
+https://github.com/cli/cli/pulls
+https://github.com/cli/cli/actions
+https://github.com/orgs/community/discussions
+https://github.com/new
+https://github.com/notifications
+https://github.com/settings/profile
+https://github.com/settings/copilot
+https://github.com/pulls
+https://github.com/issues

@@ -1,0 +1,64 @@
+name: GitHub UI をスキャンして未訳を収集
+
+on:
+  schedule:
+    # 毎週月曜 13:00 JST（04:00 UTC）
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "GitHub に Issue / PR を書かず、検出結果だけ出す"
+        type: boolean
+        default: false
+      max_pages:
+        description: "スキャンする最大ページ数（0 で一覧すべて）"
+        type: string
+        default: "0"
+
+concurrency:
+  group: ght-scan-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  scan-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GHT_GITHUB_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 構文と単体テスト
+        run: |
+          node --check scripts/scan-pages.js
+          node --check scripts/collect-in-page.js
+          node --test scripts/lib/*.test.js
+
+      - name: Playwright をインストール
+        run: |
+          mkdir -p "$RUNNER_TEMP/ght-playwright"
+          cd "$RUNNER_TEMP/ght-playwright"
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: github.com の UI をスキャン
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHT_GITHUB_TOKEN || github.token }}
+          GHT_GITHUB_TOKEN: ${{ secrets.GHT_GITHUB_TOKEN }}
+          GHT_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          GHT_MAX_PAGES: ${{ github.event.inputs.max_pages || '0' }}
+          GHT_MAX_ENTRIES: "40"
+          GHT_BASE_BRANCH: ${{ github.event.repository.default_branch }}
+          GHT_PLAYWRIGHT_STORAGE_STATE: ${{ secrets.GHT_PLAYWRIGHT_STORAGE_STATE }}
+          NODE_PATH: ${{ runner.temp }}/ght-playwright/node_modules
+        run: node scripts/scan-pages.js
