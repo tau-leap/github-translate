@@ -2412,6 +2412,16 @@ var GHT_LOCALE_DICTIONARY = {
   "Enterprise-grade AI features": "エンタープライズ級の AI 機能",
   "Premium Support": "プレミアムサポート",
   "Enterprise-grade 24/7 support": "エンタープライズ級の 24 時間 365 日サポート",
+  Products: "製品",
+  Developers: "開発者向け",
+  Businesses: "企業向け",
+  "All Features": "すべての機能",
+  "See all industries": "すべての業界を見る",
+  "Customer Stories": "導入事例",
+  "Community Forum": "コミュニティフォーラム",
+  "Trending repos": "トレンドのリポジトリ",
+  "Developer articles": "開発者向け記事",
+  "Cloud development environments": "クラウド開発環境",
 
   // --- Logged-out nav: heading case variants & product names ---
   "AI Code Creation": "AI によるコード作成",
