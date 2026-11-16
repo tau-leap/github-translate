@@ -230,6 +230,7 @@ var GHT_LOCALE_DESCRIPTIONS = {
   "Plans and usage": "現在のプランと使用量",
   Emails: "アカウントに登録するメールアドレス",
   "Password and authentication": "パスワードと二要素認証の設定",
+  Credentials: "アカウントに登録した認証情報（トークンや鍵など）を確認・管理するページ",
   Sessions: "ログイン中のセッションとデバイス",
   "SSH and GPG keys": "Git 操作やコミット署名用の鍵",
   Organizations: "所属 Organization の一覧と管理",
