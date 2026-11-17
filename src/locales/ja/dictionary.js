@@ -2118,6 +2118,17 @@ var GHT_LOCALE_DICTIONARY = {
   "Page history": "ページ履歴",
   "Clone this wiki locally": "この Wiki をローカルにクローン",
   "Community standards": "コミュニティ標準",
+  "Community Standards": "コミュニティ標準",
+  "Here's how this project compares to recommended community standards.":
+    "このプロジェクトを推奨されるコミュニティ標準と比べた結果です。",
+  Checklist: "チェックリスト",
+  Contributing: "コントリビューションガイド",
+  "Issue templates": "課題テンプレート",
+  "Pull request template": "プルリクエストテンプレート",
+  "Repository admins accept content reports":
+    "リポジトリ管理者がコンテンツの報告を受け付ける",
+  "Additional community file": "その他のコミュニティファイル",
+  "Writing an accessibility statement": "アクセシビリティ方針の書き方",
   Network: "ネットワーク",
   Dependencies: "依存関係",
   Dependents: "被依存（このリポジトリを使う側）",
