@@ -2485,6 +2485,15 @@ var GHT_LOCALE_DICTIONARY = {
   "GitHub Copilot app": "GitHub Copilot アプリ",
   "GitHub Advanced Security": "GitHub 高度なセキュリティ",
 
+  // --- Features page (github.com/features) ---
+  "Charts and insights": "グラフとインサイト",
+  "Stacked pull requests": "スタック型プルリクエスト",
+  "Protected branches": "保護されたブランチ",
+  "GitHub-hosted runners": "GitHub ホステッドランナー",
+  "Self-hosted runners": "セルフホストランナー",
+  "Workflow templates": "ワークフローテンプレート",
+  "Ready to get started?": "始める準備はできましたか？",
+
   // --- Pricing (github.com/pricing) ---
   "Try GitHub, the complete developer platform": "完全な開発者プラットフォーム GitHub を試す",
   "Start free for 30 days": "30 日間無料で始める",
@@ -2539,6 +2548,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Features on": "機能一覧：",
   "Switch plans": "プランを切り替え",
   "Select a plan to review its features": "プランを選んで機能を確認",
+  "Pause animation": "アニメーションを一時停止",
   "per month forever": "/月（ずっと）",
   "How to get started": "始め方",
   "Code management": "コード管理",
