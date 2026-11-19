@@ -38,6 +38,20 @@ read_version() {
   python3 -c "import json, sys; print(json.load(open(sys.argv[1]))['version'])" "$ROOT/manifest.json"
 }
 
+# manifest.json のマイナー（中央）を +1 し、パッチを 0 に戻す。
+# --skip-build 時は dist/manifest.json があれば同じバージョンに同期する。
+bump_minor_version() {
+  local old_version new_version major minor
+  old_version="$(sed -n 's/.*"version": "\([0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\)".*/\1/p' "$ROOT/manifest.json" | head -n 1)"
+  IFS=. read -r major minor _ <<< "$old_version"
+  new_version="${major}.$((minor + 1)).0"
+  sed -i '' "s/\"version\": \"${old_version}\"/\"version\": \"${new_version}\"/" "$ROOT/manifest.json"
+  echo "バージョン: ${old_version} → ${new_version}"
+  if [ -f "$DIST/manifest.json" ]; then
+    sed -i '' "s/\"version\": \"[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\"/\"version\": \"${new_version}\"/" "$DIST/manifest.json"
+  fi
+}
+
 build_dist() {
   if [ ! -d "$ROOT/src/locales" ]; then
     echo "エラー: src/locales/ が見つかりません。" >&2
@@ -87,6 +101,7 @@ create_zip() {
   unzip -l "$zip_path" | sed -n '4,$p' | sed '$d' | sed '$d'
 }
 
+bump_minor_version
 VERSION="$(read_version)"
 
 if [ -z "$OUTPUT" ]; then
