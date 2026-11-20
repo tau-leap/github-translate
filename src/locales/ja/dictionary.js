@@ -281,7 +281,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Code scanning helps you find and fix vulnerabilities and coding errors.":
     "コードスキャンは、脆弱性とコーディングエラーの発見と修正に役立ちます。",
   "New release": "新しいリリース",
-  "There aren't any releases here": "リリースはまだありません",
+  "There aren’t any releases here": "リリースはまだありません",
   "Create a new release": "新しいリリースを作成",
   "Draft a new release": "新しいリリースの下書きを作成",
   Draft: "下書き",
