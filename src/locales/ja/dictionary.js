@@ -244,7 +244,7 @@ var GHT_LOCALE_DICTIONARY = {
   Severity: "重大度",
   "Affected versions": "影響を受けるバージョン",
   "Patched versions": "修正済みバージョン",
-  Weaknesses: "弱点（CWE）",
+  Weaknesses: "弱点",
   Credits: "クレジット",
   "Security policy": "セキュリティポリシー",
   "Set up a security policy": "セキュリティポリシーを設定",
