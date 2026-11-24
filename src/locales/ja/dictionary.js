@@ -2607,6 +2607,18 @@ var GHT_LOCALE_DICTIONARY = {
   "We love people who are changing the world": "世界を変える人を応援しています",
   "Open source teams": "オープンソースチーム",
   "Students and teachers": "学生と教員",
+  Free: "無料",
+  Team: "チーム",
+
+  // --- Enterprise (github.com/enterprise) ---
+  "Build together. Ship at any scale.": "ともに作り、どんな規模でもリリース",
+  "Move faster. Stay in control.": "すばやく進め、管理も保つ",
+  "Govern engineers and agents": "エンジニアとエージェントを統制",
+  "Secure every change": "すべての変更を保護",
+  "Manage usage and spend": "使用量と支出を管理",
+  "Deploy GitHub your way": "自分に合った形で GitHub を導入",
+  "Cloud with data residency": "データ保存地域を選べるクラウド",
+  "Choosing your plan": "プランの選び方",
 
   // --- Insights / dependency graph sidebar ---
   Lockfile: "ロックファイル",
