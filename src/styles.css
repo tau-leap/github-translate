@@ -12,6 +12,26 @@
   user-select: none;
 }
 
+/*
+ * 塗りつぶしボタン / State バッジなど:
+ * ユーザー選択色だと背景とぶつかるので、親ラベル色を継承する
+ * （緑 Open → 白の半透明、など）
+ */
+button .ght-annot,
+[role="button"] .ght-annot,
+.btn .ght-annot,
+a.Button .ght-annot,
+[class*="prc-Button"] .ght-annot,
+.State .ght-annot,
+[class*="State--"] .ght-annot,
+.Label .ght-annot,
+[class*="Label--"] .ght-annot,
+.Counter .ght-annot,
+[class*="Counter"] .ght-annot,
+.flash .ght-annot {
+  color: inherit;
+}
+
 /* ActionList サイドバー: Truncate の外に出した訳はラベル下に表示 */
 [class*="ActionList"] [class*="ItemLabel"] > .ght-annot {
   display: block;
