@@ -1,6 +1,5 @@
 /* global GHT_LOCALE_DICTIONARY */
 var GHT_LOCALE_DICTIONARY = {
-  // --- Global / header ---
   Dashboard: "ダッシュボード",
   Feed: "フィード",
   Home: "ホーム",
@@ -82,7 +81,6 @@ var GHT_LOCALE_DICTIONARY = {
   Cookies: "Cookie",
   "Do not share my personal information": "個人情報を共有しない",
 
-  // --- Repository ---
   "Create a new repository": "新しいリポジトリを作成",
   "Repositories contain a project's files and version history. Have a project elsewhere? Import a repository.":
     "リポジトリにはプロジェクトのファイルとバージョン履歴が含まれます。別の場所にプロジェクトがありますか？リポジトリをインポート。",
@@ -332,7 +330,6 @@ var GHT_LOCALE_DICTIONARY = {
   "All checks have passed": "すべてのチェックが成功",
   "Some checks were not successful": "失敗したチェックがあります",
 
-  // --- Issues ---
   "New issue": "新しい課題",
   "Submit new issue": "課題を送信",
   Labels: "ラベル",
@@ -465,7 +462,6 @@ var GHT_LOCALE_DICTIONARY = {
   Completed: "完了",
   "Not planned": "予定なし",
 
-  // --- Pull requests ---
   "New pull request": "新しいプルリクエスト",
   "Create pull request": "プルリクエストを作成",
   "Open a pull request": "プルリクエストを開く",
@@ -561,7 +557,6 @@ var GHT_LOCALE_DICTIONARY = {
   "For all conversations": "すべての会話",
   "Only for conversations you are participating in": "参加中の会話のみ",
 
-  // --- Actions ---
   "New workflow": "新しいワークフロー",
   "All workflows": "すべてのワークフロー",
   "Showing runs from all workflows": "すべてのワークフローの実行を表示中",
@@ -613,7 +608,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Branch:": "ブランチ:",
   "Select workflow": "ワークフローを選択",
 
-  // --- Projects ---
   "Create your first GitHub project": "最初の GitHub プロジェクトを作成",
   "Create your first GitHub project template":
     "最初の GitHub プロジェクトテンプレートを作成",
@@ -653,7 +647,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Copy project": "プロジェクトをコピー",
   "Make a copy": "コピーを作成",
 
-  // --- Packages ---
   "GitHub Packages": "GitHub Packages",
   "Linked artifacts": "リンク済みアーティファクト",
   "Track artifacts from build through deployment":
@@ -664,7 +657,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Safely publish packages, store your packages alongside your code, and share your packages privately with your team.":
     "パッケージを安全に公開し、コードと一緒に保管して、チーム内で非公開共有できます。",
 
-  // --- Discussions ---
   Discussions: "ディスカッション",
   "New discussion": "新しいディスカッション",
   Categories: "カテゴリ",
@@ -681,7 +673,6 @@ var GHT_LOCALE_DICTIONARY = {
   Show: "表示",
   "Show and tell": "ショー＆テル",
 
-  // --- Settings: repository ---
   Access: "アクセス",
   Collaborators: "コラボレーター",
   "Collaborators and teams": "コラボレーターとチーム",
@@ -831,7 +822,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Make private": "非公開にする",
   "Make internal": "内部にする",
 
-  // --- Repository settings (sidebar & pages) ---
   "I have read and understand these effects":
     "内容を読み、影響を理解しました",
   "Make this repository public": "このリポジトリを公開にする",
@@ -1087,7 +1077,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Enable Sponsorships": "スポンサーシップを有効化",
   "Enable Pull Requests": "プルリクエストを有効化",
 
-  // --- Settings: user ---
   "Settings menu": "設定メニュー",
   "Switch settings context": "設定の対象を切り替え",
   "Public profile": "公開プロフィール",
@@ -1193,7 +1182,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Trending settings": "トレンド設定",
   "Preferred spoken language": "優先する使用言語",
 
-  // --- Profile ---
   Overview: "概要",
   Repositories: "リポジトリ",
   Followers: "フォロワー",
@@ -1225,7 +1213,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Recently starred": "最近 Star した",
   "Recently created": "最近作成",
 
-  // --- Notifications ---
   Inbox: "受信箱",
   Saved: "保存済み",
   Done: "完了",
@@ -1245,7 +1232,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Reserved": "予約済み",
   "Query": "クエリ",
 
-  // --- Search ---
   Users: "ユーザー",
   "Advanced search": "高度な検索",
   "Advanced queries": "高度なクエリ",
@@ -1265,7 +1251,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Show more": "さらに表示",
   "Saved searches": "保存した検索",
 
-  // --- Organization ---
   "Organization navigation": "Organization ナビゲーション",
   Organization: "Organization",
   "Search repositories": "リポジトリを検索",
@@ -1457,7 +1442,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Role assignments": "ロール割り当て",
   "No organization roles assigned": "組織のロールは割り当てられていません",
 
-  // --- Organization settings (sidebar & pages) ---
   "Authentication security": "認証セキュリティ",
   "Verified and approved domains": "検証・承認済みドメイン",
   "Verified & approved domains": "検証・承認済みドメイン",
@@ -1591,7 +1575,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Verifying or approving a domain for your organization":
     "組織のドメインを検証または承認",
 
-  // --- Copilot / misc UI ---
   "Ask Copilot": "Copilot に聞く",
   "Open Copilot Chat": "Copilot Chat を開く",
   "New conversation": "新しい会話",
@@ -1607,7 +1590,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Copilot generation": "Copilot による生成",
   "IDE code generation": "IDE コード生成",
 
-  // --- Settings: Copilot Code review ---
   "Copilot Code review": "Copilot コードレビュー",
   "With Copilot code review, you can add Copilot as a reviewer to your pull requests, including drafts. You can also select lines in Visual Studio Code and ask Copilot to review and comment on specific sections.":
     "Copilot コードレビューでは、下書きを含むプルリクエストに Copilot をレビュアーとして追加できます。VS Code で行を選び、特定箇所のレビューやコメントを依頼することもできます。",
@@ -1639,7 +1621,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Create ruleset for default branch":
     "デフォルトブランチ用のルールセットを作成",
 
-  // --- Settings: Copilot Cloud agent ---
   "Copilot cloud agent": "Copilot クラウドエージェント",
   "Learn more about Copilot cloud agent":
     "Copilot クラウドエージェントについて詳しく見る",
@@ -1678,7 +1659,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Check new dependencies against the GitHub Advisory Database for known vulnerabilities.":
     "新しい依存関係を GitHub Advisory Database と照合し、既知の脆弱性を確認します。",
 
-  // --- Settings: Copilot Internet access ---
   "Internet access": "インターネットアクセス",
   "Ensure that Copilot cloud agent only accesses approved network resources while working on tasks.":
     "タスク実行中、Copilot クラウドエージェントが承認済みのネットワークリソースにだけアクセスするようにします。",
@@ -1701,7 +1681,6 @@ var GHT_LOCALE_DICTIONARY = {
   "The firewall will not be enforced on self-hosted runners.":
     "セルフホストランナーではファイアウォールは適用されません。",
 
-  // --- Settings: Copilot MCP ---
   "MCP servers": "MCP サーバー",
   Planning: "プランニング",
   "Model Context Protocol (MCP)": "Model Context Protocol（MCP）",
@@ -1715,7 +1694,6 @@ var GHT_LOCALE_DICTIONARY = {
     "保存時に設定が検証されます。",
   "Save MCP configuration": "MCP 設定を保存",
 
-  // --- Settings: OIDC ---
   "OIDC configuration": "OIDC 設定",
   "Customize claims included in the OIDC token.":
     "OIDC トークンに含めるクレームをカスタマイズします。",
@@ -1737,7 +1715,6 @@ var GHT_LOCALE_DICTIONARY = {
     "クラウドプロバイダーで信頼ポリシーを設定するときに、この接頭辞を使います。",
   "Save subject claim": "subject クレームを保存",
 
-  // --- Common buttons / dialogs ---
   Apply: "適用",
   Continue: "続ける",
   Confirm: "確認・実行する",
@@ -1832,14 +1809,12 @@ var GHT_LOCALE_DICTIONARY = {
   "This month": "今月",
   "Last month": "先月",
 
-  // --- Gists-like strings that appear on github.com ---
   "All gists": "すべての gist",
   "Create gist": "gist を作成",
   Secret: "シークレット",
   "Create secret gist": "シークレット gist を作成",
   "Create public gist": "公開 gist を作成",
 
-  // --- Marketplace / explore leftovers ---
   "Apps": "アプリ",
   "Models": "モデル",
   "Chat": "チャット",
@@ -1863,7 +1838,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Testing": "テスト",
   "Utilities": "ユーティリティ",
 
-  // --- Keyboard / accessibility labels often visible ---
   Menu: "メニュー",
   "Main menu": "メインメニュー",
   "User menu": "ユーザーメニュー",
@@ -1971,7 +1945,6 @@ var GHT_LOCALE_DICTIONARY = {
     "このリポジトリにはプリビルドが設定されていません",
   "GitHub Pages": "静的サイト",
 
-  // --- Common UI additions (logged-in screens / a11y labels) ---
   Edit: "編集",
   Delete: "削除",
   Cancel: "キャンセル",
@@ -2025,7 +1998,6 @@ var GHT_LOCALE_DICTIONARY = {
   Changelog: "更新履歴",
   "Trust center": "トラストセンター",
 
-  // --- Session / error banners ---
   "Sorry, something went wrong.": "問題が発生しました。",
   "Please reload this page": "このページを再読み込みしてください",
   "There was an error while loading.": "読み込み中にエラーが発生しました。",
@@ -2038,7 +2010,6 @@ var GHT_LOCALE_DICTIONARY = {
   "You switched accounts on another tab or window.": "別のタブまたはウィンドウでアカウントを切り替えました。",
   "to refresh your session.": "してセッションを更新してください。",
 
-  // --- Repository: code / files ---
   Local: "ローカル",
   "Repository files navigation": "リポジトリファイルのナビゲーション",
   "Folders and files": "フォルダーとファイル",
@@ -2105,7 +2076,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Security advisories": "セキュリティアドバイザリ",
   Policy: "ポリシー",
 
-  // --- Issues / pull requests ---
   Reopen: "再オープン",
   "Edit title": "タイトルを編集",
   "Close with comment": "コメントしてクローズ",
@@ -2181,7 +2151,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Show all checks": "すべてのチェックを表示",
   "Hide all checks": "すべてのチェックを隠す",
 
-  // --- Actions: runs / status ---
   "Suggested workflows": "おすすめのワークフロー",
   "Set up a workflow yourself": "ワークフローを自分で設定",
   "Re-run jobs": "ジョブを再実行",
@@ -2206,7 +2175,6 @@ var GHT_LOCALE_DICTIONARY = {
   Successful: "成功",
   Expected: "未報告",
 
-  // --- Projects / discussions ---
   "Add status update": "ステータス更新を追加",
   "Archived items": "アーカイブ済みのアイテム",
   "Field sum": "フィールドの合計",
@@ -2215,7 +2183,6 @@ var GHT_LOCALE_DICTIONARY = {
   Upvote: "賛成",
   "Most helpful": "最も役立つ",
 
-  // --- Notifications / profile ---
   "Mark all as read": "すべて既読にする",
   "Filter notifications": "通知を絞り込み",
   Highlights: "ハイライト",
@@ -2223,7 +2190,6 @@ var GHT_LOCALE_DICTIONARY = {
   Busy: "取り込み中",
   "Saved replies": "保存済み返信",
 
-  // --- Search / explore ---
   "Search syntax tips": "検索構文のヒント",
   "Create saved search": "保存済み検索を作成",
   "Clear search": "検索をクリア",
@@ -2257,7 +2223,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Archived repositories": "アーカイブ済みリポジトリ",
   "Forks of other forks": "フォークのフォーク",
 
-  // --- Copilot / settings leftovers ---
   "Assign to Copilot": "Copilot に割り当て",
   "Agent sessions": "エージェントセッション",
   Spaces: "スペース",
@@ -2266,7 +2231,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Moderation options": "モデレーション設定",
   "Spending limits": "利用上限",
 
-  // --- Pull requests inbox (github.com/pulls) ---
   "Authored by me": "自分が作成",
   "Involves me": "自分が関与",
   "Review requests": "レビュー依頼",
@@ -2292,12 +2256,10 @@ var GHT_LOCALE_DICTIONARY = {
   "Filter pull requests": "プルリクエストを絞り込み",
   "No pull requests": "プルリクエストはありません",
 
-  // --- Repositories list (new UI) ---
   "My contributions": "自分のコントリビューション",
   "My repositories": "自分のリポジトリ",
   "My forks": "自分のフォーク",
 
-  // --- Sort / group menus (new list UI) ---
   "Newest to oldest": "新しい順",
   "Oldest to newest": "古い順",
   "Group by:": "グループ化:",
@@ -2321,13 +2283,11 @@ var GHT_LOCALE_DICTIONARY = {
   "Order by": "並び替え基準",
   "Order by:": "並び替え基準:",
 
-  // --- Copilot menu ---
   "Ask Copilot…": "Copilot に質問…",
   "Ask Copilot...": "Copilot に質問...",
   "In immersive chat": "没入型チャットで",
   "In a space": "スペースで",
 
-  // --- MCP Registry (github.com/mcp) ---
   "MCP Registry": "MCP レジストリ",
   "MCP registry": "MCP レジストリ",
   "Connect models to the real world": "モデルを現実世界とつなぐ",
@@ -2341,13 +2301,11 @@ var GHT_LOCALE_DICTIONARY = {
   "Next Page": "次のページ",
   By: "作成者",
 
-  // --- Recent items ---
   "Recently viewed": "最近表示した項目",
   "Recently visited": "最近アクセスした項目",
   "Recent repositories": "最近のリポジトリ",
   "Recent searches": "最近の検索",
 
-  // --- Logged-out global nav (github.com mega menu) ---
   Platform: "プラットフォーム",
   Solutions: "ソリューション",
   "Open Source": "オープンソース",
@@ -2433,7 +2391,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Learn & Connect": "学ぶ・つながる",
   "Resource center": "リソースセンター",
 
-  // --- Logged-out nav: heading case variants & product names ---
   "AI Code Creation": "AI によるコード作成",
   "AI code creation": "AI によるコード作成",
   "Developer Workflows": "開発ワークフロー",
@@ -2462,7 +2419,6 @@ var GHT_LOCALE_DICTIONARY = {
   "GitHub Copilot app": "GitHub Copilot アプリ",
   "GitHub Advanced Security": "GitHub 高度なセキュリティ",
 
-  // --- Features page (github.com/features) ---
   "Charts and insights": "グラフとインサイト",
   "Stacked pull requests": "スタック型プルリクエスト",
   "Protected branches": "保護されたブランチ",
@@ -2471,7 +2427,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Workflow templates": "ワークフローテンプレート",
   "Ready to get started?": "始める準備はできましたか？",
 
-  // --- Pricing (github.com/pricing) ---
   "Try GitHub, the complete developer platform": "完全な開発者プラットフォーム GitHub を試す",
   "Start free for 30 days": "30 日間無料で始める",
   "The basics for individuals": "個人向けの基本機能",
@@ -2581,7 +2536,6 @@ var GHT_LOCALE_DICTIONARY = {
   Free: "無料",
   Team: "チーム",
 
-  // --- Enterprise (github.com/enterprise) ---
   "Build together. Ship at any scale.": "ともに作り、どんな規模でもリリース",
   "Move faster. Stay in control.": "すばやく進め、管理も保つ",
   "Govern engineers and agents": "エンジニアとエージェントを統制",
@@ -2591,14 +2545,12 @@ var GHT_LOCALE_DICTIONARY = {
   "Cloud with data residency": "データ保存地域を選べるクラウド",
   "Choosing your plan": "プランの選び方",
 
-  // --- Insights / dependency graph sidebar ---
   Lockfile: "ロックファイル",
   "Usage metrics": "使用状況メトリクス",
   "Performance metrics": "パフォーマンスメトリクス",
   "Export SBOM": "SBOM をエクスポート",
   Manifest: "マニフェスト",
 
-  // --- GitHub-managed workflow names (Actions sidebar) ---
   "pages-build-deployment": "Pages のビルドとデプロイ",
   "dependabot-updates": "Dependabot による更新",
   "Dependabot Updates": "Dependabot による更新",
@@ -2607,7 +2559,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Copilot coding agent": "Copilot コーディングエージェント",
   "Running Copilot cloud agent": "Copilot クラウドエージェントを実行中",
 
-  // --- General terms (meaning glosses) ---
   DevSecOps: "開発・セキュリティ・運用の一体化",
   DevOps: "開発と運用の連携",
   "CI/CD": "継続的インテグレーション／デリバリー",
@@ -2616,7 +2567,6 @@ var GHT_LOCALE_DICTIONARY = {
   LDAP: "ディレクトリ認証",
   SCIM: "ID の自動プロビジョニング",
 
-  // --- Settings: moderation ---
   "Reported content": "報告されたコンテンツ",
   "Abuse reports": "不正利用の報告",
   "Temporary interaction limits": "一時的な操作制限",
@@ -2625,15 +2575,12 @@ var GHT_LOCALE_DICTIONARY = {
   "Limit to prior contributors": "過去のコントリビューターに限定",
   "Limit to repository collaborators": "リポジトリのコラボレーターに限定",
 
-  // --- Policy insights ---
   "Actions policy insights": "Actions ポリシーの分析",
   "Policy insights": "ポリシーの分析",
 
   // =====================================================================
-  // --- 2026-11-25 追加（missing-keys より） ---
   // =====================================================================
 
-  // --- リポジトリ設定 ---
   "Sync fork": "フォークを同期",
   "Create new repository": "新しいリポジトリを作成",
   "Create repository": "リポジトリを作成",
@@ -2727,7 +2674,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Select repository": "リポジトリを選択",
   "Trusted repositories": "信頼できるリポジトリ",
 
-  // --- 通知・ウォッチ ---
   "Only receive notifications from this repository when participating or @mentioned.": "参加中または @メンションされた時のみ、このリポジトリから通知を受け取る",
   "Notified of all notifications on this repository.": "このリポジトリのすべての通知を受け取る",
   "Never be notified.": "通知しない",
@@ -2757,7 +2703,6 @@ var GHT_LOCALE_DICTIONARY = {
   "If you prefer to receive no notifications, you can opt out of them all.": "通知を受け取りたくない場合は、すべてをオプトアウトできます",
   "Warning notifications for codespace deletions will be enabled": "コードスペース削除の警告通知が有効になります",
 
-  // --- その他 ---
   "All Activity": "すべてのアクティビティ",
   "(required)": "（必須）",
   "Create": "作成",
@@ -3198,7 +3143,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Set manually": "手動で設定",
   "Choose your default region": "デフォルトの地域を選択",
 
-  // --- セキュリティ・依存関係 ---
   "Security alerts": "セキュリティアラート",
   "Understand the packages this repository depends on and secure its <a>software supply chain</a>.": "このリポジトリが依存するパッケージを理解し、その<a>ソフトウェアサプライチェーン</a>を保護します",
   "Keep your dependencies secure and up-to-date with <a>Dependabot</a>.": "<a>依存関係の自動更新</a>で依存関係を安全かつ最新の状態に保ちます",
@@ -3254,7 +3198,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Set up code scanning": "コードスキャンを設定",
   "The host image defines the operating system in which development containers run. These images receive periodic upgrades for security, functionality, and performance. GitHub Codespaces offers early access to beta images to ensure compatibility with existing development container configurations. Any codespace created or resumed after changing this setting will use the specified image configuration.": "ホストイメージは、開発コンテナが実行されるオペレーティングシステムを定義します。これらのイメージは、セキュリティ、機能、パフォーマンスのために定期的にアップグレードされます。GitHub Codespaces は、既存の開発コンテナ構成との互換性を確保するために、ベータイメージへの早期アクセスを提供します。この設定を変更した後に作成または再開されたコードスペースは、指定されたイメージ構成を使用します",
 
-  // --- 設定・変数・シークレット ---
   "Configuration": "構成",
   "Additional settings": "追加設定",
   "Checks settings": "チェック設定",
@@ -3296,7 +3239,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Always use the latest stable configuration.": "常に最新の安定構成を使用します",
   "Use a beta image configuration when available. Otherwise, use the latest stable configuration.": "利用可能な場合はベータイメージ構成を使用します。それ以外の場合は、最新の安定構成を使用します",
 
-  // --- 権限・アクセス ---
   "Choose visibility": "公開設定を選択",
   "You will have access to the feature": "この機能にアクセスできます",
   "You won't have access to the feature": "この機能にはアクセスできません",
@@ -3340,7 +3282,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Limit to users explicitly granted read or higher access": "読み取り以上のアクセスが明示的に付与されたユーザーに限定",
   "Packages permissions": "パッケージ権限",
 
-  // --- 課題・プロジェクト ---
   "Create a branch for this issue": "この課題のブランチを作成",
   "Release label": "リリースラベル",
   "Label release as non-production ready": "リリースを本番環境未対応としてラベル付け",
@@ -3398,7 +3339,6 @@ var GHT_LOCALE_DICTIONARY = {
   "There are no open issues in this milestone": "このマイルストーンにはオープン課題がありません",
   "Milestone reached": "マイルストーン達成",
 
-  // --- ブランチ・ルール・保護 ---
   "Branch name": "ブランチ名",
   "Branch source": "ブランチのソース",
   "Open branch with GitHub Desktop": "GitHub Desktop でブランチを開く",
@@ -3456,7 +3396,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Create a branch protection rule": "ブランチ保護ルールを作成",
   "Enforce certain workflows for one or more branches.": "1つ以上のブランチに特定のワークフローを適用します",
 
-  // --- リリース・タグ ---
   "Tag:": "タグ：",
   "Select tag": "タグを選択",
   "Choose an existing tag, or create a new tag when you publish this release.": "既存のタグを選択するか、リリース公開時に新しいタグを作成",
@@ -3482,7 +3421,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Release created, edited, published, unpublished, or deleted.": "リリースが作成、編集、公開、非公開、または削除されました",
   "Artifact metadata": "成果物メタデータ",
 
-  // --- ナビゲーション・検索 ---
   "Filter tags": "タグをフィルター",
   "Dashboard Entry Point": "ダッシュボードエントリーポイント",
   "Issues sidebar navigation": "課題サイドバーナビゲーション",
@@ -3518,7 +3456,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Select sort view": "並べ替え表示を選択",
   "Search deleted packages": "削除されたパッケージを検索",
 
-  // --- Pages・環境・デプロイ ---
   "Add environments": "環境を追加",
   "Required deployment environments": "必須のデプロイ環境",
   "<a>GitHub Pages</a> is designed to host your personal, organization, or project pages from a GitHub repository.": "<a>GitHub Pages</a> は、GitHub リポジトリから個人、組織、またはプロジェクトのページをホストするように設計されています",
@@ -3542,7 +3479,6 @@ var GHT_LOCALE_DICTIONARY = {
   "'Deploy key' alert email": "'デプロイキー' アラートメール",
   "Pages creation": "Pages 作成",
 
-  // --- プルリクエスト・レビュー ---
   "Approvals": "承認",
   "Choose a different template": "別のテンプレートを選択",
   "Draft Pull Request": "ドラフトプルリクエスト",
@@ -3687,7 +3623,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Maximum open pull requests per user": "ユーザーあたりの最大オープンプルリクエスト数",
   "Edit and preview changes straight from the browser.": "ブラウザから直接変更を編集およびプレビューします",
 
-  // --- Copilot・MCP ---
   "Allow Copilot to approve pull requests": "Copilot がプルリクエストを承認できるようにする",
   "When enabled, Copilot can approve pull requests, and those approvals can count toward merge requirements.": "有効にすると、Copilot がプルリクエストを承認でき、その承認はマージ要件にカウントされます",
   "Upgrade your Copilot plan for higher usage limits, premium models, AI reviews and more.": "Copilot プランをアップグレードして、使用量上限の引き上げ、プレミアムモデル、AI レビューなどを利用",
@@ -3731,7 +3666,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Copilot Requests": "Copilot リクエスト",
   "Copilot agent settings": "Copilot エージェント設定",
 
-  // --- 組織・チーム・課金 ---
   "Disabled by organization policy.": "組織のポリシーにより無効化されています",
   "\"Sponsor\" button is using the <a>organization funding file.</a>": "\"スポンサー\" ボタンは<a>組織の資金提供ファイル</a>を使用しています",
   "You can add a <code>.github/FUNDING.yml</code> file to this repository to override the <a>organization funding file</a>": "このリポジトリに <code>.github/FUNDING.yml</code> ファイルを追加して<a>組織の資金提供ファイル</a>を上書きできます",
@@ -3824,7 +3758,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Display featured sponsors": "注目スポンサーを表示",
   "I want to manually add my featured sponsors": "注目スポンサーを手動で追加したい",
 
-  // --- Actions・ワークフロー ---
   "Most reactions": "リアクション数順",
   "More actions": "その他のアクション",
   "Recommended action": "推奨アクション",
@@ -3879,7 +3812,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Runner type": "ランナータイプ",
   "Enable interaction limits for:": "操作制限を有効化：",
 
-  // --- Codespaces ---
   "Open in codespace": "コードスペースで開く",
   "Connect to the cloud from your local desktop client. Requires <a>Visual Studio Code</a> with the <a>GitHub Codespaces</a> extension.": "ローカルデスクトップクライアントからクラウドに接続します。<a>GitHub Codespaces</a>拡張機能を備えた<a>Visual Studio Code</a>が必要です",
   "A codespace will suspend after a period of inactivity. You can specify a default idle timeout value, which will apply to all codespaces created after the default is changed. You will be charged for the entire time your codespace is running, even if it is idle. The maximum value is <strong>240</strong> minutes (4 hours).": "コードスペースは一定期間の非アクティビティ後に中断されます。デフォルトのアイドルタイムアウト値を指定でき、デフォルトの変更後に作成されたすべてのコードスペースに適用されます。アイドル状態でも、コードスペースが実行されている時間全体に対して課金されます。最大値は<strong>240</strong>分（4時間）です",
@@ -3908,7 +3840,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Your default region will be used to designate compute resources to your codespaces. GitHub can set your region automatically based on your location, or you can set it yourself. Codespaces are deployed to a subset of Azure regions.": "デフォルトの地域は、コードスペースにコンピューティングリソースを指定するために使用されます。GitHub は場所に基づいて地域を自動的に設定できます。または、自分で設定できます。Codespaces は Azure 地域のサブセットにデプロイされます",
   "We will determine the closest available region based on your location (IP address) at codespace creation time.": "コードスペース作成時に場所（IP アドレス）に基づいて最も近い利用可能な地域を決定します",
 
-  // --- コメント・Markdown ---
   "Copy Markdown": "Markdown をコピー",
   "No comments available": "コメントはありません",
   "Additional comment filters": "追加のコメントフィルター",
@@ -3937,7 +3868,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Styling with Markdown is supported": "Markdown でのスタイリングがサポートされています",
   "Blockquotes": "引用",
 
-  // --- プロフィール・アカウント ---
   "Account switcher": "アカウント切り替え",
   "ORCID provides a persistent identifier - an ORCID iD - that distinguishes you from other researchers. Learn more at <a>ORCID.org</a>.": "ORCID は、他の研究者とあなたを区別する永続的な識別子 - ORCID iD - を提供します。<a>ORCID.org</a> で詳細を確認してください",
   "All of the fields on this page are optional and can be deleted at any time, and by filling them out, you're giving us consent to share this data wherever your user profile appears. Please see our <a>privacy statement</a> to learn more about how we use this information.": "このページのすべてのフィールドはオプションであり、いつでも削除できます。これらに記入することで、ユーザープロフィールが表示される場所でこのデータを共有することに同意したことになります。この情報の使用方法の詳細については、<a>プライバシーに関する声明</a>を参照してください",
@@ -3966,7 +3896,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Delete Stripe Connect account": "Stripe Connect アカウントを削除",
   "Search by username, full name, or email": "ユーザー名、フルネーム、またはメールで検索",
 
-  // --- Webhooks ---
   "<a>GitHub Docs</a> has guides, API and webhook references, information about creating GitHub Apps and other resources for building applications that integrate with GitHub. Make sure your contact information is up-to-date below. Thanks for being a member!": "<a>GitHub Docs</a> には、ガイド、API および Webhook リファレンス、GitHub Apps の作成に関する情報、GitHub と統合するアプリケーションを構築するためのその他のリソースがあります。以下の連絡先情報が最新であることを確認してください。メンバーになっていただきありがとうございます！",
   "Events will POST to this URL with a <a>webhook</a>.": "イベントは<a>Webhook</a>を使用してこの URL に POST されます",
   "Set a secret to <a>secure your webhooks</a>.": "<a>Webhook を保護する</a>ためにシークレットを設定します",
@@ -3987,7 +3916,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Yes, redeliver this payload": "はい、このペイロードを再配信します",
   "Webhook": "Webhook",
 
-  // --- 認証・キー・トークン ---
   "Check out our guide to <a>connecting to GitHub using SSH keys</a> or troubleshoot <a>common SSH problems</a>.": "<a>SSH キーを使用して GitHub に接続する</a>ガイドを確認するか、<a>一般的な SSH の問題</a>のトラブルシューティングを行ってください",
   "The URIs to redirect to after a user authorizes your application. You may add up to 10 redirect URIs. Wildcard matching allows tokens to be sent to all subdomains and additional paths of the redirect URI. Only enable this if you are sure you have control over all possible matches. <a>Learn more about secure use of redirect URIs</a>.": "ユーザーがアプリケーションを承認した後にリダイレクトする URI。最大10個のリダイレクト URI を追加できます。ワイルドカードマッチングにより、リダイレクト URI のすべてのサブドメインと追加パスにトークンを送信できます。すべての可能な一致を制御していることが確実な場合にのみ有効にしてください。<a>リダイレクト URI の安全な使用の詳細</a>",
   "This will provide a <code>refresh_token</code> which can be used to request an updated access token when this access token expires.": "これにより、このアクセストークンが期限切れになったときに更新されたアクセストークンを要求するために使用できる <code>refresh_token</code> が提供されます",
@@ -4020,7 +3948,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Active tokens": "アクティブトークン",
   "The following repositories will be referenced by GPG verification and Settings Sync.": "次のリポジトリは GPG 検証と Settings Sync によって参照されます",
 
-  // --- Apps・OAuth ---
   "Authorized OAuth apps": "承認済み OAuth アプリ",
   "Authorized GitHub Apps": "承認済み GitHub Apps",
   "GitHub App": "GitHub App",
