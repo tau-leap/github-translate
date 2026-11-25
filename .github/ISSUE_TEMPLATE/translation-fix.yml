@@ -7,12 +7,12 @@ body:
     attributes:
       value: |
         今の訳を変えたほうがよいところを教えてください。用語の方針は [CONTRIBUTING.md](https://github.com/tau-leap/github-translate/blob/main/CONTRIBUTING.md) にあります。
-        非公開リポジトリの URL を載せたくない場合は、書き換えるか消してから送信してください。
   - type: input
     id: page_url
     attributes:
-      label: ページ URL（任意）
-      placeholder: https://github.com/...
+      label: ページパス（任意）
+      description: 例：/settings
+      placeholder: /settings
     validations:
       required: false
   - type: textarea

@@ -10,11 +10,38 @@
       <span class="label">翻訳する言語</span>
       <select id="locale"></select>
     </label>
+    <div class="field color-field">
+      <span class="label" id="annot-color-label">注釈の色</span>
+      <div
+        class="color-palette"
+        id="annot-color"
+        role="listbox"
+        aria-labelledby="annot-color-label"
+      ></div>
+      <label class="opacity-field" for="annot-opacity">
+        <span class="opacity-ends">
+          <span>薄く</span>
+          <span>濃く</span>
+        </span>
+        <input
+          type="range"
+          id="annot-opacity"
+          min="20"
+          max="100"
+          step="5"
+          value="65"
+        />
+      </label>
+    </div>
     <div class="report">
       <button type="button" id="report-untranslated">未訳を報告</button>
       <button type="button" id="report-fix">訳の修正を提案</button>
-      <p class="hint">GitHub の Issue 作成画面を開きます。選択中のテキストと表示中のページ URL が入ります（送信前に編集できます）。</p>
+      <p class="hint">GitHub の Issue 作成画面を開きます。<br />選択中のテキストが入ります（編集可）。</p>
     </div>
+    <p class="footer">
+      Provided by
+      <a href="https://tauleap.com/" target="_blank" rel="noopener noreferrer">TauLeap</a>
+    </p>
     <script src="src/config.js"></script>
     <script src="popup.js"></script>
   </body>

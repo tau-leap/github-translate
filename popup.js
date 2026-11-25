@@ -1,4 +1,4 @@
-/* global GHT_STORAGE_KEY, GHT_DEFAULT_LOCALE, GHT_LOCALE_OPTIONS, GHT_REPO_URL, GHT_MSG_REPORT_CONTEXT */
+/* global GHT_STORAGE_KEY, GHT_DEFAULT_LOCALE, GHT_LOCALE_OPTIONS, GHT_ANNOT_COLOR_KEY, GHT_ANNOT_COLOR_DEFAULT, GHT_ANNOT_COLOR_OPTIONS, GHT_ANNOT_OPACITY_KEY, GHT_ANNOT_OPACITY_DEFAULT, GHT_ANNOT_OPACITY_MIN, GHT_ANNOT_OPACITY_MAX, ghtNormalizeAnnotColor, ghtClampAnnotOpacity, GHT_REPO_URL, GHT_MSG_REPORT_CONTEXT */
 
 (function initPopup() {
   const select = document.getElementById("locale");
@@ -22,10 +22,66 @@
   });
 })();
 
+(function initAnnotStyle() {
+  const palette = document.getElementById("annot-color");
+  const opacityInput = document.getElementById("annot-opacity");
+  if (!palette || !opacityInput) return;
+
+  function setSelected(value) {
+    for (const button of palette.querySelectorAll(".swatch")) {
+      button.setAttribute("aria-selected", button.dataset.color === value ? "true" : "false");
+    }
+  }
+
+  function opacityToSlider(opacity) {
+    return String(Math.round(ghtClampAnnotOpacity(opacity) * 100));
+  }
+
+  function sliderToOpacity(value) {
+    return ghtClampAnnotOpacity(Number(value) / 100);
+  }
+
+  opacityInput.min = String(Math.round(GHT_ANNOT_OPACITY_MIN * 100));
+  opacityInput.max = String(Math.round(GHT_ANNOT_OPACITY_MAX * 100));
+  opacityInput.setAttribute("aria-label", "注釈の濃さ");
+
+  for (const option of GHT_ANNOT_COLOR_OPTIONS) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "swatch";
+    button.dataset.color = option.value;
+    button.title = option.label;
+    button.setAttribute("aria-label", option.label);
+    button.setAttribute("role", "option");
+    button.setAttribute("aria-selected", "false");
+    button.style.setProperty("--swatch", option.value);
+    button.addEventListener("click", () => {
+      setSelected(option.value);
+      chrome.storage.sync.set({ [GHT_ANNOT_COLOR_KEY]: option.value });
+    });
+    palette.appendChild(button);
+  }
+
+  opacityInput.addEventListener("input", () => {
+    chrome.storage.sync.set({ [GHT_ANNOT_OPACITY_KEY]: sliderToOpacity(opacityInput.value) });
+  });
+
+  chrome.storage.sync.get(
+    {
+      [GHT_ANNOT_COLOR_KEY]: GHT_ANNOT_COLOR_DEFAULT,
+      [GHT_ANNOT_OPACITY_KEY]: GHT_ANNOT_OPACITY_DEFAULT,
+    },
+    (result) => {
+      setSelected(ghtNormalizeAnnotColor(result[GHT_ANNOT_COLOR_KEY]));
+      opacityInput.value = opacityToSlider(result[GHT_ANNOT_OPACITY_KEY]);
+    }
+  );
+})();
+
 (function initReport() {
   // 追加の権限は使わない:
   // - tabs.query の結果は tab.id のみ使う（url は tabs 権限なしでは読めない）
-  // - ページ URL と選択テキストは github.com 上の content script から受け取る
+  // - ページパスと選択テキストは github.com 上の content script から受け取る
   // - tabs.create は権限不要
   function getContext(callback) {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
