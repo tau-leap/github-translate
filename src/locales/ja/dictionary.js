@@ -80,40 +80,28 @@ var GHT_LOCALE_DICTIONARY = {
   Security: "セキュリティ",
   Cookies: "Cookie",
   "Do not share my personal information": "個人情報を共有しない",
-
   "Create a new repository": "新しいリポジトリを作成",
-  "Repositories contain a project's files and version history. Have a project elsewhere? Import a repository.":
-    "リポジトリにはプロジェクトのファイルとバージョン履歴が含まれます。別の場所にプロジェクトがありますか？リポジトリをインポート。",
-  "Required fields are marked with an asterisk (*).":
-    "必須項目にはアスタリスク（*）が付いています。",
+  "Repositories contain a project's files and version history. Have a project elsewhere? Import a repository.": "リポジトリにはプロジェクトのファイルとバージョン履歴が含まれます。別の場所にプロジェクトがありますか？リポジトリをインポート。",
+  "Required fields are marked with an asterisk (*).": "必須項目にはアスタリスク（*）が付いています。",
   "Choose visibility *": "公開範囲を選択 *",
-  "Choose who can see and commit to this repository":
-    "このリポジトリを閲覧・コミットできる人を選びます",
+  "Choose who can see and commit to this repository": "このリポジトリを閲覧・コミットできる人を選びます",
   "Add README": "README を追加",
-  "READMEs can be used as longer descriptions. About READMEs":
-    "README は詳しい説明として使えます。README について",
+  "READMEs can be used as longer descriptions. About READMEs": "README は詳しい説明として使えます。README について",
   "About READMEs": "README について",
   "Add .gitignore": ".gitignore を追加",
-  ".gitignore tells git which files not to track. About ignoring files":
-    ".gitignore は Git に追跡しないファイルを伝えます。ファイルの除外について",
+  ".gitignore tells git which files not to track. About ignoring files": ".gitignore は Git に追跡しないファイルを伝えます。ファイルの除外について",
   "About ignoring files": "ファイルの除外について",
   "Add license": "ライセンスを追加",
-  "Licenses explain how others can use your code. About licenses":
-    "ライセンスは他の人がコードをどう使えるかを示します。ライセンスについて",
+  "Licenses explain how others can use your code. About licenses": "ライセンスは他の人がコードをどう使えるかを示します。ライセンスについて",
   "About licenses": "ライセンスについて",
-  "Anyone on the internet can see this repository. You choose who can commit.":
-    "インターネット上の誰でもこのリポジトリを閲覧できます。コミットできる人は選べます。",
-  "You choose who can see and commit to this repository.":
-    "このリポジトリを閲覧・コミットできる人を選べます。",
+  "Anyone on the internet can see this repository. You choose who can commit.": "インターネット上の誰でもこのリポジトリを閲覧できます。コミットできる人は選べます。",
+  "You choose who can see and commit to this repository.": "このリポジトリを閲覧・コミットできる人を選べます。",
   "Import your project to GitHub": "プロジェクトを GitHub にインポート",
-  "Import all the files, including revision history, from another version control system.":
-    "別のバージョン管理システムから、リビジョン履歴を含むすべてのファイルをインポートします。",
+  "Import all the files, including revision history, from another version control system.": "別のバージョン管理システムから、リビジョン履歴を含むすべてのファイルをインポートします。",
   "Your source repository details": "ソースリポジトリの詳細",
-  "Please enter your credentials if required for cloning your remote repository.":
-    "リモートリポジトリのクローンに認証が必要な場合は、資格情報を入力してください。",
+  "Please enter your credentials if required for cloning your remote repository.": "リモートリポジトリのクローンに認証が必要な場合は、資格情報を入力してください。",
   "Your username for your source repository": "ソースリポジトリのユーザー名",
-  "Your access token or password for your source repository":
-    "ソースリポジトリのアクセストークンまたはパスワード",
+  "Your access token or password for your source repository": "ソースリポジトリのアクセストークンまたはパスワード",
   Code: "コード",
   Actions: "アクション",
   Projects: "プロジェクト",
@@ -143,10 +131,8 @@ var GHT_LOCALE_DICTIONARY = {
   Packages: "パッケージ",
   Deployments: "デプロイ",
   Environments: "環境",
-  "There are no environments for this repository":
-    "このリポジトリには環境がありません",
-  "Environments are used by your workflows for deployments.":
-    "環境は、ワークフローでのデプロイに使用されます。",
+  "There are no environments for this repository": "このリポジトリには環境がありません",
+  "Environments are used by your workflows for deployments.": "環境は、ワークフローでのデプロイに使用されます。",
   Secrets: "シークレット",
   README: "README",
   License: "ライセンス",
@@ -181,8 +167,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Propose changes": "変更を提案",
   "Create a new branch": "新しいブランチを作成",
   "Commit directly to the": "次へ直接コミット",
-  "Create a new branch for this commit and start a pull request":
-    "このコミット用のブランチを作り PR を作成",
+  "Create a new branch for this commit and start a pull request": "このコミット用のブランチを作り PR を作成",
   "Latest commit": "最新のコミット",
   commits: "コミット",
   Commits: "コミット",
@@ -218,10 +203,8 @@ var GHT_LOCALE_DICTIONARY = {
   "Activity overview": "アクティビティ概要",
   Pulse: "パルス",
   "Code frequency": "コード頻度",
-  "There are too many commits to generate this graph.":
-    "コミットが多すぎるため、このグラフを生成できません。",
-  "More information about this data can be found in the activity documentation.":
-    "このデータの詳細はアクティビティのドキュメントで確認できます。",
+  "There are too many commits to generate this graph.": "コミットが多すぎるため、このグラフを生成できません。",
+  "More information about this data can be found in the activity documentation.": "このデータの詳細はアクティビティのドキュメントで確認できます。",
   Community: "コミュニティ",
   Traffic: "トラフィック",
   "Referring sites": "参照元サイト",
@@ -243,47 +226,32 @@ var GHT_LOCALE_DICTIONARY = {
   Credits: "クレジット",
   "Security policy": "セキュリティポリシー",
   "Set up a security policy": "セキュリティポリシーを設定",
-  "Help your community understand how to securely report security vulnerabilities for your project.":
-    "コミュニティがプロジェクトの脆弱性を安全に報告する方法を理解できるようにします。",
+  "Help your community understand how to securely report security vulnerabilities for your project.": "コミュニティがプロジェクトの脆弱性を安全に報告する方法を理解できるようにします。",
   Malware: "マルウェア",
   "Malware alerts": "マルウェア警告",
   Vulnerabilities: "脆弱性",
-  "Define how users should report security vulnerabilities for this repository":
-    "このリポジトリへの脆弱性報告方法を定義します",
-  "Get notified when one of your dependencies has a vulnerability":
-    "依存関係に脆弱性が見つかったときに通知を受け取ります",
+  "Define how users should report security vulnerabilities for this repository": "このリポジトリへの脆弱性報告方法を定義します",
+  "Get notified when one of your dependencies has a vulnerability": "依存関係に脆弱性が見つかったときに通知を受け取ります",
   "Enable Dependabot alerts": "Dependabot アラートを有効化",
-  "Code scanning for private repositories is part of GitHub Advanced Security":
-    "非公開リポジトリのコードスキャンは GitHub Advanced Security の機能です",
+  "Code scanning for private repositories is part of GitHub Advanced Security": "非公開リポジトリのコードスキャンは GitHub Advanced Security の機能です",
   "Contact sales": "営業に問い合わせ",
   "Enable Code quality": "コード品質を有効化",
   "Code quality findings": "コード品質の検出結果",
   Reporting: "レポート",
   Findings: "検出結果",
-  "Automatically detect code quality issues in your codebase":
-    "コードベース内の品質問題を自動検出します",
+  "Automatically detect code quality issues in your codebase": "コードベース内の品質問題を自動検出します",
   "Report a vulnerability": "脆弱性を報告",
   "View security policy": "セキュリティポリシーを見る",
-  "View or disclose security advisories for this repository":
-    "このリポジトリのセキュリティアドバイザリを閲覧・公開します",
-  "Allow users to privately report potential security vulnerabilities":
-    "ユーザーが潜在的なセキュリティ脆弱性を非公開で報告できるようにします",
-  "Automatically detect common vulnerability and coding errors":
-    "一般的な脆弱性とコーディングエラーを自動検出します",
-  "Get notified when a secret is pushed to this repository":
-    "このリポジトリにシークレットがプッシュされたときに通知を受け取ります",
-  "Code Quality is not enabled for this repository":
-    "このリポジトリではコード品質が有効になっていません",
-  "Enable Code Quality to start identifying and fixing code quality issues in your repository.":
-    "コード品質を有効化して、リポジトリ内のコード品質問題の特定と修正を始めましょう。",
-  "Secret scanning is not enabled":
-    "シークレットスキャンは有効になっていません",
-  "Secret scanning is a security feature that helps detect and prevent the accidental inclusion of sensitive information in your repository. To put it to work, you'll need to enable it in your repository's Advanced Security settings.":
-    "シークレットスキャンは、リポジトリへの機密情報の誤った混入を検出・防止するセキュリティ機能です。利用するには、リポジトリの Advanced Security 設定で有効化する必要があります。",
-  "Code scanning is not enabled":
-    "コードスキャンは有効になっていません",
-  "Code scanning helps you find and fix vulnerabilities and coding errors.":
-    "コードスキャンは、脆弱性とコーディングエラーの発見と修正に役立ちます。",
+  "View or disclose security advisories for this repository": "このリポジトリのセキュリティアドバイザリを閲覧・公開します",
+  "Allow users to privately report potential security vulnerabilities": "ユーザーが潜在的なセキュリティ脆弱性を非公開で報告できるようにします",
+  "Automatically detect common vulnerability and coding errors": "一般的な脆弱性とコーディングエラーを自動検出します",
+  "Get notified when a secret is pushed to this repository": "このリポジトリにシークレットがプッシュされたときに通知を受け取ります",
+  "Code Quality is not enabled for this repository": "このリポジトリではコード品質が有効になっていません",
+  "Enable Code Quality to start identifying and fixing code quality issues in your repository.": "コード品質を有効化して、リポジトリ内のコード品質問題の特定と修正を始めましょう。",
+  "Secret scanning is not enabled": "シークレットスキャンは有効になっていません",
+  "Secret scanning is a security feature that helps detect and prevent the accidental inclusion of sensitive information in your repository. To put it to work, you'll need to enable it in your repository's Advanced Security settings.": "シークレットスキャンは、リポジトリへの機密情報の誤った混入を検出・防止するセキュリティ機能です。利用するには、リポジトリの Advanced Security 設定で有効化する必要があります。",
+  "Code scanning is not enabled": "コードスキャンは有効になっていません",
+  "Code scanning helps you find and fix vulnerabilities and coding errors.": "コードスキャンは、脆弱性とコーディングエラーの発見と修正に役立ちます。",
   "New release": "新しいリリース",
   "There aren’t any releases here": "リリースはまだありません",
   "Create a new release": "新しいリリースを作成",
@@ -298,8 +266,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Generate release notes": "リリースノートを生成",
   "Publish release": "リリースを公開",
   "Enable release immutability": "リリースの不変性を有効化",
-  "Disallow assets and tags from being modified once a release is published.":
-    "リリース公開後、アセットとタグの変更を禁止します。",
+  "Disallow assets and tags from being modified once a release is published.": "リリース公開後、アセットとタグの変更を禁止します。",
   "Save draft": "下書きを保存",
   "Choose a tag": "タグを選択",
   "Release title": "リリースタイトル",
@@ -329,7 +296,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Some checks haven't completed yet": "未完了のチェックがあります",
   "All checks have passed": "すべてのチェックが成功",
   "Some checks were not successful": "失敗したチェックがあります",
-
   "New issue": "新しい課題",
   "Submit new issue": "課題を送信",
   Labels: "ラベル",
@@ -383,14 +349,10 @@ var GHT_LOCALE_DICTIONARY = {
   Subscribe: "購読",
   Unsubscribe: "購読解除",
   Customize: "カスタマイズ",
-  "You're receiving notifications because you're watching this repository.":
-    "このリポジトリを Watch しているため通知を受け取ります。",
-  "You're receiving notifications because you authored the thread.":
-    "スレッドの作成者のため通知を受け取ります。",
-  "You're receiving notifications because you were mentioned.":
-    "メンションされたため通知を受け取ります。",
-  "You're receiving notifications because you commented.":
-    "コメントしたため通知を受け取ります。",
+  "You're receiving notifications because you're watching this repository.": "このリポジトリを Watch しているため通知を受け取ります。",
+  "You're receiving notifications because you authored the thread.": "スレッドの作成者のため通知を受け取ります。",
+  "You're receiving notifications because you were mentioned.": "メンションされたため通知を受け取ります。",
+  "You're receiving notifications because you commented.": "コメントしたため通知を受け取ります。",
   "No results": "結果なし",
   "No issues": "課題はありません",
   "There aren't any open issues.": "オープンな課題はありません。",
@@ -453,15 +415,13 @@ var GHT_LOCALE_DICTIONARY = {
   "Set milestone": "マイルストーンを設定",
   "No due date": "期限なし",
   Development: "開発",
-  "Successfully merging this pull request may close these issues.":
-    "この PR をマージするとこれらの課題が閉じる可能性があります。",
+  "Successfully merging this pull request may close these issues.": "この PR をマージするとこれらの課題が閉じる可能性があります。",
   "None yet": "まだありません",
   Locked: "ロック中",
   Pinned: "ピン留め",
   Duplicate: "重複",
   Completed: "完了",
   "Not planned": "予定なし",
-
   "New pull request": "新しいプルリクエスト",
   "Create pull request": "プルリクエストを作成",
   "Open a pull request": "プルリクエストを開く",
@@ -498,10 +458,8 @@ var GHT_LOCALE_DICTIONARY = {
   "Mark as viewed (unviewed)": "未確認に戻す",
   "Enable auto-merge": "自動マージを有効化",
   "Disable auto-merge": "自動マージを無効化",
-  "This branch has no conflicts with the base branch":
-    "このブランチはベースと競合していません",
-  "This branch has conflicts that must be resolved":
-    "解決が必要な競合があります",
+  "This branch has no conflicts with the base branch": "このブランチはベースと競合していません",
+  "This branch has conflicts that must be resolved": "解決が必要な競合があります",
   "Can't automatically merge.": "自動ではマージできません。",
   "Able to merge.": "マージできます。",
   "Resolve conflicts": "競合を解決",
@@ -544,19 +502,16 @@ var GHT_LOCALE_DICTIONARY = {
   "Linked issues": "リンクされた課題",
   "Label": "ラベル",
   "Allow edits by maintainers": "メンテナーによる編集を許可",
-  "Allow edits and access to secrets by maintainers":
-    "メンテナーの編集とシークレットアクセスを許可",
+  "Allow edits and access to secrets by maintainers": "メンテナーの編集とシークレットアクセスを許可",
   "You’re not allowed to merge this pull request": "この PR をマージする権限がありません",
   "Required reviews": "必須レビュー",
-  "At least 1 approving review is required by reviewers with write access.":
-    "書き込み権限のあるレビュー担当による承認が 1 件以上必要です。",
+  "At least 1 approving review is required by reviewers with write access.": "書き込み権限のあるレビュー担当による承認が 1 件以上必要です。",
   "Changes approved": "変更は承認されました",
   "No description provided.": "説明がありません。",
   "Always": "常に",
   "Never": "しない",
   "For all conversations": "すべての会話",
   "Only for conversations you are participating in": "参加中の会話のみ",
-
   "New workflow": "新しいワークフロー",
   "All workflows": "すべてのワークフロー",
   "Showing runs from all workflows": "すべてのワークフローの実行を表示中",
@@ -598,8 +553,7 @@ var GHT_LOCALE_DICTIONARY = {
   "This workflow has no runs yet.": "このワークフローはまだ実行されていません。",
   "Get started with GitHub Actions": "GitHub Actions を始める",
   "Learn more about GitHub Actions": "GitHub Actions の詳細",
-  "Tell us how to make GitHub Actions work better for you with three quick questions.":
-    "3つの簡単な質問で、GitHub Actions をより良く使うためのご意見をお聞かせください。",
+  "Tell us how to make GitHub Actions work better for you with three quick questions.": "3つの簡単な質問で、GitHub Actions をより良く使うためのご意見をお聞かせください。",
   "New workflow file": "新しいワークフローファイル",
   "Choose a workflow": "ワークフローを選ぶ",
   "Search workflows": "ワークフローを検索",
@@ -607,19 +561,14 @@ var GHT_LOCALE_DICTIONARY = {
   "Use workflow from": "次のワークフローを使う",
   "Branch:": "ブランチ:",
   "Select workflow": "ワークフローを選択",
-
   "Create your first GitHub project": "最初の GitHub プロジェクトを作成",
-  "Create your first GitHub project template":
-    "最初の GitHub プロジェクトテンプレートを作成",
-  "Projects are a customizable, flexible tool for planning and tracking your work.":
-    "プロジェクトは、作業の計画と追跡のためのカスタマイズ可能で柔軟なツールです。",
-  "Templates can be used to quickly get started with a new project.":
-    "テンプレートを使うと、新しいプロジェクトを素早く始められます。",
+  "Create your first GitHub project template": "最初の GitHub プロジェクトテンプレートを作成",
+  "Projects are a customizable, flexible tool for planning and tracking your work.": "プロジェクトは、作業の計画と追跡のためのカスタマイズ可能で柔軟なツールです。",
+  "Templates can be used to quickly get started with a new project.": "テンプレートを使うと、新しいプロジェクトを素早く始められます。",
   "Link a project": "プロジェクトをリンク",
   Sandboxes: "サンドボックス",
   "Cloud sandbox access": "クラウドサンドボックスアクセス",
-  "Manage cloud sandbox access for your organization's members.":
-    "Organization メンバーのクラウドサンドボックスアクセスを管理します。",
+  "Manage cloud sandbox access for your organization's members.": "Organization メンバーのクラウドサンドボックスアクセスを管理します。",
   "Issue types": "課題タイプ",
   Plannings: "プランニング",
   "Issue fields": "課題フィールド",
@@ -646,17 +595,12 @@ var GHT_LOCALE_DICTIONARY = {
   "Delete project": "プロジェクトを削除",
   "Copy project": "プロジェクトをコピー",
   "Make a copy": "コピーを作成",
-
   "GitHub Packages": "GitHub Packages",
   "Linked artifacts": "リンク済みアーティファクト",
-  "Track artifacts from build through deployment":
-    "ビルドからデプロイまでアーティファクトを追跡",
-  "Link artifacts built on GitHub Actions to external registries and environments with the artifact metadata API":
-    "GitHub Actions でビルドしたアーティファクトを、アーティファクトメタデータ API で外部レジストリや環境にリンクします",
+  "Track artifacts from build through deployment": "ビルドからデプロイまでアーティファクトを追跡",
+  "Link artifacts built on GitHub Actions to external registries and environments with the artifact metadata API": "GitHub Actions でビルドしたアーティファクトを、アーティファクトメタデータ API で外部レジストリや環境にリンクします",
   "Get started with GitHub Packages": "GitHub Packages を始める",
-  "Safely publish packages, store your packages alongside your code, and share your packages privately with your team.":
-    "パッケージを安全に公開し、コードと一緒に保管して、チーム内で非公開共有できます。",
-
+  "Safely publish packages, store your packages alongside your code, and share your packages privately with your team.": "パッケージを安全に公開し、コードと一緒に保管して、チーム内で非公開共有できます。",
   Discussions: "ディスカッション",
   "New discussion": "新しいディスカッション",
   Categories: "カテゴリ",
@@ -672,7 +616,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Q&A": "Q&A",
   Show: "表示",
   "Show and tell": "ショー＆テル",
-
   Access: "アクセス",
   Collaborators: "コラボレーター",
   "Collaborators and teams": "コラボレーターとチーム",
@@ -680,8 +623,7 @@ var GHT_LOCALE_DICTIONARY = {
   Moderators: "モデレーター",
   "Code and automation": "コードと自動化",
   "Custom properties": "カスタムプロパティ",
-  "Custom properties allow you to decorate your repository with information such as compliance frameworks, data sensitivity, or project details.":
-    "カスタムプロパティで、コンプライアンスフレームワーク、データ機密度、プロジェクト詳細などの情報をリポジトリに付与できます。",
+  "Custom properties allow you to decorate your repository with information such as compliance frameworks, data sensitivity, or project details.": "カスタムプロパティで、コンプライアンスフレームワーク、データ機密度、プロジェクト詳細などの情報をリポジトリに付与できます。",
   Webhooks: "ウェブフック",
   Pages: "ページ",
   "Code security": "コードセキュリティ",
@@ -690,10 +632,8 @@ var GHT_LOCALE_DICTIONARY = {
   Integrations: "連携",
   "GitHub Apps": "GitHub アプリ",
   "Installed GitHub Apps": "インストール済み GitHub Apps",
-  "GitHub Apps augment and extend your workflows on GitHub with commercial, open source, and homegrown tools.":
-    "GitHub Apps で、商用・オープンソース・自社製ツールを使い GitHub 上のワークフローを拡張できます。",
-  "There aren't any GitHub Apps installed on this repository.":
-    "このリポジトリにインストールされた GitHub Apps はありません。",
+  "GitHub Apps augment and extend your workflows on GitHub with commercial, open source, and homegrown tools.": "GitHub Apps で、商用・オープンソース・自社製ツールを使い GitHub 上のワークフローを拡張できます。",
+  "There aren't any GitHub Apps installed on this repository.": "このリポジトリにインストールされた GitHub Apps はありません。",
   "Email notifications": "メール通知",
   Features: "機能",
   "Danger Zone": "危険な操作",
@@ -707,58 +647,38 @@ var GHT_LOCALE_DICTIONARY = {
   "Disable wiki": "Wiki を無効化",
   "Template repository": "テンプレートリポジトリ",
   "Sponsorships": "スポンサーシップ",
-  "Sponsorships help your community know how to financially support this repository.":
-    "スポンサーシップにより、コミュニティはこのリポジトリを金銭的に支援する方法を知ることができます。",
+  "Sponsorships help your community know how to financially support this repository.": "スポンサーシップにより、コミュニティはこのリポジトリを金銭的に支援する方法を知ることができます。",
   "Preserve this repository": "このリポジトリを保持",
   "Wikis": "Wiki",
-  "Wikis host documentation for your repository.":
-    "Wiki はリポジトリのドキュメントをホストします。",
-  "Issues integrate lightweight task tracking into your repository. Keep projects on track with issue labels and milestones, and reference them in commit messages.":
-    "課題はリポジトリに軽量なタスク管理を組み込みます。ラベルとマイルストーンで進捗を把握し、コミットメッセージから参照できます。",
-  "Discussions is the space for your community to have conversations, ask questions and post answers without opening issues.":
-    "Discussions は、課題を開かずにコミュニティが会話し、質問や回答を投稿する場です。",
+  "Wikis host documentation for your repository.": "Wiki はリポジトリのドキュメントをホストします。",
+  "Issues integrate lightweight task tracking into your repository. Keep projects on track with issue labels and milestones, and reference them in commit messages.": "課題はリポジトリに軽量なタスク管理を組み込みます。ラベルとマイルストーンで進捗を把握し、コミットメッセージから参照できます。",
+  "Discussions is the space for your community to have conversations, ask questions and post answers without opening issues.": "Discussions は、課題を開かずにコミュニティが会話し、質問や回答を投稿する場です。",
   "Pull Requests": "プルリクエスト",
   "Allow squash merging": "スカッシュマージを許可",
-  "Combine all commits from the head branch into a single commit in the base branch.":
-    "ヘッドブランチのすべてのコミットを、ベースブランチ上の 1 つのコミットにまとめます。",
-  "Presented when merging a pull request with squash.":
-    "スカッシュマージでプルリクエストをマージするときに表示されます。",
+  "Combine all commits from the head branch into a single commit in the base branch.": "ヘッドブランチのすべてのコミットを、ベースブランチ上の 1 つのコミットにまとめます。",
+  "Presented when merging a pull request with squash.": "スカッシュマージでプルリクエストをマージするときに表示されます。",
   "Allow merge commits": "マージコミットを許可",
-  "Add all commits from the head branch to the base branch with a merge commit.":
-    "マージコミットでヘッドブランチのすべてのコミットをベースブランチに追加します。",
+  "Add all commits from the head branch to the base branch with a merge commit.": "マージコミットでヘッドブランチのすべてのコミットをベースブランチに追加します。",
   "Default commit message": "デフォルトのコミットメッセージ",
-  "Presented when merging a pull request with merge.":
-    "マージコミットでプルリクエストをマージするときに表示されます。",
+  "Presented when merging a pull request with merge.": "マージコミットでプルリクエストをマージするときに表示されます。",
   "Allow rebase merging": "リベースマージを許可",
-  "Add all commits from the head branch onto the base branch individually.":
-    "ヘッドブランチの各コミットを、ベースブランチ上に個別に追加します。",
+  "Add all commits from the head branch onto the base branch individually.": "ヘッドブランチの各コミットを、ベースブランチ上に個別に追加します。",
   "Automatically delete head branches": "ヘッドブランチを自動削除",
-  "Deleted branches will still be able to be restored.":
-    "削除されたブランチは引き続き復元できます。",
+  "Deleted branches will still be able to be restored.": "削除されたブランチは引き続き復元できます。",
   "Always suggest updating pull request branches": "PR ブランチの更新を常に提案",
-  "Control how and when users are prompted to update their branches if there are new changes available in the base branch.":
-    "ベースブランチに新しい変更がある場合、ブランチ更新をいつ・どのように促すかを制御します。",
-  "Whenever there are new changes available in the base branch, present an “update branch” option in the pull request.":
-    "ベースブランチに新しい変更があるときは、プルリクエストに「ブランチを更新」オプションを表示します。",
+  "Control how and when users are prompted to update their branches if there are new changes available in the base branch.": "ベースブランチに新しい変更がある場合、ブランチ更新をいつ・どのように促すかを制御します。",
+  "Whenever there are new changes available in the base branch, present an “update branch” option in the pull request.": "ベースブランチに新しい変更があるときは、プルリクエストに「ブランチを更新」オプションを表示します。",
   "Allow comments on individual commits": "個々のコミットへのコメントを許可",
-  "Pull requests allow others to suggest changes to your repository.":
-    "プルリクエストを使うと、他の人がリポジトリへの変更を提案できます。",
-  "After merging a pull request, linked issues can be closed automatically.":
-    "プルリクエストをマージしたあと、リンクされた課題を自動でクローズできます。",
-  "After pull requests are merged, you can have head branches deleted automatically.":
-    "プルリクエストのマージ後、ヘッドブランチを自動削除できます。",
-  "You can allow setting pull requests to merge automatically once all required reviews and status checks have passed.":
-    "必須レビューとステータスチェックがすべて通過したら、プルリクエストを自動マージできるようにできます。",
-  "When merging pull requests, you can allow any combination of merge commits, squashing, or rebasing. At least one option must be enabled. If you have linear history requirement enabled on any protected branch, you must enable squashing or rebasing.":
-    "プルリクエストのマージ時に、マージコミット・スカッシュ・リベースの組み合わせを許可できます。少なくとも 1 つは有効にする必要があります。保護ブランチで直線的な履歴を必須にしている場合は、スカッシュまたはリベースを有効にする必要があります。",
-  "If restricted, pull requests will still be readable by everyone who can see this repository.":
-    "制限しても、リポジトリを閲覧できるユーザーはプルリクエストを読み取れます。",
-  "If restricted, issues will still be readable by everyone who can see this repository.":
-    "制限しても、リポジトリを閲覧できるユーザーは課題を読み取れます。",
+  "Pull requests allow others to suggest changes to your repository.": "プルリクエストを使うと、他の人がリポジトリへの変更を提案できます。",
+  "After merging a pull request, linked issues can be closed automatically.": "プルリクエストをマージしたあと、リンクされた課題を自動でクローズできます。",
+  "After pull requests are merged, you can have head branches deleted automatically.": "プルリクエストのマージ後、ヘッドブランチを自動削除できます。",
+  "You can allow setting pull requests to merge automatically once all required reviews and status checks have passed.": "必須レビューとステータスチェックがすべて通過したら、プルリクエストを自動マージできるようにできます。",
+  "When merging pull requests, you can allow any combination of merge commits, squashing, or rebasing. At least one option must be enabled. If you have linear history requirement enabled on any protected branch, you must enable squashing or rebasing.": "プルリクエストのマージ時に、マージコミット・スカッシュ・リベースの組み合わせを許可できます。少なくとも 1 つは有効にする必要があります。保護ブランチで直線的な履歴を必須にしている場合は、スカッシュまたはリベースを有効にする必要があります。",
+  "If restricted, pull requests will still be readable by everyone who can see this repository.": "制限しても、リポジトリを閲覧できるユーザーはプルリクエストを読み取れます。",
+  "If restricted, issues will still be readable by everyone who can see this repository.": "制限しても、リポジトリを閲覧できるユーザーは課題を読み取れます。",
   "Allow auto-merge": "自動マージを許可",
   "Pull request limits": "プルリクエストの制限",
-  "Limit open pull requests from users without write access":
-    "書き込み権限のないユーザーが開けるプルリクエストを制限",
+  "Limit open pull requests from users without write access": "書き込み権限のないユーザーが開けるプルリクエストを制限",
   Pushes: "プッシュ",
   "Rulesets": "ルールセット",
   "Rules": "ルール",
@@ -773,16 +693,13 @@ var GHT_LOCALE_DICTIONARY = {
   "Edit ruleset": "ルールセットを編集",
   "Ruleset name": "ルールセット名",
   "Learn more about rulesets": "ルールセットの詳細",
-  "Define whether collaborators can delete or force push and set requirements for any pushes, such as passing status checks or a linear commit history. Learn more about rulesets.":
-    "コラボレーターによる削除や force push の可否を定義し、ステータスチェックの通過や直線的なコミット履歴など、プッシュの要件を設定します。ルールセットの詳細。",
+  "Define whether collaborators can delete or force push and set requirements for any pushes, such as passing status checks or a linear commit history. Learn more about rulesets.": "コラボレーターによる削除や force push の可否を定義し、ステータスチェックの通過や直線的なコミット履歴など、プッシュの要件を設定します。ルールセットの詳細。",
   "Rule Insights": "ルールの分析",
   "Repository ruleset insights": "リポジトリルールセットの分析",
-  "See how rulesets are affecting this repository":
-    "ルールセットがこのリポジトリに与える影響を確認",
+  "See how rulesets are affecting this repository": "ルールセットがこのリポジトリに与える影響を確認",
   "Repository ruleset dashboard": "リポジトリルールセットダッシュボード",
   "Tag protection rules": "タグ保護ルール",
-  "Level up your tag protections with Repository Rules":
-    "リポジトリルールでタグ保護を強化しましょう",
+  "Level up your tag protections with Repository Rules": "リポジトリルールでタグ保護を強化しましょう",
   "Actions secrets": "Actions のシークレット",
   "Actions secrets and variables": "Actions のシークレットと変数",
   "Actions variables": "Actions の変数",
@@ -808,26 +725,20 @@ var GHT_LOCALE_DICTIONARY = {
   "Repository details": "リポジトリの詳細",
   "Include in the home page": "ホームページに含める",
   "Social preview": "ソーシャルプレビュー",
-  "Upload an image to customize your repository's social media preview.":
-    "画像をアップロードして、リポジトリのソーシャルプレビューをカスタマイズします。",
-  "Upload an image to customize your repository\u2019s social media preview.":
-    "画像をアップロードして、リポジトリのソーシャルプレビューをカスタマイズします。",
+  "Upload an image to customize your repository's social media preview.": "画像をアップロードして、リポジトリのソーシャルプレビューをカスタマイズします。",
+  "Upload an image to customize your repository\u2019s social media preview.": "画像をアップロードして、リポジトリのソーシャルプレビューをカスタマイズします。",
   "Archiving a repository": "リポジトリのアーカイブ",
   "Leave a comment about why you are transferring": "移譲する理由をコメント",
   "I understand, transfer this repository": "理解したので移譲する",
-  "I understand the consequences, delete this repository":
-    "結果を理解したのでこのリポジトリを削除する",
+  "I understand the consequences, delete this repository": "結果を理解したのでこのリポジトリを削除する",
   "Change visibility": "公開範囲を変更",
   "Make public": "公開にする",
   "Make private": "非公開にする",
   "Make internal": "内部にする",
-
-  "I have read and understand these effects":
-    "内容を読み、影響を理解しました",
+  "I have read and understand these effects": "内容を読み、影響を理解しました",
   "Make this repository public": "このリポジトリを公開にする",
   "Make this repository private": "このリポジトリを非公開にする",
-  "Consequences of changing a repository's visibility":
-    "リポジトリ公開範囲変更の影響",
+  "Consequences of changing a repository's visibility": "リポジトリ公開範囲変更の影響",
   "Changing from public to private": "公開から非公開への変更",
   "Changing from private to public": "非公開から公開への変更",
   "Changing from private to internal": "非公開から内部への変更",
@@ -835,166 +746,99 @@ var GHT_LOCALE_DICTIONARY = {
   "Changing from internal to public": "内部から公開への変更",
   "Changing from public to internal": "公開から内部への変更",
   "Setting repository visibility": "リポジトリ公開範囲の設定",
-  "Managing the forking policy for your repository":
-    "リポジトリの Fork ポリシーを管理",
-  "Managing pull request reviews in your repository":
-    "リポジトリのプルリクエストレビューを管理",
-  "Managing the commit signoff policy for your repository":
-    "リポジトリのコミット署名ポリシーを管理",
-  "Managing the push policy for your repository":
-    "リポジトリのプッシュポリシーを管理",
-  "Managing Git LFS objects in archives of your repository":
-    "リポジトリアーカイブ内の Git LFS オブジェクトを管理",
-  "Enabling anonymous Git read access for a repository":
-    "リポジトリの匿名 Git 読み取りアクセスを有効化",
-  "About email notifications for pushes to your repository":
-    "プッシュ時のメール通知について",
-  "Configuring autolinks to reference external resources":
-    "外部リソース参照用オートリンクの設定",
-  "Managing the automatic closing of issues in your repository":
-    "リポジトリの課題自動クローズを管理",
+  "Managing the forking policy for your repository": "リポジトリの Fork ポリシーを管理",
+  "Managing pull request reviews in your repository": "リポジトリのプルリクエストレビューを管理",
+  "Managing the commit signoff policy for your repository": "リポジトリのコミット署名ポリシーを管理",
+  "Managing the push policy for your repository": "リポジトリのプッシュポリシーを管理",
+  "Managing Git LFS objects in archives of your repository": "リポジトリアーカイブ内の Git LFS オブジェクトを管理",
+  "Enabling anonymous Git read access for a repository": "リポジトリの匿名 Git 読み取りアクセスを有効化",
+  "About email notifications for pushes to your repository": "プッシュ時のメール通知について",
+  "Configuring autolinks to reference external resources": "外部リソース参照用オートリンクの設定",
+  "Managing the automatic closing of issues in your repository": "リポジトリの課題自動クローズを管理",
   "Disabling issues": "課題を無効化",
   "Disabling pull requests": "プルリクエストを無効化",
   "Disabling projects in a repository": "リポジトリ内プロジェクトを無効化",
-  "Managing GitHub Actions settings for a repository":
-    "リポジトリの GitHub Actions 設定を管理",
-  "Enabling or disabling GitHub Discussions for a repository":
-    "リポジトリの GitHub Discussions を有効化または無効化",
-  "Managing security and analysis settings for your repository":
-    "リポジトリのセキュリティと分析設定を管理",
+  "Managing GitHub Actions settings for a repository": "リポジトリの GitHub Actions 設定を管理",
+  "Enabling or disabling GitHub Discussions for a repository": "リポジトリの GitHub Discussions を有効化または無効化",
+  "Managing security and analysis settings for your repository": "リポジトリのセキュリティと分析設定を管理",
   "Protect matching branches": "一致するブランチを保護",
   "Branch protection rule": "ブランチ保護ルール",
-  "Require a pull request before merging":
-    "マージ前にプルリクエストを必須にする",
+  "Require a pull request before merging": "マージ前にプルリクエストを必須にする",
   "Require approvals": "承認を必須にする",
-  "Dismiss stale pull request approvals when new commits are pushed":
-    "新しいコミットがプッシュされたとき、古い PR 承認を却下する",
+  "Dismiss stale pull request approvals when new commits are pushed": "新しいコミットがプッシュされたとき、古い PR 承認を却下する",
   "Require review from Code Owners": "Code Owners によるレビューを必須にする",
-  "Require status checks to pass before merging":
-    "マージ前にステータスチェックの通過を必須にする",
-  "Require conversation resolution before merging":
-    "マージ前に会話の解決を必須にする",
+  "Require status checks to pass before merging": "マージ前にステータスチェックの通過を必須にする",
+  "Require conversation resolution before merging": "マージ前に会話の解決を必須にする",
   "Require signed commits": "署名付きコミットを必須にする",
-  "Commits pushed to matching branches must have verified signatures.":
-    "一致するブランチへのコミットには、検証済みの署名が必要です。",
+  "Commits pushed to matching branches must have verified signatures.": "一致するブランチへのコミットには、検証済みの署名が必要です。",
   "Require linear history": "直線的な履歴を必須にする",
-  "Prevent merge commits from being pushed to matching branches.":
-    "一致するブランチへのマージコミットのプッシュを禁止します。",
-  "Require deployments to succeed before merging":
-    "マージ前にデプロイの成功を必須にする",
-  "Choose which environments must be successfully deployed to before branches can be merged into a branch that matches this rule.":
-    "このルールに一致するブランチへマージする前に、デプロイ成功が必要な環境を選びます。",
+  "Prevent merge commits from being pushed to matching branches.": "一致するブランチへのマージコミットのプッシュを禁止します。",
+  "Require deployments to succeed before merging": "マージ前にデプロイの成功を必須にする",
+  "Choose which environments must be successfully deployed to before branches can be merged into a branch that matches this rule.": "このルールに一致するブランチへマージする前に、デプロイ成功が必要な環境を選びます。",
   "Lock branch": "ブランチをロック",
-  "Branch is read-only. Users cannot push to the branch.":
-    "ブランチは読み取り専用です。ユーザーはこのブランチへプッシュできません。",
-  "Do not allow bypassing the above settings":
-    "上記設定のバイパスを許可しない",
-  "The above settings will apply to administrators and custom roles with the \"bypass branch protections\" permission.":
-    "上記設定は、管理者および「ブランチ保護のバイパス」権限を持つカスタムロールにも適用されます。",
-  "Rules applied to everyone including administrators":
-    "管理者を含む全員に適用されるルール",
-  "Restrict who can push to matching branches":
-    "一致するブランチへのプッシュを制限",
+  "Branch is read-only. Users cannot push to the branch.": "ブランチは読み取り専用です。ユーザーはこのブランチへプッシュできません。",
+  "Do not allow bypassing the above settings": "上記設定のバイパスを許可しない",
+  "The above settings will apply to administrators and custom roles with the \"bypass branch protections\" permission.": "上記設定は、管理者および「ブランチ保護のバイパス」権限を持つカスタムロールにも適用されます。",
+  "Rules applied to everyone including administrators": "管理者を含む全員に適用されるルール",
+  "Restrict who can push to matching branches": "一致するブランチへのプッシュを制限",
   "Allow force pushes": "force push を許可",
-  "Permit force pushes for all users with push access.":
-    "プッシュ権限を持つすべてのユーザーに force push を許可します。",
+  "Permit force pushes for all users with push access.": "プッシュ権限を持つすべてのユーザーに force push を許可します。",
   "Allow deletions": "削除を許可",
-  "Allow users with push access to delete matching branches.":
-    "プッシュ権限を持つユーザーが、一致するブランチを削除できるようにします。",
+  "Allow users with push access to delete matching branches.": "プッシュ権限を持つユーザーが、一致するブランチを削除できるようにします。",
   "Require merge queue": "マージキューを必須にする",
-  "Require branches to be up to date before merging":
-    "マージ前にブランチを最新状態にする",
+  "Require branches to be up to date before merging": "マージ前にブランチを最新状態にする",
   "Actions permissions": "Actions の権限",
-  "Allow all actions and reusable workflows":
-    "すべての Actions と再利用可能ワークフローを許可",
-  "Any action or reusable workflow can be used, regardless of who authored it or where it is defined.":
-    "作成者や定義場所に関係なく、任意の Action または再利用可能ワークフローを利用できます。",
+  "Allow all actions and reusable workflows": "すべての Actions と再利用可能ワークフローを許可",
+  "Any action or reusable workflow can be used, regardless of who authored it or where it is defined.": "作成者や定義場所に関係なく、任意の Action または再利用可能ワークフローを利用できます。",
   "Disable actions": "Actions を無効化",
-  "The Actions tab is hidden and no workflows can run.":
-    "Actions タブは非表示になり、ワークフローは実行できません。",
-  "Allow OWNER, and select non-OWNER, actions and reusable workflows":
-    "OWNER と選択した非 OWNER の Actions と再利用可能ワークフローを許可",
-  "Allow OWNER actions and reusable workflows":
-    "OWNER の Actions と再利用可能ワークフローを許可",
-  "Allow tau-leap actions and reusable workflows":
-    "tau-leap の Actions と再利用可能ワークフローを許可",
-  "Any action or reusable workflow defined in a repository within tau-leap can be used.":
-    "tau-leap 内のリポジトリで定義された Action または再利用可能ワークフローを利用できます。",
-  "Allow tau-leap, and select non-tau-leap, actions and reusable workflows":
-    "tau-leap と、選択した非 tau-leap の Actions と再利用可能ワークフローを許可",
-  "Any action or reusable workflow that matches the specified criteria, plus those defined in a repository within tau-leap, can be used.":
-    "指定条件に一致する Action または再利用可能ワークフローと、tau-leap 内リポジトリで定義されたものを利用できます。",
-  "Learn more about allowing specific actions and reusable workflows to run.":
-    "特定の Actions と再利用可能ワークフローの許可について詳しく見る。",
+  "The Actions tab is hidden and no workflows can run.": "Actions タブは非表示になり、ワークフローは実行できません。",
+  "Allow OWNER, and select non-OWNER, actions and reusable workflows": "OWNER と選択した非 OWNER の Actions と再利用可能ワークフローを許可",
+  "Allow OWNER actions and reusable workflows": "OWNER の Actions と再利用可能ワークフローを許可",
+  "Allow tau-leap actions and reusable workflows": "tau-leap の Actions と再利用可能ワークフローを許可",
+  "Any action or reusable workflow defined in a repository within tau-leap can be used.": "tau-leap 内のリポジトリで定義された Action または再利用可能ワークフローを利用できます。",
+  "Allow tau-leap, and select non-tau-leap, actions and reusable workflows": "tau-leap と、選択した非 tau-leap の Actions と再利用可能ワークフローを許可",
+  "Any action or reusable workflow that matches the specified criteria, plus those defined in a repository within tau-leap, can be used.": "指定条件に一致する Action または再利用可能ワークフローと、tau-leap 内リポジトリで定義されたものを利用できます。",
+  "Learn more about allowing specific actions and reusable workflows to run.": "特定の Actions と再利用可能ワークフローの許可について詳しく見る。",
   "Allow actions created by GitHub": "GitHub が作成した Actions を許可",
   "Allow actions by Marketplace": "Marketplace の Actions を許可",
   "verified creators": "検証済みクリエイター",
-  "Allow Marketplace actions by verified creators":
-    "検証済みクリエイターの Marketplace Actions を許可",
-  "Allow or block specified actions and reusable workflows":
-    "指定した Actions と再利用可能ワークフローを許可またはブロック",
-  "Require actions to be pinned to a full-length commit SHA":
-    "Actions を完全なコミット SHA へのピン留め必須にする",
-  "Require approval for all outside collaborators":
-    "すべての外部コラボレーターに承認を必須にする",
+  "Allow Marketplace actions by verified creators": "検証済みクリエイターの Marketplace Actions を許可",
+  "Allow or block specified actions and reusable workflows": "指定した Actions と再利用可能ワークフローを許可またはブロック",
+  "Require actions to be pinned to a full-length commit SHA": "Actions を完全なコミット SHA へのピン留め必須にする",
+  "Require approval for all outside collaborators": "すべての外部コラボレーターに承認を必須にする",
   "Artifact and log retention": "アーティファクトとログの保持",
-  "Choose the repository settings for artifacts and logs.":
-    "アーティファクトとログのリポジトリ設定を選びます。",
-  "The organization has set a maximum duration of 90 days":
-    "Organization が最大期間を 90 日に設定しています",
+  "Choose the repository settings for artifacts and logs.": "アーティファクトとログのリポジトリ設定を選びます。",
+  "The organization has set a maximum duration of 90 days": "Organization が最大期間を 90 日に設定しています",
   "Duration must be 1 or more.": "期間は 1 以上である必要があります。",
-  "Your organization has set a maximum limit of":
-    "Organization が設定した上限は",
+  "Your organization has set a maximum limit of": "Organization が設定した上限は",
   "days.": "日です。",
-  "Learn more about the artifact and log retention policy.":
-    "アーティファクトとログの保持ポリシーについて詳しく見る。",
+  "Learn more about the artifact and log retention policy.": "アーティファクトとログの保持ポリシーについて詳しく見る。",
   "Fork pull request workflows": "Fork からの PR ワークフロー",
-  "Run workflows from fork pull requests":
-    "Fork のプルリクエストからワークフローを実行",
-  "This tells Actions to run workflows from pull requests originating from repository forks. Note that doing so will give maintainers of those forks the ability to use tokens with read permissions on the source repository.":
-    "リポジトリの Fork から来た PR のワークフローを実行します。Fork のメンテナーが、元リポジトリへの読み取り権限付きトークンを使えるようになります。",
-  "Send write tokens to workflows from fork pull requests.":
-    "Fork の PR ワークフローに書き込みトークンを送る。",
-  "Send write tokens to workflows from pull requests":
-    "Fork の PR ワークフローに書き込みトークンを送る",
-  "Send secrets and variables to workflows from fork pull requests.":
-    "Fork の PR ワークフローにシークレットと変数を送る。",
-  "Send secrets to workflows from pull requests":
-    "Fork の PR ワークフローにシークレットを送る",
-  "This tells Actions to send repository secrets and variables to workflows from pull requests originating from repository forks.":
-    "リポジトリの Fork から来た PR のワークフローに、シークレットと変数を渡します。",
-  "Require approval for fork pull request workflows.":
-    "Fork の PR ワークフローに承認を必須にする。",
-  "Require approval for fork pull request workflows":
-    "Fork の PR ワークフローに承認を必須にする",
-  "Fork pull requests from users without write access will require approval to run workflows.":
-    "書き込み権限のないユーザーからの Fork PR は、ワークフロー実行に承認が必要です。",
+  "Run workflows from fork pull requests": "Fork のプルリクエストからワークフローを実行",
+  "This tells Actions to run workflows from pull requests originating from repository forks. Note that doing so will give maintainers of those forks the ability to use tokens with read permissions on the source repository.": "リポジトリの Fork から来た PR のワークフローを実行します。Fork のメンテナーが、元リポジトリへの読み取り権限付きトークンを使えるようになります。",
+  "Send write tokens to workflows from fork pull requests.": "Fork の PR ワークフローに書き込みトークンを送る。",
+  "Send write tokens to workflows from pull requests": "Fork の PR ワークフローに書き込みトークンを送る",
+  "Send secrets and variables to workflows from fork pull requests.": "Fork の PR ワークフローにシークレットと変数を送る。",
+  "Send secrets to workflows from pull requests": "Fork の PR ワークフローにシークレットを送る",
+  "This tells Actions to send repository secrets and variables to workflows from pull requests originating from repository forks.": "リポジトリの Fork から来た PR のワークフローに、シークレットと変数を渡します。",
+  "Require approval for fork pull request workflows.": "Fork の PR ワークフローに承認を必須にする。",
+  "Require approval for fork pull request workflows": "Fork の PR ワークフローに承認を必須にする",
+  "Fork pull requests from users without write access will require approval to run workflows.": "書き込み権限のないユーザーからの Fork PR は、ワークフロー実行に承認が必要です。",
   "Workflow permissions": "ワークフローの権限",
-  "Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML.":
-    "このリポジトリでワークフロー実行時に GITHUB_TOKEN へ付与するデフォルト権限を選びます。YAML でより細かい権限も指定できます。",
+  "Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML.": "このリポジトリでワークフロー実行時に GITHUB_TOKEN へ付与するデフォルト権限を選びます。YAML でより細かい権限も指定できます。",
   "Learn more about managing permissions.": "権限管理について詳しく見る。",
   "Read and write permissions": "読み取りと書き込みの権限",
-  "Workflows have read and write permissions in the repository for all scopes.":
-    "ワークフローはリポジトリ内のすべてのスコープで読み取りと書き込み権限を持ちます。",
-  "Read repository contents and packages permissions":
-    "リポジトリ内容とパッケージの読み取り権限",
-  "Workflows have read permissions in the repository for the contents and packages scopes only.":
-    "ワークフローは contents と packages スコープのみ読み取り権限を持ちます。",
-  "Choose whether GitHub Actions can create pull requests or submit approving pull request reviews.":
-    "GitHub Actions がプルリクエストの作成や承認レビューの送信をできるかを選びます。",
-  "Allow GitHub Actions to create and approve pull requests":
-    "GitHub Actions による PR の作成と承認を許可",
-  "Control how this repository is used by GitHub Actions workflows in other repositories.":
-    "他リポジトリの GitHub Actions ワークフローが、このリポジトリをどう利用できるかを制御します。",
-  "Learn more about allowing other repositories to access to Actions components in this repository.":
-    "他リポジトリからの Actions コンポーネント利用について詳しく見る。",
+  "Workflows have read and write permissions in the repository for all scopes.": "ワークフローはリポジトリ内のすべてのスコープで読み取りと書き込み権限を持ちます。",
+  "Read repository contents and packages permissions": "リポジトリ内容とパッケージの読み取り権限",
+  "Workflows have read permissions in the repository for the contents and packages scopes only.": "ワークフローは contents と packages スコープのみ読み取り権限を持ちます。",
+  "Choose whether GitHub Actions can create pull requests or submit approving pull request reviews.": "GitHub Actions がプルリクエストの作成や承認レビューの送信をできるかを選びます。",
+  "Allow GitHub Actions to create and approve pull requests": "GitHub Actions による PR の作成と承認を許可",
+  "Control how this repository is used by GitHub Actions workflows in other repositories.": "他リポジトリの GitHub Actions ワークフローが、このリポジトリをどう利用できるかを制御します。",
+  "Learn more about allowing other repositories to access to Actions components in this repository.": "他リポジトリからの Actions コンポーネント利用について詳しく見る。",
   "Not accessible": "アクセス不可",
-  "Workflows in other repositories cannot access this repository.":
-    "他リポジトリのワークフローはこのリポジトリにアクセスできません。",
-  "Accessible from repositories in the 'tau-leap' organization":
-    "'tau-leap' Organization 内のリポジトリからアクセス可能",
-  "Workflows in other repositories that are part of the 'tau-leap' organization can access the actions and reusable workflows in this repository. Access is allowed only from private repositories.":
-    "'tau-leap' Organization 内の他リポジトリのワークフローが、このリポジトリの Actions と再利用可能ワークフローにアクセスできます。非公開リポジトリからのみ許可されます。",
+  "Workflows in other repositories cannot access this repository.": "他リポジトリのワークフローはこのリポジトリにアクセスできません。",
+  "Accessible from repositories in the 'tau-leap' organization": "'tau-leap' Organization 内のリポジトリからアクセス可能",
+  "Workflows in other repositories that are part of the 'tau-leap' organization can access the actions and reusable workflows in this repository. Access is allowed only from private repositories.": "'tau-leap' Organization 内の他リポジトリのワークフローが、このリポジトリの Actions と再利用可能ワークフローにアクセスできます。非公開リポジトリからのみ許可されます。",
   "Policies Preview": "ポリシー（プレビュー）",
   "Build and deployment": "ビルドとデプロイ",
   "Custom domain": "カスタムドメイン",
@@ -1011,72 +855,48 @@ var GHT_LOCALE_DICTIONARY = {
   "Push rules": "プッシュルール",
   "Sign commits": "コミットに署名",
   "Sign off commits": "コミットに署名（Sign-off）",
-  "Require contributors to sign off on web-based commits":
-    "Web ベースのコミットに Sign-off を必須にする",
-  "Limit how many branches and tags can be updated in a single push":
-    "1 回のプッシュで更新できるブランチとタグ数を制限",
+  "Require contributors to sign off on web-based commits": "Web ベースのコミットに Sign-off を必須にする",
+  "Limit how many branches and tags can be updated in a single push": "1 回のプッシュで更新できるブランチとタグ数を制限",
   "Anonymous Git read access": "匿名 Git 読み取りアクセス",
-  "Automatically send email notifications":
-    "メール通知を自動送信",
+  "Automatically send email notifications": "メール通知を自動送信",
   "Auto-close issues": "課題を自動クローズ",
-  "Suggest updating pull request branches":
-    "プルリクエストブランチの更新を提案",
+  "Suggest updating pull request branches": "プルリクエストブランチの更新を提案",
   Forking: "Fork",
   "Allow forking": "Fork を許可",
-  "If disabled, existing forks will be unaffected.":
-    "無効にしても、既存の Fork には影響しません。",
-  "Manage access to branches and tags":
-    "ブランチとタグへのアクセスを管理",
+  "If disabled, existing forks will be unaffected.": "無効にしても、既存の Fork には影響しません。",
+  "Manage access to branches and tags": "ブランチとタグへのアクセスを管理",
   Variables: "変数",
-  "Enabling features for your repository":
-    "リポジトリ機能の有効化",
+  "Enabling features for your repository": "リポジトリ機能の有効化",
   "Managing repository settings": "リポジトリ設定の管理",
-  "Managing teams and people with access to your repository":
-    "リポジトリへのアクセス権を持つチームとメンバーを管理",
-  "Managing the default branch name for your repositories":
-    "リポジトリのデフォルトブランチ名を管理",
-  "Managing custom properties for your repository":
-    "リポジトリのカスタムプロパティを管理",
-  "Managing rulesets for a repository":
-    "リポジトリのルールセットを管理",
-  "Creating rulesets for a repository":
-    "リポジトリ向けルールセットを作成",
-  "Converting branch protections to rulesets":
-    "ブランチ保護をルールセットに変換",
-  "Managing a branch protection rule":
-    "ブランチ保護ルールを管理",
+  "Managing teams and people with access to your repository": "リポジトリへのアクセス権を持つチームとメンバーを管理",
+  "Managing the default branch name for your repositories": "リポジトリのデフォルトブランチ名を管理",
+  "Managing custom properties for your repository": "リポジトリのカスタムプロパティを管理",
+  "Managing rulesets for a repository": "リポジトリのルールセットを管理",
+  "Creating rulesets for a repository": "リポジトリ向けルールセットを作成",
+  "Converting branch protections to rulesets": "ブランチ保護をルールセットに変換",
+  "Managing a branch protection rule": "ブランチ保護ルールを管理",
   "Managing protected branches": "保護ブランチを管理",
   "Managing tag protection rules": "タグ保護ルールを管理",
   "Managing deploy keys": "デプロイキーを管理",
   "Managing webhooks": "Webhook を管理",
-  "Managing GitHub Pages settings for your repository":
-    "リポジトリの GitHub Pages 設定を管理",
-  "Managing Codespaces settings for your repository":
-    "リポジトリの コードスペース 設定を管理",
-  "Managing Copilot settings for your repository":
-    "リポジトリの Copilot 設定を管理",
-  "Control how and when users are notified":
-    "ユーザーへの通知方法とタイミングを制御",
+  "Managing GitHub Pages settings for your repository": "リポジトリの GitHub Pages 設定を管理",
+  "Managing Codespaces settings for your repository": "リポジトリの コードスペース 設定を管理",
+  "Managing Copilot settings for your repository": "リポジトリの Copilot 設定を管理",
+  "Control how and when users are notified": "ユーザーへの通知方法とタイミングを制御",
   Archives: "アーカイブ",
-  "When creating source code archives, you can choose to include files stored using Git LFS in the archive.":
-    "ソースコードのアーカイブ作成時に、Git LFS で保存されたファイルを含めるかどうかを選べます。",
-  "Git LFS usage in archives is billed at the same rate as usage with the client.":
-    "アーカイブ内の Git LFS 利用量は、クライアント利用時と同じ料金で課金されます。",
-  "Include Git LFS objects in archives":
-    "アーカイブに Git LFS オブジェクトを含める",
+  "When creating source code archives, you can choose to include files stored using Git LFS in the archive.": "ソースコードのアーカイブ作成時に、Git LFS で保存されたファイルを含めるかどうかを選べます。",
+  "Git LFS usage in archives is billed at the same rate as usage with the client.": "アーカイブ内の Git LFS 利用量は、クライアント利用時と同じ料金で課金されます。",
+  "Include Git LFS objects in archives": "アーカイブに Git LFS オブジェクトを含める",
   "This repository is currently private.": "このリポジトリは現在非公開です。",
   "Disable branch protection rules": "ブランチ保護ルールを無効化",
-  "Disable branch protection rules enforcement and APIs":
-    "ブランチ保護ルールの適用と API を無効化します",
-  "Automatically close linked issues when pull requests are merged":
-    "プルリクエストのマージ時にリンクされた課題を自動クローズ",
+  "Disable branch protection rules enforcement and APIs": "ブランチ保護ルールの適用と API を無効化します",
+  "Automatically close linked issues when pull requests are merged": "プルリクエストのマージ時にリンクされた課題を自動クローズ",
   "Enable Issues": "課題を有効化",
   "Enable Projects": "プロジェクトを有効化",
   "Enable Discussions": "ディスカッションを有効化",
   "Enable Wikis": "Wiki を有効化",
   "Enable Sponsorships": "スポンサーシップを有効化",
   "Enable Pull Requests": "プルリクエストを有効化",
-
   "Settings menu": "設定メニュー",
   "Switch settings context": "設定の対象を切り替え",
   "Public profile": "公開プロフィール",
@@ -1098,12 +918,9 @@ var GHT_LOCALE_DICTIONARY = {
   "Interaction limits": "操作制限",
   "Code review": "コードレビュー",
   "Code review limits": "コードレビュー制限",
-  "Restrict users who are permitted to approve or request changes on pull requests in public repositories within this organization.":
-    "この Organization 内の公開リポジトリで、プルリクエストの承認や変更リクエストを許可するユーザーを制限します。",
-  "Code review limits may already be specified by individual repositories. Any changes here will override those limits until unset.":
-    "コードレビュー制限は各リポジトリで個別に設定されている場合があります。ここでの変更は、解除するまで各リポジトリの制限より優先されます。",
-  "Code review limits are currently managed individually for all repositories. Enable limits to permit only users who have explicitly been granted access to each repository to submit reviews that \"approve\" or \"request changes\". Remove limits to allow all users to submit pull request reviews. All users able to submit comment pull request reviews will continue to be able to do so.":
-    "コードレビュー制限は現在、すべてのリポジトリで個別に管理されています。制限を有効にすると、各リポジトリへのアクセスを明示的に付与されたユーザーだけが「承認」または「変更リクエスト」のレビューを提出できます。制限を解除すると、すべてのユーザーがプルリクエストレビューを提出できるようになります。コメントのみのレビューを提出できるユーザーは、引き続きそのまま提出できます。",
+  "Restrict users who are permitted to approve or request changes on pull requests in public repositories within this organization.": "この Organization 内の公開リポジトリで、プルリクエストの承認や変更リクエストを許可するユーザーを制限します。",
+  "Code review limits may already be specified by individual repositories. Any changes here will override those limits until unset.": "コードレビュー制限は各リポジトリで個別に設定されている場合があります。ここでの変更は、解除するまで各リポジトリの制限より優先されます。",
+  "Code review limits are currently managed individually for all repositories. Enable limits to permit only users who have explicitly been granted access to each repository to submit reviews that \"approve\" or \"request changes\". Remove limits to allow all users to submit pull request reviews. All users able to submit comment pull request reviews will continue to be able to do so.": "コードレビュー制限は現在、すべてのリポジトリで個別に管理されています。制限を有効にすると、各リポジトリへのアクセスを明示的に付与されたユーザーだけが「承認」または「変更リクエスト」のレビューを提出できます。制限を解除すると、すべてのユーザーがプルリクエストレビューを提出できるようになります。コメントのみのレビューを提出できるユーザーは、引き続きそのまま提出できます。",
   "Scheduled reminders": "定期リマインダー",
   "Security log": "セキュリティログ",
   "Sponsorship log": "スポンサーログ",
@@ -1142,8 +959,7 @@ var GHT_LOCALE_DICTIONARY = {
   Daytime: "昼間",
   Nighttime: "夜間",
   "Default markdown editor mode": "Markdown エディタの初期モード",
-  "Enable rich text editor for Markdown files in repositories":
-    "リポジトリの Markdown でリッチテキストを使う",
+  "Enable rich text editor for Markdown files in repositories": "リポジトリの Markdown でリッチテキストを使う",
   "Change password": "パスワードを変更",
   "Sign in methods": "サインイン方法",
   Email: "メール",
@@ -1171,8 +987,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Public email": "公開メール",
   "Select a verified email to display": "表示する検証済みメールを選択",
   "Keep my email addresses private": "メールアドレスを非公開にする",
-  "Block command line pushes that expose my email":
-    "メールが露出するコマンドライン push をブロック",
+  "Block command line pushes that expose my email": "メールが露出するコマンドライン push をブロック",
   "Save email preferences": "メール設定を保存",
   "Notification settings": "通知設定",
   "Participating, @mentions": "参加中と @メンション",
@@ -1181,7 +996,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Automatically watch teams": "チームを自動 Watch",
   "Trending settings": "トレンド設定",
   "Preferred spoken language": "優先する使用言語",
-
   Overview: "概要",
   Repositories: "リポジトリ",
   Followers: "フォロワー",
@@ -1212,7 +1026,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Last updated": "最終更新",
   "Recently starred": "最近 Star した",
   "Recently created": "最近作成",
-
   Inbox: "受信箱",
   Saved: "保存済み",
   Done: "完了",
@@ -1231,7 +1044,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Notification inbox": "通知受信箱",
   "Reserved": "予約済み",
   "Query": "クエリ",
-
   Users: "ユーザー",
   "Advanced search": "高度な検索",
   "Advanced queries": "高度なクエリ",
@@ -1250,7 +1062,6 @@ var GHT_LOCALE_DICTIONARY = {
   "issue results": "課題の結果",
   "Show more": "さらに表示",
   "Saved searches": "保存した検索",
-
   "Organization navigation": "Organization ナビゲーション",
   Organization: "Organization",
   "Search repositories": "リポジトリを検索",
@@ -1264,12 +1075,9 @@ var GHT_LOCALE_DICTIONARY = {
   "Sort by Last pushed descending": "最終プッシュ日時の降順で並べ替え",
   items: "項目",
   "ProTip!": "ProTip!",
-  "When viewing an organization's repositories, you can use the":
-    "Organization のリポジトリ一覧では、",
-  "filter to filter by custom property.":
-    "フィルターでカスタムプロパティによる絞り込みができます。",
-  "ProTip! When viewing an organization's repositories, you can use the props. filter to filter by custom property.":
-    "ProTip! Organization のリポジトリ一覧では、props. フィルターでカスタムプロパティによる絞り込みができます。",
+  "When viewing an organization's repositories, you can use the": "Organization のリポジトリ一覧では、",
+  "filter to filter by custom property.": "フィルターでカスタムプロパティによる絞り込みができます。",
+  "ProTip! When viewing an organization's repositories, you can use the props. filter to filter by custom property.": "ProTip! Organization のリポジトリ一覧では、props. フィルターでカスタムプロパティによる絞り込みができます。",
   "Tell us about your organization": "Organization について教えてください",
   "Set up your organization": "Organization を設定",
   People: "メンバー",
@@ -1280,8 +1088,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Convert to outside collaborator...": "外部コラボレーターに変換...",
   "Remove from organization...": "Organization から削除...",
   "Pending collaborators": "保留中のコラボレーター",
-  "There aren't any pending collaborators.":
-    "保留中のコラボレーターはいません。",
+  "There aren't any pending collaborators.": "保留中のコラボレーターはいません。",
   Invitations: "招待",
   "Pending invitations": "保留中の招待",
   "No matching invitations.": "一致する招待はありません。",
@@ -1314,53 +1121,37 @@ var GHT_LOCALE_DICTIONARY = {
   "Organization display name": "Organization の表示名",
   "Social accounts": "ソーシャルアカウント",
   "Sponsors update email": "スポンサー更新メール",
-  "The developers and organizations that your organization sponsors can send you updates to this email.":
-    "スポンサーしている開発者や Organization から、このメール宛に更新情報が届きます。",
+  "The developers and organizations that your organization sponsors can send you updates to this email.": "スポンサーしている開発者や Organization から、このメール宛に更新情報が届きます。",
   "Rename organization": "Organization 名を変更",
-  "Renaming your organization can have unintended side effects.":
-    "Organization 名の変更は、想定外の影響を及ぼす場合があります。",
+  "Renaming your organization can have unintended side effects.": "Organization 名の変更は、想定外の影響を及ぼす場合があります。",
   "Archive this organization": "この Organization をアーカイブ",
   "Delete this organization": "この Organization を削除",
-  "Mark this repository as archived and read-only.":
-    "このリポジトリをアーカイブし、読み取り専用にします。",
-  "Once you delete a repository, there is no going back. Please be certain.":
-    "リポジトリを削除すると元に戻せません。十分に確認してください。",
-  "Transfer this repository to another user or to an organization where you have the ability to create repositories.":
-    "このリポジトリを、リポジトリ作成権限のある別ユーザーまたは Organization に移譲します。",
+  "Mark this repository as archived and read-only.": "このリポジトリをアーカイブし、読み取り専用にします。",
+  "Once you delete a repository, there is no going back. Please be certain.": "リポジトリを削除すると元に戻せません。十分に確認してください。",
+  "Transfer this repository to another user or to an organization where you have the ability to create repositories.": "このリポジトリを、リポジトリ作成権限のある別ユーザーまたは Organization に移譲します。",
   "I want to delete this repository.": "このリポジトリを削除します。",
-  "I understand the consequences, archive this repository.":
-    "結果を理解したうえで、このリポジトリをアーカイブします。",
-  "I understand the consequences, unarchive this repository.":
-    "結果を理解したうえで、このリポジトリのアーカイブを解除します。",
-  "Once deleted, it will be gone forever. Please be certain.":
-    "削除すると元に戻せません。十分に確認してください。",
-  "Mark this organization and all its repositories as archived and read-only.":
-    "この Organization とすべてのリポジトリをアーカイブし、読み取り専用にします。",
-  "This will be the name of your account on GitHub.":
-    "GitHub 上のアカウント名になります。",
-  "Your URL will be: https://github.com/":
-    "URL は https://github.com/ になります。",
+  "I understand the consequences, archive this repository.": "結果を理解したうえで、このリポジトリをアーカイブします。",
+  "I understand the consequences, unarchive this repository.": "結果を理解したうえで、このリポジトリのアーカイブを解除します。",
+  "Once deleted, it will be gone forever. Please be certain.": "削除すると元に戻せません。十分に確認してください。",
+  "Mark this organization and all its repositories as archived and read-only.": "この Organization とすべてのリポジトリをアーカイブし、読み取り専用にします。",
+  "This will be the name of your account on GitHub.": "GitHub 上のアカウント名になります。",
+  "Your URL will be: https://github.com/": "URL は https://github.com/ になります。",
   "Contact email": "連絡先メール",
   "This organization belongs to:": "この Organization の種類:",
   "My personal account": "個人アカウント",
   "A business or institution": "法人または団体",
-  "For example: GitHub, Inc., Example Institute, American Red Cross":
-    "例: GitHub, Inc.、Example Institute、American Red Cross",
+  "For example: GitHub, Inc., Example Institute, American Red Cross": "例: GitHub, Inc.、Example Institute、American Red Cross",
   "Verify your account": "アカウントを確認",
   "Billing email": "請求先メール",
   "Gravatar email": "Gravatar メール",
   Promotions: "プロモーション",
-  "Notify account admins about exclusive GitHub products, services, offers, and events.":
-    "GitHub の限定の製品・サービス・オファー・イベントについて、アカウント管理者に通知します。",
+  "Notify account admins about exclusive GitHub products, services, offers, and events.": "GitHub の限定の製品・サービス・オファー・イベントについて、アカウント管理者に通知します。",
   "Member requests": "メンバーからのリクエスト",
-  "Allow members in your organization to request access to products, budget, or features.":
-    "Organization のメンバーが製品・予算・機能へのアクセスをリクエストできるようにします。",
+  "Allow members in your organization to request access to products, budget, or features.": "Organization のメンバーが製品・予算・機能へのアクセスをリクエストできるようにします。",
   Tips: "ヒント",
-  "Show your organization members tips about enabled products and features.":
-    "有効な製品や機能について、Organization メンバーにヒントを表示します。",
+  "Show your organization members tips about enabled products and features.": "有効な製品や機能について、Organization メンバーにヒントを表示します。",
   "Customer Research": "カスタマーリサーチ",
-  "Allow GitHub to contact members in your organization for research and feedback surveys.":
-    "GitHub がリサーチやフィードバック調査のため、Organization メンバーに連絡することを許可します。",
+  "Allow GitHub to contact members in your organization for research and feedback surveys.": "GitHub がリサーチやフィードバック調査のため、Organization メンバーに連絡することを許可します。",
   "In-product messages": "プロダクト内メッセージ",
   "Link Patreon account": "Patreon アカウントを連携",
   "GitHub Developer Program": "GitHub Developer Program",
@@ -1369,18 +1160,13 @@ var GHT_LOCALE_DICTIONARY = {
   Report: "レポート",
   "Coverage period": "対象期間",
   "SOC 3 Report": "SOC 3 レポート",
-  "Our SOC 2 reports assume the use of certain security features only available to Enterprise customers, such as SAML SSO. As a non-Enterprise customer, your account cannot make use of these security features and the SOC 2 report does not apply; as such, we cannot share this report where it is not applicable.":
-    "当社の SOC 2 レポートは、SAML SSO など Enterprise 顧客のみが利用できる特定のセキュリティ機能の使用を前提としています。Enterprise 以外のお客様のアカウントではこれらのセキュリティ機能を利用できず、SOC 2 レポートは適用されません。そのため、適用外の場合はこのレポートを共有できません。",
-  "We provide a SOC 3 report to non-Enterprise customers in order to confirm:":
-    "Enterprise 以外のお客様には、次を確認するため SOC 3 レポートを提供しています。",
+  "Our SOC 2 reports assume the use of certain security features only available to Enterprise customers, such as SAML SSO. As a non-Enterprise customer, your account cannot make use of these security features and the SOC 2 report does not apply; as such, we cannot share this report where it is not applicable.": "当社の SOC 2 レポートは、SAML SSO など Enterprise 顧客のみが利用できる特定のセキュリティ機能の使用を前提としています。Enterprise 以外のお客様のアカウントではこれらのセキュリティ機能を利用できず、SOC 2 レポートは適用されません。そのため、適用外の場合はこのレポートを共有できません。",
+  "We provide a SOC 3 report to non-Enterprise customers in order to confirm:": "Enterprise 以外のお客様には、次を確認するため SOC 3 レポートを提供しています。",
   "GitHub ISO certifications": "GitHub ISO 認証",
-  "ISO, the International Organization for Standardization, brings global experts together to agree on the best way of doing things.":
-    "ISO（国際標準化機構）は、世界中の専門家が集まり、物事の最良の方法について合意する機関です。",
+  "ISO, the International Organization for Standardization, brings global experts together to agree on the best way of doing things.": "ISO（国際標準化機構）は、世界中の専門家が集まり、物事の最良の方法について合意する機関です。",
   "CSA CAIQ": "CSA 自己評価（CAIQ）",
-  "The Cloud Security Alliance Consensus Assessment Initiative Questionnaire (CSA-CAIQ or CAIQ) is a self-assessment that evaluates a cloud provider against CSA's Cloud Control Matrix.":
-    "Cloud Security Alliance Consensus Assessment Initiative Questionnaire（CSA-CAIQ または CAIQ）は、CSA の Cloud Control Matrix に照らしてクラウドプロバイダーを評価する自己評価です。",
-  "The Cloud Security Alliance Consensus Assessment Initiative Questionnaire (CSA-CAIQ or CAIQ) is a self-assessment that evaluates a cloud provider against CSA\u2019s Cloud Control Matrix.":
-    "Cloud Security Alliance Consensus Assessment Initiative Questionnaire（CSA-CAIQ または CAIQ）は、CSA の Cloud Control Matrix に照らしてクラウドプロバイダーを評価する自己評価です。",
+  "The Cloud Security Alliance Consensus Assessment Initiative Questionnaire (CSA-CAIQ or CAIQ) is a self-assessment that evaluates a cloud provider against CSA's Cloud Control Matrix.": "Cloud Security Alliance Consensus Assessment Initiative Questionnaire（CSA-CAIQ または CAIQ）は、CSA の Cloud Control Matrix に照らしてクラウドプロバイダーを評価する自己評価です。",
+  "The Cloud Security Alliance Consensus Assessment Initiative Questionnaire (CSA-CAIQ or CAIQ) is a self-assessment that evaluates a cloud provider against CSA\u2019s Cloud Control Matrix.": "Cloud Security Alliance Consensus Assessment Initiative Questionnaire（CSA-CAIQ または CAIQ）は、CSA の Cloud Control Matrix に照らしてクラウドプロバイダーを評価する自己評価です。",
   "Code quality": "コード品質",
   Licensing: "ライセンス",
   "Billing and licensing": "請求とライセンス",
@@ -1393,55 +1179,41 @@ var GHT_LOCALE_DICTIONARY = {
   "Budgets and alerts": "予算とアラート",
   "Payment information": "支払い情報",
   "Billing information": "請求情報",
-  "Add your business information to show on every invoice":
-    "すべての請求書に表示するビジネス情報を追加します",
+  "Add your business information to show on every invoice": "すべての請求書に表示するビジネス情報を追加します",
   "Payment history": "支払い履歴",
   "Billing Contacts": "請求連絡先",
-  "Receipts are sent to billing managers and email recipients.":
-    "領収書は請求管理者とメール受信者に送信されます。",
+  "Receipts are sent to billing managers and email recipients.": "領収書は請求管理者とメール受信者に送信されます。",
   "Billing managers": "請求管理者",
   "Email recipients": "メール受信者",
   "GitHub Sponsors": "GitHub Sponsors",
-  "Connect with the community that builds the tools you use":
-    "利用しているツールを作るコミュニティとつながる",
+  "Connect with the community that builds the tools you use": "利用しているツールを作るコミュニティとつながる",
   "Role management": "ロール管理",
   "Organization permissions": "組織の権限",
   "Organization roles": "組織のロール",
   "Repository roles": "リポジトリロール",
-  "Organization roles are used to grant access to specific organization and repository settings. Repository permissions are granted across every repository in the organization.":
-    "組織のロールは、特定の組織・リポジトリ設定へのアクセスを付与するために使います。リポジトリ権限は組織内のすべてのリポジトリに適用されます。",
+  "Organization roles are used to grant access to specific organization and repository settings. Repository permissions are granted across every repository in the organization.": "組織のロールは、特定の組織・リポジトリ設定へのアクセスを付与するために使います。リポジトリ権限は組織内のすべてのリポジトリに適用されます。",
   "All-repository read": "すべてのリポジトリの読み取り",
-  "Grants read access to all repositories in the organization.":
-    "組織内のすべてのリポジトリへの読み取りアクセスを付与します。",
+  "Grants read access to all repositories in the organization.": "組織内のすべてのリポジトリへの読み取りアクセスを付与します。",
   "All-repository write": "すべてのリポジトリの書き込み",
-  "Grants write access to all repositories in the organization.":
-    "組織内のすべてのリポジトリへの書き込みアクセスを付与します。",
+  "Grants write access to all repositories in the organization.": "組織内のすべてのリポジトリへの書き込みアクセスを付与します。",
   "All-repository triage": "すべてのリポジトリのトリアージ",
-  "Grants triage access to all repositories in the organization.":
-    "組織内のすべてのリポジトリへのトリアージアクセスを付与します。",
+  "Grants triage access to all repositories in the organization.": "組織内のすべてのリポジトリへのトリアージアクセスを付与します。",
   "All-repository maintain": "すべてのリポジトリのメンテナンス",
-  "Grants maintenance access to all repositories in the organization.":
-    "組織内のすべてのリポジトリへのメンテナンスアクセスを付与します。",
+  "Grants maintenance access to all repositories in the organization.": "組織内のすべてのリポジトリへのメンテナンスアクセスを付与します。",
   "All-repository admin": "すべてのリポジトリの管理者",
-  "Grants admin access to all repositories in the organization.":
-    "組織内のすべてのリポジトリへの管理者アクセスを付与します。",
+  "Grants admin access to all repositories in the organization.": "組織内のすべてのリポジトリへの管理者アクセスを付与します。",
   "Apps manager": "Apps 管理者",
-  "Grants the ability to manage all GitHub Apps owned by an organization.":
-    "組織が所有するすべての GitHub Apps を管理する権限を付与します。",
+  "Grants the ability to manage all GitHub Apps owned by an organization.": "組織が所有するすべての GitHub Apps を管理する権限を付与します。",
   "CI/CD Admin": "CI/CD 管理者",
-  "Grants admin access to manage Actions policies, runners, runner groups, network configurations, secrets, variables, and usage metrics for an organization.":
-    "組織の Actions ポリシー、ランナー、ランナーグループ、ネットワーク設定、シークレット、変数、利用量メトリクスを管理する管理者アクセスを付与します。",
+  "Grants admin access to manage Actions policies, runners, runner groups, network configurations, secrets, variables, and usage metrics for an organization.": "組織の Actions ポリシー、ランナー、ランナーグループ、ネットワーク設定、シークレット、変数、利用量メトリクスを管理する管理者アクセスを付与します。",
   "Security manager": "セキュリティ管理者",
   "Security managers": "セキュリティ管理者",
   "Security Managers": "セキュリティ管理者",
-  "Grants the ability to manage security policies, security alerts, and security configurations for an organization and all its repositories.":
-    "組織とすべてのリポジトリのセキュリティポリシー、セキュリティアラート、セキュリティ設定を管理する権限を付与します。",
+  "Grants the ability to manage security policies, security alerts, and security configurations for an organization and all its repositories.": "組織とすべてのリポジトリのセキュリティポリシー、セキュリティアラート、セキュリティ設定を管理する権限を付与します。",
   "Open-source license manager": "オープンソースライセンス管理者",
-  "Grants the ability to review open-source license compliance closure requests and update repository license policies.":
-    "オープンソースライセンスコンプライアンスのクロージャーリクエストをレビューし、リポジトリライセンスポリシーを更新する権限を付与します。",
+  "Grants the ability to review open-source license compliance closure requests and update repository license policies.": "オープンソースライセンスコンプライアンスのクロージャーリクエストをレビューし、リポジトリライセンスポリシーを更新する権限を付与します。",
   "Role assignments": "ロール割り当て",
   "No organization roles assigned": "組織のロールは割り当てられていません",
-
   "Authentication security": "認証セキュリティ",
   "Verified and approved domains": "検証・承認済みドメイン",
   "Verified & approved domains": "検証・承認済みドメイン",
@@ -1456,22 +1228,14 @@ var GHT_LOCALE_DICTIONARY = {
   "OAuth application policy": "OAuth アプリポリシー",
   "Fine-grained tokens": "細かい権限のトークン",
   "Base permissions": "ベース権限",
-  "Create custom roles with GitHub Enterprise":
-    "GitHub Enterprise でカスタムロールを作成",
-  "Enterprise accounts offer organizations more granular control over permissions by allowing you to configure up to 20 custom repository roles. This enables greater control over who and how your users access code and data in your organization.":
-    "Enterprise アカウントでは、最大 20 個のカスタムリポジトリロールを設定でき、権限をより細かく管理できます。ユーザーが Organization 内のコードとデータに誰がどのようにアクセスするかを、より厳密に制御できます。",
-  "Base permissions to the organization's repositories apply to all members and excludes outside collaborators. Since organization members can have permissions from multiple sources, members and collaborators who have been granted a higher level of access than the base permissions will retain their higher permission privileges.":
-    "組織のリポジトリへのベース権限はすべてのメンバーに適用され、外部コラボレーターは対象外です。メンバーは複数のソースから権限を持てるため、ベース権限より高いアクセス権が付与されているメンバーとコラボレーターは、その高い権限を維持します。",
-  "Base permissions to the organization\u2019s repositories apply to all members and excludes outside collaborators. Since organization members can have permissions from multiple sources, members and collaborators who have been granted a higher level of access than the base permissions will retain their higher permission privileges.":
-    "組織のリポジトリへのベース権限はすべてのメンバーに適用され、外部コラボレーターは対象外です。メンバーは複数のソースから権限を持てるため、ベース権限より高いアクセス権が付与されているメンバーとコラボレーターは、その高い権限を維持します。",
-  "Members will be able to create only selected repository types. Outside collaborators can never create repositories.":
-    "メンバーは選択した種類のリポジトリのみ作成できます。外部コラボレーターはリポジトリを作成できません。",
-  "Members will be able to create private repositories, visible to organization members with permission.":
-    "メンバーは、権限のある組織のメンバーにのみ表示される非公開リポジトリを作成できます。",
-  "Projects created by members will default to the selected role below.":
-    "メンバーが作成するプロジェクトは、下で選択したロールがデフォルトになります。",
-  "Members will be able to publish sites with only the selected access controls.":
-    "メンバーは、選択したアクセス制御のみでサイトを公開できます。",
+  "Create custom roles with GitHub Enterprise": "GitHub Enterprise でカスタムロールを作成",
+  "Enterprise accounts offer organizations more granular control over permissions by allowing you to configure up to 20 custom repository roles. This enables greater control over who and how your users access code and data in your organization.": "Enterprise アカウントでは、最大 20 個のカスタムリポジトリロールを設定でき、権限をより細かく管理できます。ユーザーが Organization 内のコードとデータに誰がどのようにアクセスするかを、より厳密に制御できます。",
+  "Base permissions to the organization's repositories apply to all members and excludes outside collaborators. Since organization members can have permissions from multiple sources, members and collaborators who have been granted a higher level of access than the base permissions will retain their higher permission privileges.": "組織のリポジトリへのベース権限はすべてのメンバーに適用され、外部コラボレーターは対象外です。メンバーは複数のソースから権限を持てるため、ベース権限より高いアクセス権が付与されているメンバーとコラボレーターは、その高い権限を維持します。",
+  "Base permissions to the organization\u2019s repositories apply to all members and excludes outside collaborators. Since organization members can have permissions from multiple sources, members and collaborators who have been granted a higher level of access than the base permissions will retain their higher permission privileges.": "組織のリポジトリへのベース権限はすべてのメンバーに適用され、外部コラボレーターは対象外です。メンバーは複数のソースから権限を持てるため、ベース権限より高いアクセス権が付与されているメンバーとコラボレーターは、その高い権限を維持します。",
+  "Members will be able to create only selected repository types. Outside collaborators can never create repositories.": "メンバーは選択した種類のリポジトリのみ作成できます。外部コラボレーターはリポジトリを作成できません。",
+  "Members will be able to create private repositories, visible to organization members with permission.": "メンバーは、権限のある組織のメンバーにのみ表示される非公開リポジトリを作成できます。",
+  "Projects created by members will default to the selected role below.": "メンバーが作成するプロジェクトは、下で選択したロールがデフォルトになります。",
+  "Members will be able to publish sites with only the selected access controls.": "メンバーは、選択したアクセス制御のみでサイトを公開できます。",
   Mannequins: "マネキン",
   "Attribution Invitations": "アトリビューション招待",
   "Repository creation": "リポジトリ作成",
@@ -1481,16 +1245,11 @@ var GHT_LOCALE_DICTIONARY = {
   "Project creation": "プロジェクト作成",
   "Package creation": "パッケージ作成",
   "Discussion creation": "ディスカッション作成",
-  "Allow members to create repositories":
-    "メンバーによるリポジトリ作成を許可",
-  "Allow forking of private repositories":
-    "非公開リポジトリの Fork を許可",
-  "Allow members to change repository visibilities for this organization":
-    "メンバーによるリポジトリ公開範囲の変更を許可",
-  "Allow members to publish GitHub Pages sites":
-    "メンバーによる GitHub Pages サイトの公開を許可",
-  "Require two-factor authentication for everyone in the organization":
-    "組織の全員に二要素認証を必須にする",
+  "Allow members to create repositories": "メンバーによるリポジトリ作成を許可",
+  "Allow forking of private repositories": "非公開リポジトリの Fork を許可",
+  "Allow members to change repository visibilities for this organization": "メンバーによるリポジトリ公開範囲の変更を許可",
+  "Allow members to publish GitHub Pages sites": "メンバーによる GitHub Pages サイトの公開を許可",
+  "Require two-factor authentication for everyone in the organization": "組織の全員に二要素認証を必須にする",
   "SAML single sign-on": "SAML シングルサインオン",
   "IP allow list": "IP 許可リスト",
   "Network configurations": "ネットワーク設定",
@@ -1498,83 +1257,48 @@ var GHT_LOCALE_DICTIONARY = {
   "Add a domain": "ドメインを追加",
   "Can't verify this domain?": "このドメインを検証できませんか？",
   "Approve it instead": "代わりに承認する",
-  "Verified & approved domains for your enterprise account":
-    "Enterprise アカウントの検証・承認済みドメイン",
+  "Verified & approved domains for your enterprise account": "Enterprise アカウントの検証・承認済みドメイン",
   "Transferring organization ownership": "組織の所有権を移譲",
   "Announcement banner": "お知らせバナー",
   "Default branch name": "デフォルトブランチ名",
   "Commit signoff policy": "コミット署名ポリシー",
   "GitHub Customer Agreement": "GitHub Customer Agreement",
-  "Setting permissions for deleting or transferring repositories":
-    "リポジトリの削除・移譲権限の設定",
-  "Allow members to delete or transfer repositories for this organization":
-    "メンバーによるリポジトリの削除・移譲を許可",
-  "Allow repository admins to rename branches targeted by organization rulesets":
-    "組織のルールセット対象ブランチの名前変更をリポジトリ管理者に許可",
-  "Managing discussion creation for repositories in your organization":
-    "組織内リポジトリのディスカッション作成を管理",
-  "Managing the publication of GitHub Pages sites for your organization":
-    "組織内 GitHub Pages サイトの公開を管理",
-  "Managing updates from accounts your organization sponsors":
-    "スポンサー先アカウントからの更新を管理",
-  "Creating rulesets for repositories in your organization":
-    "組織内リポジトリ向けルールセットを作成",
-  "Managing rulesets for repositories in your organization":
-    "組織内リポジトリのルールセットを管理",
-  "Managing custom properties for repositories in your organization":
-    "組織内リポジトリのカスタムプロパティを管理",
+  "Setting permissions for deleting or transferring repositories": "リポジトリの削除・移譲権限の設定",
+  "Allow members to delete or transfer repositories for this organization": "メンバーによるリポジトリの削除・移譲を許可",
+  "Allow repository admins to rename branches targeted by organization rulesets": "組織のルールセット対象ブランチの名前変更をリポジトリ管理者に許可",
+  "Managing discussion creation for repositories in your organization": "組織内リポジトリのディスカッション作成を管理",
+  "Managing the publication of GitHub Pages sites for your organization": "組織内 GitHub Pages サイトの公開を管理",
+  "Managing updates from accounts your organization sponsors": "スポンサー先アカウントからの更新を管理",
+  "Creating rulesets for repositories in your organization": "組織内リポジトリ向けルールセットを作成",
+  "Managing rulesets for repositories in your organization": "組織内リポジトリのルールセットを管理",
+  "Managing custom properties for repositories in your organization": "組織内リポジトリのカスタムプロパティを管理",
   "Archiving an organization": "組織をアーカイブ",
   "Deleting an organization account": "組織のアカウントを削除",
-  "Disabling projects in your organization":
-    "組織内プロジェクトを無効化",
-  "Managing base permissions for projects":
-    "プロジェクトのベース権限を管理",
-  "Allow project visibility changes in your organization":
-    "組織内のプロジェクト公開範囲変更を許可",
-  "Restricting deploy keys in your organization":
-    "組織内のデプロイキーを制限",
-  "Allow people to delete issues in your organization":
-    "組織内で課題の削除を許可",
-  "Managing commit comments for your organization":
-    "組織内のコミットコメントを管理",
-  "Managing the display of member names in your organization":
-    "組織内のメンバー名表示を管理",
-  "Managing scheduled reminders for your organization":
-    "組織内の定期リマインダーを管理",
-  "Managing the default branch name for repositories in your organization":
-    "組織内リポジトリのデフォルトブランチ名を管理",
-  "Managing default labels for repositories in your organization":
-    "組織内リポジトリのデフォルトラベルを管理",
-  "Changing the visibility of your organization's dependency insights":
-    "組織の依存関係インサイトの公開範囲を変更",
-  "Setting team creation permissions in your organization":
-    "組織内のチーム作成権限を設定",
-  "Setting permissions for adding outside collaborators":
-    "外部コラボレーター追加権限を設定",
-  "Configuring the retention period for GitHub Actions artifacts and logs in your organization":
-    "組織内の Actions アーティファクトとログの保持期間を設定",
-  "Disabling or limiting GitHub Actions for your organization":
-    "組織内の GitHub Actions を無効化または制限",
-  "Restricting repository creation in your organization":
-    "組織内のリポジトリ作成を制限",
-  "Restricting repository visibility changes in your organization":
-    "組織内のリポジトリ公開範囲変更を制限",
-  "Managing the forking policy for your organization":
-    "組織内の Fork ポリシーを管理",
-  "Managing pull request reviews in your organization":
-    "組織内のプルリクエストレビューを管理",
-  "Governing how people use repositories in your organization":
-    "組織内でのリポジトリ利用を管理",
-  "Enabling or disabling GitHub Discussions for an organization":
-    "組織内の GitHub Discussions を有効化または無効化",
-  "Upgrading to the GitHub Customer Agreement":
-    "GitHub Customer Agreement へアップグレード",
-  "Converting an organization into a user":
-    "組織をユーザーアカウントに変換",
+  "Disabling projects in your organization": "組織内プロジェクトを無効化",
+  "Managing base permissions for projects": "プロジェクトのベース権限を管理",
+  "Allow project visibility changes in your organization": "組織内のプロジェクト公開範囲変更を許可",
+  "Restricting deploy keys in your organization": "組織内のデプロイキーを制限",
+  "Allow people to delete issues in your organization": "組織内で課題の削除を許可",
+  "Managing commit comments for your organization": "組織内のコミットコメントを管理",
+  "Managing the display of member names in your organization": "組織内のメンバー名表示を管理",
+  "Managing scheduled reminders for your organization": "組織内の定期リマインダーを管理",
+  "Managing the default branch name for repositories in your organization": "組織内リポジトリのデフォルトブランチ名を管理",
+  "Managing default labels for repositories in your organization": "組織内リポジトリのデフォルトラベルを管理",
+  "Changing the visibility of your organization's dependency insights": "組織の依存関係インサイトの公開範囲を変更",
+  "Setting team creation permissions in your organization": "組織内のチーム作成権限を設定",
+  "Setting permissions for adding outside collaborators": "外部コラボレーター追加権限を設定",
+  "Configuring the retention period for GitHub Actions artifacts and logs in your organization": "組織内の Actions アーティファクトとログの保持期間を設定",
+  "Disabling or limiting GitHub Actions for your organization": "組織内の GitHub Actions を無効化または制限",
+  "Restricting repository creation in your organization": "組織内のリポジトリ作成を制限",
+  "Restricting repository visibility changes in your organization": "組織内のリポジトリ公開範囲変更を制限",
+  "Managing the forking policy for your organization": "組織内の Fork ポリシーを管理",
+  "Managing pull request reviews in your organization": "組織内のプルリクエストレビューを管理",
+  "Governing how people use repositories in your organization": "組織内でのリポジトリ利用を管理",
+  "Enabling or disabling GitHub Discussions for an organization": "組織内の GitHub Discussions を有効化または無効化",
+  "Upgrading to the GitHub Customer Agreement": "GitHub Customer Agreement へアップグレード",
+  "Converting an organization into a user": "組織をユーザーアカウントに変換",
   "Renaming an organization": "組織名を変更",
-  "Verifying or approving a domain for your organization":
-    "組織のドメインを検証または承認",
-
+  "Verifying or approving a domain for your organization": "組織のドメインを検証または承認",
   "Ask Copilot": "Copilot に聞く",
   "Open Copilot Chat": "Copilot Chat を開く",
   "New conversation": "新しい会話",
@@ -1589,132 +1313,86 @@ var GHT_LOCALE_DICTIONARY = {
   "Copilot usage": "Copilot の利用状況",
   "Copilot generation": "Copilot による生成",
   "IDE code generation": "IDE コード生成",
-
   "Copilot Code review": "Copilot コードレビュー",
-  "With Copilot code review, you can add Copilot as a reviewer to your pull requests, including drafts. You can also select lines in Visual Studio Code and ask Copilot to review and comment on specific sections.":
-    "Copilot コードレビューでは、下書きを含むプルリクエストに Copilot をレビュアーとして追加できます。VS Code で行を選び、特定箇所のレビューやコメントを依頼することもできます。",
-  "Learn more about Copilot code reviews.":
-    "Copilot コードレビューについて詳しく見る。",
+  "With Copilot code review, you can add Copilot as a reviewer to your pull requests, including drafts. You can also select lines in Visual Studio Code and ask Copilot to review and comment on specific sections.": "Copilot コードレビューでは、下書きを含むプルリクエストに Copilot をレビュアーとして追加できます。VS Code で行を選び、特定箇所のレビューやコメントを依頼することもできます。",
+  "Learn more about Copilot code reviews.": "Copilot コードレビューについて詳しく見る。",
   "General settings": "一般設定",
-  "Use custom instructions when reviewing pull requests":
-    "プルリクエストのレビュー時にカスタム指示を使う",
+  "Use custom instructions when reviewing pull requests": "プルリクエストのレビュー時にカスタム指示を使う",
   "repository custom instructions": "リポジトリのカスタム指示",
   "when reviewing pull requests.": "を参照してレビューします。",
-  "Allow Copilot to use MCP tools when reviewing pull requests":
-    "プルリクエストのレビュー時に Copilot が MCP ツールを使えるようにする",
-  "When enabled, Copilot can call MCP tools configured in":
-    "有効にすると、Copilot は次で設定した MCP ツールを呼び出せます:",
+  "Allow Copilot to use MCP tools when reviewing pull requests": "プルリクエストのレビュー時に Copilot が MCP ツールを使えるようにする",
+  "When enabled, Copilot can call MCP tools configured in": "有効にすると、Copilot は次で設定した MCP ツールを呼び出せます:",
   "Cloud agent settings": "クラウドエージェント設定",
   "during code reviews.": "（コードレビュー中）。",
   "Review effort level": "レビューの深さ",
-  "Controls the depth of analysis when Copilot reviews pull requests.":
-    "Copilot がプルリクエストをレビューするときの分析の深さを制御します。",
+  "Controls the depth of analysis when Copilot reviews pull requests.": "Copilot がプルリクエストをレビューするときの分析の深さを制御します。",
   "Organization default (Lite)": "組織のデフォルト（Lite）",
-  "Manage Copilot code review automations":
-    "Copilot コードレビューの自動化を管理",
-  "Use rulesets to automatically request reviews and more.":
-    "ルールセットでレビュー依頼などを自動化できます。",
+  "Manage Copilot code review automations": "Copilot コードレビューの自動化を管理",
+  "Use rulesets to automatically request reviews and more.": "ルールセットでレビュー依頼などを自動化できます。",
   "Learn how to set up rulesets.": "ルールセットの設定方法を見る。",
   "No rulesets": "ルールセットはありません",
   "View all rulesets": "すべてのルールセットを見る",
   "Automate Copilot code reviews": "Copilot コードレビューを自動化",
-  "Create ruleset for default branch":
-    "デフォルトブランチ用のルールセットを作成",
-
+  "Create ruleset for default branch": "デフォルトブランチ用のルールセットを作成",
   "Copilot cloud agent": "Copilot クラウドエージェント",
-  "Learn more about Copilot cloud agent":
-    "Copilot クラウドエージェントについて詳しく見る",
-  "No Copilot cloud agent access":
-    "Copilot クラウドエージェントへのアクセスがありません",
-  "You can configure Copilot cloud agent for other users with access to this repository, but you won't be able to assign tasks to Copilot because you don't have a Copilot Pro, Copilot Pro+, Copilot Business or Copilot Enterprise license.":
-    "このリポジトリにアクセスできる他ユーザー向けに設定はできますが、Copilot Pro / Pro+ / Business / Enterprise ライセンスがないため、自分はタスクを割り当てられません。",
+  "Learn more about Copilot cloud agent": "Copilot クラウドエージェントについて詳しく見る",
+  "No Copilot cloud agent access": "Copilot クラウドエージェントへのアクセスがありません",
+  "You can configure Copilot cloud agent for other users with access to this repository, but you won't be able to assign tasks to Copilot because you don't have a Copilot Pro, Copilot Pro+, Copilot Business or Copilot Enterprise license.": "このリポジトリにアクセスできる他ユーザー向けに設定はできますが、Copilot Pro / Pro+ / Business / Enterprise ライセンスがないため、自分はタスクを割り当てられません。",
   "Require approval for workflow runs": "ワークフロー実行に承認を必須にする",
-  "When Copilot pushes changes, require approval from a maintainer with write access before Actions workflows are run. When this policy is disabled, Actions workflows run automatically when Copilot pushes, except when the push comes from an automation.":
-    "Copilot が変更を push したとき、Actions ワークフロー実行前に書き込み権限のあるメンテナーの承認を必須にします。無効にすると、自動化からの push を除き、Copilot の push でワークフローが自動実行されます。",
-  "Allowing GitHub Actions workflows to run without approval may allow unreviewed code written by Copilot to gain write access to your repository or access your GitHub Actions secrets.":
-    "承認なしで Actions を実行すると、未レビューの Copilot 生成コードがリポジトリへの書き込み権限やシークレットへアクセスする恐れがあります。",
+  "When Copilot pushes changes, require approval from a maintainer with write access before Actions workflows are run. When this policy is disabled, Actions workflows run automatically when Copilot pushes, except when the push comes from an automation.": "Copilot が変更を push したとき、Actions ワークフロー実行前に書き込み権限のあるメンテナーの承認を必須にします。無効にすると、自動化からの push を除き、Copilot の push でワークフローが自動実行されます。",
+  "Allowing GitHub Actions workflows to run without approval may allow unreviewed code written by Copilot to gain write access to your repository or access your GitHub Actions secrets.": "承認なしで Actions を実行すると、未レビューの Copilot 生成コードがリポジトリへの書き込み権限やシークレットへアクセスする恐れがあります。",
   "Allow automations": "自動化を許可",
-  "When enabled, users with write access can create automations that automatically run agents on a schedule or in response to events like new issues or updated pull requests.":
-    "有効にすると、書き込み権限のあるユーザーが、スケジュールや新しい課題・更新された PR などのイベントに応じてエージェントを動かす自動化を作成できます。",
-  "Only allow automations to be triggered by users with write access":
-    "書き込み権限のあるユーザーによるトリガーのみ許可",
-  "When enabled, automations will only run if the user triggering the event has write access to the repository. When disabled, users can create automations that listen for events triggered by users without write access.":
-    "有効にすると、イベントを起こしたユーザーに書き込み権限がある場合のみ自動化が動きます。無効にすると、書き込み権限のないユーザーのイベントも監視できます。",
-  "Allowing automations to be triggered by users without write access to the repository increases risk of prompt injection attacks, where an untrusted user can cause an agent to take actions in the repository using the agent's permissions.":
-    "書き込み権限のないユーザーのイベントで自動化を動かすと、プロンプトインジェクションのリスクが高まります。信頼できないユーザーがエージェントの権限でリポジトリ操作を起こせる場合があります。",
+  "When enabled, users with write access can create automations that automatically run agents on a schedule or in response to events like new issues or updated pull requests.": "有効にすると、書き込み権限のあるユーザーが、スケジュールや新しい課題・更新された PR などのイベントに応じてエージェントを動かす自動化を作成できます。",
+  "Only allow automations to be triggered by users with write access": "書き込み権限のあるユーザーによるトリガーのみ許可",
+  "When enabled, automations will only run if the user triggering the event has write access to the repository. When disabled, users can create automations that listen for events triggered by users without write access.": "有効にすると、イベントを起こしたユーザーに書き込み権限がある場合のみ自動化が動きます。無効にすると、書き込み権限のないユーザーのイベントも監視できます。",
+  "Allowing automations to be triggered by users without write access to the repository increases risk of prompt injection attacks, where an untrusted user can cause an agent to take actions in the repository using the agent's permissions.": "書き込み権限のないユーザーのイベントで自動化を動かすと、プロンプトインジェクションのリスクが高まります。信頼できないユーザーがエージェントの権限でリポジトリ操作を起こせる場合があります。",
   Enabled: "有効",
   "Locked by your organization": "組織によりロックされています",
   "Validation tools": "検証ツール",
-  "Configure which tools Copilot cloud agent uses to validate its work and iterate before requesting human review.":
-    "人間のレビューを求める前に、Copilot クラウドエージェントが成果を検証・改善するために使うツールを設定します。",
+  "Configure which tools Copilot cloud agent uses to validate its work and iterate before requesting human review.": "人間のレビューを求める前に、Copilot クラウドエージェントが成果を検証・改善するために使うツールを設定します。",
   "CodeQL code scanning": "CodeQL コードスキャン",
-  "Use CodeQL to scan for security vulnerabilities.":
-    "CodeQL でセキュリティ脆弱性をスキャンします。",
+  "Use CodeQL to scan for security vulnerabilities.": "CodeQL でセキュリティ脆弱性をスキャンします。",
   "Copilot code review": "Copilot コードレビュー",
-  "Use Copilot code review to identify code quality issues.":
-    "Copilot コードレビューでコード品質の問題を検出します。",
-  "Scan for accidentally committed secrets and credentials.":
-    "誤ってコミットされたシークレットや認証情報をスキャンします。",
+  "Use Copilot code review to identify code quality issues.": "Copilot コードレビューでコード品質の問題を検出します。",
+  "Scan for accidentally committed secrets and credentials.": "誤ってコミットされたシークレットや認証情報をスキャンします。",
   "Dependency vulnerability checks": "依存関係の脆弱性チェック",
-  "Check new dependencies against the GitHub Advisory Database for known vulnerabilities.":
-    "新しい依存関係を GitHub Advisory Database と照合し、既知の脆弱性を確認します。",
-
+  "Check new dependencies against the GitHub Advisory Database for known vulnerabilities.": "新しい依存関係を GitHub Advisory Database と照合し、既知の脆弱性を確認します。",
   "Internet access": "インターネットアクセス",
-  "Ensure that Copilot cloud agent only accesses approved network resources while working on tasks.":
-    "タスク実行中、Copilot クラウドエージェントが承認済みのネットワークリソースにだけアクセスするようにします。",
-  "Ensure that Copilot code review only accesses approved network resources while reviewing changes.":
-    "変更のレビュー中、Copilot コードレビューが承認済みのネットワークリソースにだけアクセスするようにします。",
-  "Learn more about customizing network access.":
-    "ネットワークアクセスのカスタマイズについて詳しく見る。",
+  "Ensure that Copilot cloud agent only accesses approved network resources while working on tasks.": "タスク実行中、Copilot クラウドエージェントが承認済みのネットワークリソースにだけアクセスするようにします。",
+  "Ensure that Copilot code review only accesses approved network resources while reviewing changes.": "変更のレビュー中、Copilot コードレビューが承認済みのネットワークリソースにだけアクセスするようにします。",
+  "Learn more about customizing network access.": "ネットワークアクセスのカスタマイズについて詳しく見る。",
   "Enable firewall": "ファイアウォールを有効化",
   Recommended: "推奨",
-  "Limit Copilot cloud agent’s Internet access to only allow access to allowlisted locations":
-    "Copilot クラウドエージェントのインターネットアクセスを、許可リスト上の場所のみに制限します",
-  "Limit Copilot code review’s Internet access to only allow access to allowlisted locations":
-    "Copilot コードレビューのインターネットアクセスを、許可リスト上の場所のみに制限します",
+  "Limit Copilot cloud agent’s Internet access to only allow access to allowlisted locations": "Copilot クラウドエージェントのインターネットアクセスを、許可リスト上の場所のみに制限します",
+  "Limit Copilot code review’s Internet access to only allow access to allowlisted locations": "Copilot コードレビューのインターネットアクセスを、許可リスト上の場所のみに制限します",
   "Recommended allowlist": "推奨の許可リスト",
-  "Allow access to locations frequently used to install tools, packages, and dependencies.":
-    "ツール・パッケージ・依存関係のインストールによく使われる場所へのアクセスを許可します。",
+  "Allow access to locations frequently used to install tools, packages, and dependencies.": "ツール・パッケージ・依存関係のインストールによく使われる場所へのアクセスを許可します。",
   "Custom allowlist": "カスタム許可リスト",
-  "Allow access to specific domains, IP addresses, or URLs.":
-    "特定のドメイン、IP アドレス、URL へのアクセスを許可します。",
-  "The firewall will not be enforced on self-hosted runners.":
-    "セルフホストランナーではファイアウォールは適用されません。",
-
+  "Allow access to specific domains, IP addresses, or URLs.": "特定のドメイン、IP アドレス、URL へのアクセスを許可します。",
+  "The firewall will not be enforced on self-hosted runners.": "セルフホストランナーではファイアウォールは適用されません。",
   "MCP servers": "MCP サーバー",
   Planning: "プランニング",
   "Model Context Protocol (MCP)": "Model Context Protocol（MCP）",
   "Supported agents": "対応エージェント",
-  "This MCP configuration applies to Copilot cloud agent and Copilot code review. IDEs and Copilot CLI use their own MCP configuration.":
-    "この MCP 設定は Copilot クラウドエージェントと Copilot コードレビューに適用されます。IDE と Copilot CLI はそれぞれ独自の MCP 設定を使います。",
-  "Learn more about configuring MCP servers.":
-    "MCP サーバーの設定について詳しく見る。",
+  "This MCP configuration applies to Copilot cloud agent and Copilot code review. IDEs and Copilot CLI use their own MCP configuration.": "この MCP 設定は Copilot クラウドエージェントと Copilot コードレビューに適用されます。IDE と Copilot CLI はそれぞれ独自の MCP 設定を使います。",
+  "Learn more about configuring MCP servers.": "MCP サーバーの設定について詳しく見る。",
   "MCP configuration": "MCP 設定",
-  "Your configuration will be validated on save.":
-    "保存時に設定が検証されます。",
+  "Your configuration will be validated on save.": "保存時に設定が検証されます。",
   "Save MCP configuration": "MCP 設定を保存",
-
   "OIDC configuration": "OIDC 設定",
-  "Customize claims included in the OIDC token.":
-    "OIDC トークンに含めるクレームをカスタマイズします。",
+  "Customize claims included in the OIDC token.": "OIDC トークンに含めるクレームをカスタマイズします。",
   "Learn more about OIDC tokens.": "OIDC トークンについて詳しく見る。",
   "Subject claim": "サブジェクトクレーム",
-  "Customize the subject (sub) claim in the OIDC token, used to identify the workflow run context.":
-    "ワークフロー実行コンテキストを識別する OIDC トークンの subject（sub）クレームをカスタマイズします。",
+  "Customize the subject (sub) claim in the OIDC token, used to identify the workflow run context.": "ワークフロー実行コンテキストを識別する OIDC トークンの subject（sub）クレームをカスタマイズします。",
   "Use default template": "デフォルトテンプレートを使う",
-  "When selected, use upstream template for the subject claim. Unselect to set a custom template.":
-    "選択すると、subject クレームに上流のテンプレートを使います。外すとカスタムテンプレートを設定できます。",
+  "When selected, use upstream template for the subject claim. Unselect to set a custom template.": "選択すると、subject クレームに上流のテンプレートを使います。外すとカスタムテンプレートを設定できます。",
   "Use immutable subject claim": "不変の subject クレームを使う",
-  "Automatically enabled for this repository. Repositories created or renamed after July 15, 2026 use immutable subject claims.":
-    "このリポジトリでは自動的に有効です。2026 年 7 月 15 日以降に作成または改名されたリポジトリは不変の subject クレームを使います。",
-  "Learn more about immutable subject claims.":
-    "不変の subject クレームについて詳しく見る。",
+  "Automatically enabled for this repository. Repositories created or renamed after July 15, 2026 use immutable subject claims.": "このリポジトリでは自動的に有効です。2026 年 7 月 15 日以降に作成または改名されたリポジトリは不変の subject クレームを使います。",
+  "Learn more about immutable subject claims.": "不変の subject クレームについて詳しく見る。",
   "Default subject claim prefix": "デフォルトの subject クレーム接頭辞",
   "Copy subject claim prefix": "subject クレーム接頭辞をコピー",
-  "Use this prefix when configuring trust policies in your cloud provider.":
-    "クラウドプロバイダーで信頼ポリシーを設定するときに、この接頭辞を使います。",
+  "Use this prefix when configuring trust policies in your cloud provider.": "クラウドプロバイダーで信頼ポリシーを設定するときに、この接頭辞を使います。",
   "Save subject claim": "subject クレームを保存",
-
   Apply: "適用",
   Continue: "続ける",
   Confirm: "確認・実行する",
@@ -1808,13 +1486,11 @@ var GHT_LOCALE_DICTIONARY = {
   "This week": "今週",
   "This month": "今月",
   "Last month": "先月",
-
   "All gists": "すべての gist",
   "Create gist": "gist を作成",
   Secret: "シークレット",
   "Create secret gist": "シークレット gist を作成",
   "Create public gist": "公開 gist を作成",
-
   "Apps": "アプリ",
   "Models": "モデル",
   "Chat": "チャット",
@@ -1837,7 +1513,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Dependency management": "依存関係の管理",
   "Testing": "テスト",
   "Utilities": "ユーティリティ",
-
   Menu: "メニュー",
   "Main menu": "メインメニュー",
   "User menu": "ユーザーメニュー",
@@ -1874,28 +1549,21 @@ var GHT_LOCALE_DICTIONARY = {
   "Import": "インポート",
   "Participating and @mentions": "参加中と @メンション",
   "All activity": "すべてのアクティビティ",
-
   Runners: "ランナー",
   "There are no runners configured": "ランナーは設定されていません",
   OIDC: "OIDC",
   "Agent suggestions for issues": "課題のエージェント提案",
-  "An agent analyzes incoming issues and recommends labels, priority, assignees, and other metadata.":
-    "エージェントが受信した課題を分析し、ラベル、優先度、担当者などのメタデータを提案します。",
+  "An agent analyzes incoming issues and recommends labels, priority, assignees, and other metadata.": "エージェントが受信した課題を分析し、ラベル、優先度、担当者などのメタデータを提案します。",
   "Automation level": "自動化レベル",
-  "Set how much control the agent has to apply changes":
-    "エージェントが変更を適用する権限の度合いを設定します",
+  "Set how much control the agent has to apply changes": "エージェントが変更を適用する権限の度合いを設定します",
   "Full control": "完全な制御",
-  "Every suggestion is held for your review. Nothing is applied automatically.":
-    "すべての提案はレビュー待ちになります。自動適用はありません。",
+  "Every suggestion is held for your review. Nothing is applied automatically.": "すべての提案はレビュー待ちになります。自動適用はありません。",
   Cautious: "慎重",
-  "Only high confidence changes are applied automatically. Everything else is held for your review.":
-    "確信度の高い変更だけ自動適用し、それ以外はレビュー待ちにします。",
+  "Only high confidence changes are applied automatically. Everything else is held for your review.": "確信度の高い変更だけ自動適用し、それ以外はレビュー待ちにします。",
   Balanced: "バランス",
-  "Routine, clear-cut changes are applied automatically. Anything with ambiguity is held for review.":
-    "明確な定型変更は自動適用し、曖昧なものはレビュー待ちにします。",
+  "Routine, clear-cut changes are applied automatically. Anything with ambiguity is held for review.": "明確な定型変更は自動適用し、曖昧なものはレビュー待ちにします。",
   "Full automation": "完全自動化",
-  "Every change is applied automatically. The agent only holds a change back if it's flagged as uncertain.":
-    "すべての変更を自動適用します。不確実と判定された場合のみレビュー待ちにします。",
+  "Every change is applied automatically. The agent only holds a change back if it's flagged as uncertain.": "すべての変更を自動適用します。不確実と判定された場合のみレビュー待ちにします。",
   "Advanced Security": "高度なセキュリティ",
   "Assigned to me": "自分に割り当て",
   Assigned: "割り当て",
@@ -1907,44 +1575,33 @@ var GHT_LOCALE_DICTIONARY = {
   Views: "ビュー",
   Automations: "自動化",
   "New automation": "新しい自動化",
-  "Set up personal automations that run on a schedule or in response to events like new issues or updated pull requests.":
-    "スケジュールや、新しい課題・更新されたプルリクエストなどのイベントに応じて動く個人用の自動化を設定します。",
-  "Create a new automation to run on a schedule or in response to events like new issues or updated pull requests.":
-    "スケジュールや、新しい課題・更新されたプルリクエストなどのイベントに応じて動く新しい自動化を作成します。",
+  "Set up personal automations that run on a schedule or in response to events like new issues or updated pull requests.": "スケジュールや、新しい課題・更新されたプルリクエストなどのイベントに応じて動く個人用の自動化を設定します。",
+  "Create a new automation to run on a schedule or in response to events like new issues or updated pull requests.": "スケジュールや、新しい課題・更新されたプルリクエストなどのイベントに応じて動く新しい自動化を作成します。",
   "Triage incoming issues": "受信した課題をトリアージ",
-  "Detects spam and duplicates, assesses cloud agent suitability, and applies triage metadata":
-    "スパムや重複を検出し、クラウドエージェントの適性を評価し、トリアージ用のメタデータを付与します",
+  "Detects spam and duplicates, assesses cloud agent suitability, and applies triage metadata": "スパムや重複を検出し、クラウドエージェントの適性を評価し、トリアージ用のメタデータを付与します",
   "Create weekly changelog": "週次の変更履歴を作成",
-  "Creates an issue summarizing merged PRs each week":
-    "毎週、マージされた PR をまとめた課題を作成します",
+  "Creates an issue summarizing merged PRs each week": "毎週、マージされた PR をまとめた課題を作成します",
   "Add test coverage": "テストカバレッジを追加",
-  "Reviews recent changes and adds missing tests where coverage is thin":
-    "最近の変更を確認し、カバレッジが薄い箇所に不足しているテストを追加します",
+  "Reviews recent changes and adds missing tests where coverage is thin": "最近の変更を確認し、カバレッジが薄い箇所に不足しているテストを追加します",
   "Security and quality": "セキュリティと品質",
   "Actions Usage Metrics": "Actions 使用量メトリクス",
   "Actions usage metrics": "Actions 使用量メトリクス",
-  "Total minutes across all workflows in this repository for current month":
-    "今月、このリポジトリの全ワークフローで使われた合計分数",
-  "Total job runs across all workflows in this repository for current month":
-    "今月、このリポジトリの全ワークフローでのジョブ実行合計回数",
+  "Total minutes across all workflows in this repository for current month": "今月、このリポジトリの全ワークフローで使われた合計分数",
+  "Total job runs across all workflows in this repository for current month": "今月、このリポジトリの全ワークフローでのジョブ実行合計回数",
   "Actions Performance Metrics": "Actions パフォーマンスメトリクス",
   "Actions performance metrics": "Actions パフォーマンスメトリクス",
-
   "All issues": "すべての課題",
   "All Issues": "すべての課題",
   "All pull requests": "すべてのプルリクエスト",
   "My issues": "自分の課題",
   "Needs attention": "要対応",
-
   "No sessions match your filters": "フィルターに一致するセッションはありません",
   "Try adjusting your search or filters.": "検索やフィルターを変更してみてください。",
   "No description, website, or topics provided.": "説明、ウェブサイト、トピックは設定されていません。",
   "Code, planning, and automation": "コード、計画、自動化",
   "Prebuild configuration": "プリビルド設定",
-  "There are no prebuilds configured for this repository":
-    "このリポジトリにはプリビルドが設定されていません",
+  "There are no prebuilds configured for this repository": "このリポジトリにはプリビルドが設定されていません",
   "GitHub Pages": "静的サイト",
-
   Edit: "編集",
   Delete: "削除",
   Cancel: "キャンセル",
@@ -1997,7 +1654,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Manage cookies": "Cookie の管理",
   Changelog: "更新履歴",
   "Trust center": "トラストセンター",
-
   "Sorry, something went wrong.": "問題が発生しました。",
   "Please reload this page": "このページを再読み込みしてください",
   "There was an error while loading.": "読み込み中にエラーが発生しました。",
@@ -2009,7 +1665,6 @@ var GHT_LOCALE_DICTIONARY = {
   "You signed out in another tab or window.": "別のタブまたはウィンドウでサインアウトしました。",
   "You switched accounts on another tab or window.": "別のタブまたはウィンドウでアカウントを切り替えました。",
   "to refresh your session.": "してセッションを更新してください。",
-
   Local: "ローカル",
   "Repository files navigation": "リポジトリファイルのナビゲーション",
   "Folders and files": "フォルダーとファイル",
@@ -2059,14 +1714,12 @@ var GHT_LOCALE_DICTIONARY = {
   "Clone this wiki locally": "この Wiki をローカルにクローン",
   "Community standards": "コミュニティ標準",
   "Community Standards": "コミュニティ標準",
-  "Here's how this project compares to recommended community standards.":
-    "このプロジェクトを推奨されるコミュニティ標準と比べた結果です。",
+  "Here's how this project compares to recommended community standards.": "このプロジェクトを推奨されるコミュニティ標準と比べた結果です。",
   Checklist: "チェックリスト",
   Contributing: "コントリビューションガイド",
   "Issue templates": "課題テンプレート",
   "Pull request template": "プルリクエストテンプレート",
-  "Repository admins accept content reports":
-    "リポジトリ管理者がコンテンツの報告を受け付ける",
+  "Repository admins accept content reports": "リポジトリ管理者がコンテンツの報告を受け付ける",
   "Additional community file": "その他のコミュニティファイル",
   "Writing an accessibility statement": "アクセシビリティ方針の書き方",
   Network: "ネットワーク",
@@ -2075,7 +1728,6 @@ var GHT_LOCALE_DICTIONARY = {
   Ecosystem: "エコシステム",
   "Security advisories": "セキュリティアドバイザリ",
   Policy: "ポリシー",
-
   Reopen: "再オープン",
   "Edit title": "タイトルを編集",
   "Close with comment": "コメントしてクローズ",
@@ -2150,7 +1802,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Merging is blocked": "マージがブロックされています",
   "Show all checks": "すべてのチェックを表示",
   "Hide all checks": "すべてのチェックを隠す",
-
   "Suggested workflows": "おすすめのワークフロー",
   "Set up a workflow yourself": "ワークフローを自分で設定",
   "Re-run jobs": "ジョブを再実行",
@@ -2174,7 +1825,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Action required": "対応が必要",
   Successful: "成功",
   Expected: "未報告",
-
   "Add status update": "ステータス更新を追加",
   "Archived items": "アーカイブ済みのアイテム",
   "Field sum": "フィールドの合計",
@@ -2182,14 +1832,12 @@ var GHT_LOCALE_DICTIONARY = {
   "Start a new discussion": "新しいディスカッションを開始",
   Upvote: "賛成",
   "Most helpful": "最も役立つ",
-
   "Mark all as read": "すべて既読にする",
   "Filter notifications": "通知を絞り込み",
   Highlights: "ハイライト",
   "Customize your pins": "ピン留めをカスタマイズ",
   Busy: "取り込み中",
   "Saved replies": "保存済み返信",
-
   "Search syntax tips": "検索構文のヒント",
   "Create saved search": "保存済み検索を作成",
   "Clear search": "検索をクリア",
@@ -2222,7 +1870,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Last 3 months": "過去 3 か月",
   "Archived repositories": "アーカイブ済みリポジトリ",
   "Forks of other forks": "フォークのフォーク",
-
   "Assign to Copilot": "Copilot に割り当て",
   "Agent sessions": "エージェントセッション",
   Spaces: "スペース",
@@ -2230,7 +1877,6 @@ var GHT_LOCALE_DICTIONARY = {
   Ruleset: "ルールセット",
   "Moderation options": "モデレーション設定",
   "Spending limits": "利用上限",
-
   "Authored by me": "自分が作成",
   "Involves me": "自分が関与",
   "Review requests": "レビュー依頼",
@@ -2255,11 +1901,9 @@ var GHT_LOCALE_DICTIONARY = {
   "Delete view": "ビューを削除",
   "Filter pull requests": "プルリクエストを絞り込み",
   "No pull requests": "プルリクエストはありません",
-
   "My contributions": "自分のコントリビューション",
   "My repositories": "自分のリポジトリ",
   "My forks": "自分のフォーク",
-
   "Newest to oldest": "新しい順",
   "Oldest to newest": "古い順",
   "Group by:": "グループ化:",
@@ -2282,17 +1926,14 @@ var GHT_LOCALE_DICTIONARY = {
   "Sort direction": "並び順の向き",
   "Order by": "並び替え基準",
   "Order by:": "並び替え基準:",
-
   "Ask Copilot…": "Copilot に質問…",
   "Ask Copilot...": "Copilot に質問...",
   "In immersive chat": "没入型チャットで",
   "In a space": "スペースで",
-
   "MCP Registry": "MCP レジストリ",
   "MCP registry": "MCP レジストリ",
   "Connect models to the real world": "モデルを現実世界とつなぐ",
-  "Servers and tools from the community that connect models to files, APIs, databases, and more.":
-    "モデルをファイル・API・データベースなどにつなぐ、コミュニティ製のサーバーとツール。",
+  "Servers and tools from the community that connect models to files, APIs, databases, and more.": "モデルをファイル・API・データベースなどにつなぐ、コミュニティ製のサーバーとツール。",
   "Search MCP registry": "MCP レジストリを検索",
   "Search MCPs": "MCP を検索",
   "All MCP servers": "すべての MCP サーバー",
@@ -2300,12 +1941,10 @@ var GHT_LOCALE_DICTIONARY = {
   "MCP registry pagination": "MCP レジストリのページ送り",
   "Next Page": "次のページ",
   By: "作成者",
-
   "Recently viewed": "最近表示した項目",
   "Recently visited": "最近アクセスした項目",
   "Recent repositories": "最近のリポジトリ",
   "Recent searches": "最近の検索",
-
   Platform: "プラットフォーム",
   Solutions: "ソリューション",
   "Open Source": "オープンソース",
@@ -2390,7 +2029,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Trust Center": "トラストセンター",
   "Learn & Connect": "学ぶ・つながる",
   "Resource center": "リソースセンター",
-
   "AI Code Creation": "AI によるコード作成",
   "AI code creation": "AI によるコード作成",
   "Developer Workflows": "開発ワークフロー",
@@ -2418,7 +2056,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Add-ons": "アドオン",
   "GitHub Copilot app": "GitHub Copilot アプリ",
   "GitHub Advanced Security": "GitHub 高度なセキュリティ",
-
   "Charts and insights": "グラフとインサイト",
   "Stacked pull requests": "スタック型プルリクエスト",
   "Protected branches": "保護されたブランチ",
@@ -2426,7 +2063,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Self-hosted runners": "セルフホストランナー",
   "Workflow templates": "ワークフローテンプレート",
   "Ready to get started?": "始める準備はできましたか？",
-
   "Try GitHub, the complete developer platform": "完全な開発者プラットフォーム GitHub を試す",
   "Start free for 30 days": "30 日間無料で始める",
   "The basics for individuals": "個人向けの基本機能",
@@ -2535,7 +2171,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Students and teachers": "学生と教員",
   Free: "無料",
   Team: "チーム",
-
   "Build together. Ship at any scale.": "ともに作り、どんな規模でもリリース",
   "Move faster. Stay in control.": "すばやく進め、管理も保つ",
   "Govern engineers and agents": "エンジニアとエージェントを統制",
@@ -2544,13 +2179,11 @@ var GHT_LOCALE_DICTIONARY = {
   "Deploy GitHub your way": "自分に合った形で GitHub を導入",
   "Cloud with data residency": "データ保存地域を選べるクラウド",
   "Choosing your plan": "プランの選び方",
-
   Lockfile: "ロックファイル",
   "Usage metrics": "使用状況メトリクス",
   "Performance metrics": "パフォーマンスメトリクス",
   "Export SBOM": "SBOM をエクスポート",
   Manifest: "マニフェスト",
-
   "pages-build-deployment": "Pages のビルドとデプロイ",
   "dependabot-updates": "Dependabot による更新",
   "Dependabot Updates": "Dependabot による更新",
@@ -2558,7 +2191,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Automatic Dependency Submission": "依存関係の自動送信",
   "Copilot coding agent": "Copilot コーディングエージェント",
   "Running Copilot cloud agent": "Copilot クラウドエージェントを実行中",
-
   DevSecOps: "開発・セキュリティ・運用の一体化",
   DevOps: "開発と運用の連携",
   "CI/CD": "継続的インテグレーション／デリバリー",
@@ -2566,7 +2198,6 @@ var GHT_LOCALE_DICTIONARY = {
   SBOMs: "ソフトウェア部品表",
   LDAP: "ディレクトリ認証",
   SCIM: "ID の自動プロビジョニング",
-
   "Reported content": "報告されたコンテンツ",
   "Abuse reports": "不正利用の報告",
   "Temporary interaction limits": "一時的な操作制限",
@@ -2574,13 +2205,8 @@ var GHT_LOCALE_DICTIONARY = {
   "Limit to existing users": "既存のユーザーに限定",
   "Limit to prior contributors": "過去のコントリビューターに限定",
   "Limit to repository collaborators": "リポジトリのコラボレーターに限定",
-
   "Actions policy insights": "Actions ポリシーの分析",
   "Policy insights": "ポリシーの分析",
-
-  // =====================================================================
-  // =====================================================================
-
   "Sync fork": "フォークを同期",
   "Create new repository": "新しいリポジトリを作成",
   "Create repository": "リポジトリを作成",
@@ -2673,7 +2299,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Selected repositories": "選択されたリポジトリ",
   "Select repository": "リポジトリを選択",
   "Trusted repositories": "信頼できるリポジトリ",
-
   "Only receive notifications from this repository when participating or @mentioned.": "参加中または @メンションされた時のみ、このリポジトリから通知を受け取る",
   "Notified of all notifications on this repository.": "このリポジトリのすべての通知を受け取る",
   "Never be notified.": "通知しない",
@@ -2702,7 +2327,6 @@ var GHT_LOCALE_DICTIONARY = {
   "No one will receive notifications.": "誰も通知を受け取りません",
   "If you prefer to receive no notifications, you can opt out of them all.": "通知を受け取りたくない場合は、すべてをオプトアウトできます",
   "Warning notifications for codespace deletions will be enabled": "コードスペース削除の警告通知が有効になります",
-
   "All Activity": "すべてのアクティビティ",
   "(required)": "（必須）",
   "Create": "作成",
@@ -3142,7 +2766,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Set automatically": "自動的に設定",
   "Set manually": "手動で設定",
   "Choose your default region": "デフォルトの地域を選択",
-
   "Security alerts": "セキュリティアラート",
   "Understand the packages this repository depends on and secure its <a>software supply chain</a>.": "このリポジトリが依存するパッケージを理解し、その<a>ソフトウェアサプライチェーン</a>を保護します",
   "Keep your dependencies secure and up-to-date with <a>Dependabot</a>.": "<a>依存関係の自動更新</a>で依存関係を安全かつ最新の状態に保ちます",
@@ -3197,7 +2820,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Enable vulnerability reporting": "脆弱性レポートを有効化",
   "Set up code scanning": "コードスキャンを設定",
   "The host image defines the operating system in which development containers run. These images receive periodic upgrades for security, functionality, and performance. GitHub Codespaces offers early access to beta images to ensure compatibility with existing development container configurations. Any codespace created or resumed after changing this setting will use the specified image configuration.": "ホストイメージは、開発コンテナが実行されるオペレーティングシステムを定義します。これらのイメージは、セキュリティ、機能、パフォーマンスのために定期的にアップグレードされます。GitHub Codespaces は、既存の開発コンテナ構成との互換性を確保するために、ベータイメージへの早期アクセスを提供します。この設定を変更した後に作成または再開されたコードスペースは、指定されたイメージ構成を使用します",
-
   "Configuration": "構成",
   "Additional settings": "追加設定",
   "Checks settings": "チェック設定",
@@ -3238,7 +2860,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Host image version preference": "ホストイメージバージョン設定",
   "Always use the latest stable configuration.": "常に最新の安定構成を使用します",
   "Use a beta image configuration when available. Otherwise, use the latest stable configuration.": "利用可能な場合はベータイメージ構成を使用します。それ以外の場合は、最新の安定構成を使用します",
-
   "Choose visibility": "公開設定を選択",
   "You will have access to the feature": "この機能にアクセスできます",
   "You won't have access to the feature": "この機能にはアクセスできません",
@@ -3281,7 +2902,6 @@ var GHT_LOCALE_DICTIONARY = {
   "You haven't invited any collaborators yet": "まだコラボレーターを招待していません",
   "Limit to users explicitly granted read or higher access": "読み取り以上のアクセスが明示的に付与されたユーザーに限定",
   "Packages permissions": "パッケージ権限",
-
   "Create a branch for this issue": "この課題のブランチを作成",
   "Release label": "リリースラベル",
   "Label release as non-production ready": "リリースを本番環境未対応としてラベル付け",
@@ -3338,7 +2958,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Close Milestone": "マイルストーンをクローズ",
   "There are no open issues in this milestone": "このマイルストーンにはオープン課題がありません",
   "Milestone reached": "マイルストーン達成",
-
   "Branch name": "ブランチ名",
   "Branch source": "ブランチのソース",
   "Open branch with GitHub Desktop": "GitHub Desktop でブランチを開く",
@@ -3395,7 +3014,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Allow repository administrators to rename branches protected by organization rules": "リポジトリ管理者が組織ルールで保護されたブランチの名前を変更できるようにする",
   "Create a branch protection rule": "ブランチ保護ルールを作成",
   "Enforce certain workflows for one or more branches.": "1つ以上のブランチに特定のワークフローを適用します",
-
   "Tag:": "タグ：",
   "Select tag": "タグを選択",
   "Choose an existing tag, or create a new tag when you publish this release.": "既存のタグを選択するか、リリース公開時に新しいタグを作成",
@@ -3420,7 +3038,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Save artifact and log retention setting": "成果物とログ保持設定を保存",
   "Release created, edited, published, unpublished, or deleted.": "リリースが作成、編集、公開、非公開、または削除されました",
   "Artifact metadata": "成果物メタデータ",
-
   "Filter tags": "タグをフィルター",
   "Dashboard Entry Point": "ダッシュボードエントリーポイント",
   "Issues sidebar navigation": "課題サイドバーナビゲーション",
@@ -3455,7 +3072,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Search packages…": "パッケージを検索...",
   "Select sort view": "並べ替え表示を選択",
   "Search deleted packages": "削除されたパッケージを検索",
-
   "Add environments": "環境を追加",
   "Required deployment environments": "必須のデプロイ環境",
   "<a>GitHub Pages</a> is designed to host your personal, organization, or project pages from a GitHub repository.": "<a>GitHub Pages</a> は、GitHub リポジトリから個人、組織、またはプロジェクトのページをホストするように設計されています",
@@ -3478,7 +3094,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Pages site built.": "Pages サイトがビルドされました",
   "'Deploy key' alert email": "'デプロイキー' アラートメール",
   "Pages creation": "Pages 作成",
-
   "Approvals": "承認",
   "Choose a different template": "別のテンプレートを選択",
   "Draft Pull Request": "ドラフトプルリクエスト",
@@ -3622,7 +3237,6 @@ var GHT_LOCALE_DICTIONARY = {
   "To keep projects moving, you can now remind your teams about pull requests they need to review.": "プロジェクトを進め続けるために、チームがレビューする必要があるプルリクエストについてチームにリマインドできるようになりました",
   "Maximum open pull requests per user": "ユーザーあたりの最大オープンプルリクエスト数",
   "Edit and preview changes straight from the browser.": "ブラウザから直接変更を編集およびプレビューします",
-
   "Allow Copilot to approve pull requests": "Copilot がプルリクエストを承認できるようにする",
   "When enabled, Copilot can approve pull requests, and those approvals can count toward merge requirements.": "有効にすると、Copilot がプルリクエストを承認でき、その承認はマージ要件にカウントされます",
   "Upgrade your Copilot plan for higher usage limits, premium models, AI reviews and more.": "Copilot プランをアップグレードして、使用量上限の引き上げ、プレミアムモデル、AI レビューなどを利用",
@@ -3665,7 +3279,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Copilot Editor Context": "Copilot エディターコンテキスト",
   "Copilot Requests": "Copilot リクエスト",
   "Copilot agent settings": "Copilot エージェント設定",
-
   "Disabled by organization policy.": "組織のポリシーにより無効化されています",
   "\"Sponsor\" button is using the <a>organization funding file.</a>": "\"スポンサー\" ボタンは<a>組織の資金提供ファイル</a>を使用しています",
   "You can add a <code>.github/FUNDING.yml</code> file to this repository to override the <a>organization funding file</a>": "このリポジトリに <code>.github/FUNDING.yml</code> ファイルを追加して<a>組織の資金提供ファイル</a>を上書きできます",
@@ -3757,7 +3370,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Use this area to spotlight sponsors. This is the order your sponsors will appear on your profile.": "このエリアを使用してスポンサーを強調表示します。これはスポンサーがプロフィールに表示される順序です",
   "Display featured sponsors": "注目スポンサーを表示",
   "I want to manually add my featured sponsors": "注目スポンサーを手動で追加したい",
-
   "Most reactions": "リアクション数順",
   "More actions": "その他のアクション",
   "Recommended action": "推奨アクション",
@@ -3811,7 +3423,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Validate your code using a CI workflow.": "CI ワークフローを使用してコードを検証します",
   "Runner type": "ランナータイプ",
   "Enable interaction limits for:": "操作制限を有効化：",
-
   "Open in codespace": "コードスペースで開く",
   "Connect to the cloud from your local desktop client. Requires <a>Visual Studio Code</a> with the <a>GitHub Codespaces</a> extension.": "ローカルデスクトップクライアントからクラウドに接続します。<a>GitHub Codespaces</a>拡張機能を備えた<a>Visual Studio Code</a>が必要です",
   "A codespace will suspend after a period of inactivity. You can specify a default idle timeout value, which will apply to all codespaces created after the default is changed. You will be charged for the entire time your codespace is running, even if it is idle. The maximum value is <strong>240</strong> minutes (4 hours).": "コードスペースは一定期間の非アクティビティ後に中断されます。デフォルトのアイドルタイムアウト値を指定でき、デフォルトの変更後に作成されたすべてのコードスペースに適用されます。アイドル状態でも、コードスペースが実行されている時間全体に対して課金されます。最大値は<strong>240</strong>分（4時間）です",
@@ -3839,7 +3450,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Personal Codespaces created for specific repositories can access other repositories I own": "特定のリポジトリ用に作成された個人コードスペースが所有する他のリポジトリにアクセスできます",
   "Your default region will be used to designate compute resources to your codespaces. GitHub can set your region automatically based on your location, or you can set it yourself. Codespaces are deployed to a subset of Azure regions.": "デフォルトの地域は、コードスペースにコンピューティングリソースを指定するために使用されます。GitHub は場所に基づいて地域を自動的に設定できます。または、自分で設定できます。Codespaces は Azure 地域のサブセットにデプロイされます",
   "We will determine the closest available region based on your location (IP address) at codespace creation time.": "コードスペース作成時に場所（IP アドレス）に基づいて最も近い利用可能な地域を決定します",
-
   "Copy Markdown": "Markdown をコピー",
   "No comments available": "コメントはありません",
   "Additional comment filters": "追加のコメントフィルター",
@@ -3867,7 +3477,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Commit comments": "コミットコメント",
   "Styling with Markdown is supported": "Markdown でのスタイリングがサポートされています",
   "Blockquotes": "引用",
-
   "Account switcher": "アカウント切り替え",
   "ORCID provides a persistent identifier - an ORCID iD - that distinguishes you from other researchers. Learn more at <a>ORCID.org</a>.": "ORCID は、他の研究者とあなたを区別する永続的な識別子 - ORCID iD - を提供します。<a>ORCID.org</a> で詳細を確認してください",
   "All of the fields on this page are optional and can be deleted at any time, and by filling them out, you're giving us consent to share this data wherever your user profile appears. Please see our <a>privacy statement</a> to learn more about how we use this information.": "このページのすべてのフィールドはオプションであり、いつでも削除できます。これらに記入することで、ユーザープロフィールが表示される場所でこのデータを共有することに同意したことになります。この情報の使用方法の詳細については、<a>プライバシーに関する声明</a>を参照してください",
@@ -3895,7 +3504,6 @@ var GHT_LOCALE_DICTIONARY = {
   "When you create a new account, it will be marked as inactive. You will be able to mark it active once it has been verified.": "新しいアカウントを作成すると、非アクティブとしてマークされます。検証されると、アクティブとしてマークできます",
   "Delete Stripe Connect account": "Stripe Connect アカウントを削除",
   "Search by username, full name, or email": "ユーザー名、フルネーム、またはメールで検索",
-
   "<a>GitHub Docs</a> has guides, API and webhook references, information about creating GitHub Apps and other resources for building applications that integrate with GitHub. Make sure your contact information is up-to-date below. Thanks for being a member!": "<a>GitHub Docs</a> には、ガイド、API および Webhook リファレンス、GitHub Apps の作成に関する情報、GitHub と統合するアプリケーションを構築するためのその他のリソースがあります。以下の連絡先情報が最新であることを確認してください。メンバーになっていただきありがとうございます！",
   "Events will POST to this URL with a <a>webhook</a>.": "イベントは<a>Webhook</a>を使用してこの URL に POST されます",
   "Set a secret to <a>secure your webhooks</a>.": "<a>Webhook を保護する</a>ためにシークレットを設定します",
@@ -3915,7 +3523,6 @@ var GHT_LOCALE_DICTIONARY = {
   "Oops, there was an error while trying to redeliver this payload.": "おっと、このペイロードを再配信しようとしたときにエラーが発生しました",
   "Yes, redeliver this payload": "はい、このペイロードを再配信します",
   "Webhook": "Webhook",
-
   "Check out our guide to <a>connecting to GitHub using SSH keys</a> or troubleshoot <a>common SSH problems</a>.": "<a>SSH キーを使用して GitHub に接続する</a>ガイドを確認するか、<a>一般的な SSH の問題</a>のトラブルシューティングを行ってください",
   "The URIs to redirect to after a user authorizes your application. You may add up to 10 redirect URIs. Wildcard matching allows tokens to be sent to all subdomains and additional paths of the redirect URI. Only enable this if you are sure you have control over all possible matches. <a>Learn more about secure use of redirect URIs</a>.": "ユーザーがアプリケーションを承認した後にリダイレクトする URI。最大10個のリダイレクト URI を追加できます。ワイルドカードマッチングにより、リダイレクト URI のすべてのサブドメインと追加パスにトークンを送信できます。すべての可能な一致を制御していることが確実な場合にのみ有効にしてください。<a>リダイレクト URI の安全な使用の詳細</a>",
   "This will provide a <code>refresh_token</code> which can be used to request an updated access token when this access token expires.": "これにより、このアクセストークンが期限切れになったときに更新されたアクセストークンを要求するために使用できる <code>refresh_token</code> が提供されます",
@@ -3947,11 +3554,25 @@ var GHT_LOCALE_DICTIONARY = {
   "2FA required": "2FA 必須",
   "Active tokens": "アクティブトークン",
   "The following repositories will be referenced by GPG verification and Settings Sync.": "次のリポジトリは GPG 検証と Settings Sync によって参照されます",
-
   "Authorized OAuth apps": "承認済み OAuth アプリ",
   "Authorized GitHub Apps": "承認済み GitHub Apps",
   "GitHub App": "GitHub App",
   "Authorized OAuth Apps": "承認済み OAuth Apps",
   "Suspend your installation": "インストールを中断",
-  "Automatically install dotfiles": "dotfiles を自動的にインストール"
+  "Automatically install dotfiles": "dotfiles を自動的にインストール",
+  "Filter by who's assigned": "担当者でフィルター",
+  "The default branch is considered the \"base\" branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.": "デフォルトブランチは、別のブランチを指定しない限り、すべてのプルリクエストとコードコミットが自動的に行われる、リポジトリの \"ベース\" ブランチと見なされます",
+  "Enabling this setting will require contributors to sign off on commits made through GitHub's web interface. Signing off is a way for contributors to affirm that their commit complies with the repository's terms, commonly the <a>Developer Certificate of Origin (DCO)</a>. <a>Learn more about signing off on commits</a>.": "この設定を有効にすると、GitHub のウェブインターフェイスを通じて行われたコミットにコントリビューターがサインオフする必要があります。サインオフは、コントリビューターが自分のコミットがリポジトリの条件（一般的には<a>Developer Certificate of Origin (DCO)</a>）に準拠していることを確認する方法です。<a>コミットへのサインオフの詳細</a>",
+  "This action <strong>CANNOT</strong> be undone. This will permanently delete the SSH key and if you'd like to use it in the future, you will need to upload it again.": "このアクションは<strong>元に戻せません</strong>。これにより SSH キーが完全に削除され、今後使用したい場合は再度アップロードする必要があります",
+  "This action <strong>cannot</strong> be undone. This will permanently delete the GPG key, and if you'd like to use it in the future, you will need to upload it again.": "このアクションは<strong>元に戻せません</strong>。これにより GPG キーが完全に削除され、今後使用したい場合は再度アップロードする必要があります",
+  "Choose the default branch for new repositories in this organization. You might want to change the default name due to different workflows, or because your integrations still require \"master\" as the default branch name. You can always change the default branch name on individual repositories. <a>Learn more about default branches.</a>": "この組織の新しいリポジトリのデフォルトブランチを選択します。ワークフローが異なるため、または統合で「master」をデフォルトブランチ名として必要とするために、デフォルト名を変更したい場合があります。個々のリポジトリのデフォルトブランチ名はいつでも変更できます。<a>デフォルトブランチの詳細</a>",
+  "By enabling Codespaces, you agree to GitHub's <a>additional products and features terms</a> and approve of these terms on behalf of your organization.": "Codespaces を有効にすることにより、GitHub の<a>追加製品および機能の条件</a>に同意し、組織を代表してこれらの条件を承認します",
+  "The AI powered pair programmer for your organization. Once you complete onboarding, you'll have the ability to manage policies and control which users or teams will have access to <a>GitHub Copilot</a> inside your organization.": "組織向けの AI を搭載したペアプログラマー。オンボーディングを完了すると、ポリシーを管理し、組織内で<a>GitHub Copilot</a>にアクセスできるユーザーまたはチームを制御できます",
+  "What's this token for?": "このトークンは何のためですか？",
+  "Choose the default branch for your new personal repositories. You might want to change the default name due to different workflows, or because your integrations still require \"master\" as the default branch name. You can always change the default branch name on individual repositories.": "新しい個人リポジトリのデフォルトブランチを選択します。ワークフローが異なるため、または統合で「master」をデフォルトブランチ名として必要とするために、デフォルト名を変更したい場合があります。個々のリポジトリのデフォルトブランチ名はいつでも変更できます",
+  "Change organization's name": "組織名を変更",
+  "We don't support that file type.": "そのファイルタイプはサポートされていません",
+  "Sorry. We couldn't find any matching teams.": "申し訳ありません。一致するチームが見つかりませんでした",
+  "You'll use this name to mention this team in conversations.": "この名前を使用して会話でこのチームをメンションします",
+  "Because secret teams cannot be nested, changing the team's visibility to secret will result in cancelling all pending parent or child requests for this team.": "シークレットチームはネストできないため、チームの公開設定をシークレットに変更すると、このチームのすべての保留中の親または子の要求がキャンセルされます"
 };
