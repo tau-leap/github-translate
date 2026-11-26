@@ -12,6 +12,36 @@
   user-select: none;
 }
 
+/*
+ * 色付き背景（primary / StateLabel / Blankslate 等）だけ親色を継承。
+ * 通常の .btn / button には当てない（ユーザー選択色を維持）。
+ */
+.btn-primary .ght-annot,
+.btn-danger .ght-annot,
+.btn-success .ght-annot,
+.Button--primary .ght-annot,
+.Button--danger .ght-annot,
+[class*="Button--primary"] .ght-annot,
+[class*="Button--danger"] .ght-annot,
+[data-variant="primary"] .ght-annot,
+[data-variant="danger"] .ght-annot,
+.State .ght-annot,
+[class*="State--"] .ght-annot,
+[class*="StateLabel"] .ght-annot,
+[data-component="StateLabel"] .ght-annot,
+.Label--success .ght-annot,
+.Label--danger .ght-annot,
+.Label--accent .ght-annot,
+.Label--done .ght-annot,
+[class*="Label--success"] .ght-annot,
+[class*="Label--danger"] .ght-annot,
+.flash .ght-annot,
+.blankslate .ght-annot,
+[class*="Blankslate"] .ght-annot,
+[class*="EmptyState"] .ght-annot {
+  color: inherit;
+}
+
 /* ActionList サイドバー: Truncate の外に出した訳はラベル下に表示 */
 [class*="ActionList"] [class*="ItemLabel"] > .ght-annot {
   display: block;
