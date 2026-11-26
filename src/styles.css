@@ -13,21 +13,28 @@
 }
 
 /*
- * 塗りつぶしボタン / State / Blankslate など:
- * ユーザー選択色だと背景とぶつかるので、親ラベル色を継承する
- * （緑 Open → 白の半透明、暗背景の空状態 → 白の半透明、など）
+ * 色付き背景（primary / StateLabel / Blankslate 等）だけ親色を継承。
+ * 通常の .btn / button には当てない（ユーザー選択色を維持）。
  */
-button .ght-annot,
-[role="button"] .ght-annot,
-.btn .ght-annot,
-a.Button .ght-annot,
-[class*="prc-Button"] .ght-annot,
+.btn-primary .ght-annot,
+.btn-danger .ght-annot,
+.btn-success .ght-annot,
+.Button--primary .ght-annot,
+.Button--danger .ght-annot,
+[class*="Button--primary"] .ght-annot,
+[class*="Button--danger"] .ght-annot,
+[data-variant="primary"] .ght-annot,
+[data-variant="danger"] .ght-annot,
 .State .ght-annot,
 [class*="State--"] .ght-annot,
-.Label .ght-annot,
-[class*="Label--"] .ght-annot,
-.Counter .ght-annot,
-[class*="Counter"] .ght-annot,
+[class*="StateLabel"] .ght-annot,
+[data-component="StateLabel"] .ght-annot,
+.Label--success .ght-annot,
+.Label--danger .ght-annot,
+.Label--accent .ght-annot,
+.Label--done .ght-annot,
+[class*="Label--success"] .ght-annot,
+[class*="Label--danger"] .ght-annot,
 .flash .ght-annot,
 .blankslate .ght-annot,
 [class*="Blankslate"] .ght-annot,
