@@ -789,6 +789,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Apps manager": "Apps 管理者",
   "Archive organization": "組織をアーカイブ",
   "Archive Program": "アーカイブプログラム",
+  "Archive pull request": "プルリクエストをアーカイブ",
   "Archive this organization": "この Organization をアーカイブ",
   "Archive this repository": "このリポジトリをアーカイブ",
   "Archived items": "アーカイブ済みのアイテム",
@@ -2558,6 +2559,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Token name": "トークン名",
   "Tokens (classic)": "トークン（クラシック）",
   "Top committers": "トップコミッター",
+  "Top Repositories": "注目のリポジトリ",
   "Top repositories": "注目のリポジトリ",
   "Total duration": "合計所要時間",
   "Total job runs": "合計ジョブ実行数",
@@ -2860,6 +2862,7 @@ var GHT_LOCALE_DICTIONARY = {
   "Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML.": "このリポジトリでワークフロー実行時に GITHUB_TOKEN へ付与するデフォルト権限を選びます。YAML でより細かい権限も指定できます。",
   "Choose the minimal permissions necessary for your needs.": "必要に応じて最小限の権限を選択してください",
   "Choose the minimal permissions necessary for your needs. <a>Learn more about permissions.</a>": "必要に応じて最小限の権限を選択してください。<a>権限の詳細</a>",
+  "Choose the number of spaces a tab is equal to when rendering code": "コード表示時にタブを何スペース分として扱うかを選択",
   "Choose the repository settings for artifacts and logs.": "アーティファクトとログのリポジトリ設定を選びます。",
   "Choose where you'd like emails to be sent. You can add more email addresses. Use custom routes to specify different email addresses to be used for individual organizations.": "メールの送信先を選択します。メールアドレスを追加できます。個々の組織に使用する異なるメールアドレスを指定するには、カスタムルートを使用します",
   "Choose where you’d like emails to be sent. You can add more email addresses. Use custom routes to specify different email addresses to be used for individual organizations.": "メールの送信先を選択します。メールアドレスを追加できます。個々の組織に使用する異なるメールアドレスを指定するには、カスタムルートを使用します",
@@ -3528,5 +3531,9 @@ var GHT_LOCALE_DICTIONARY = {
   "Your organization has set a maximum limit of": "Organization が設定した上限は",
   "Your username for your source repository": "ソースリポジトリのユーザー名",
   "You’ll use this name to mention this team in conversations.": "この名前を使用して会話でこのチームをメンションします",
-  "You’re not allowed to merge this pull request": "この PR をマージする権限がありません"
+  "You’re not allowed to merge this pull request": "この PR をマージする権限がありません",
+  "You’re receiving notifications because you authored the thread.": "スレッドの作成者のため通知を受け取ります。",
+  "You’re receiving notifications because you commented.": "コメントしたため通知を受け取ります。",
+  "You’re receiving notifications because you were mentioned.": "メンションされたため通知を受け取ります。",
+  "You’re receiving notifications because you’re watching this repository.": "このリポジトリを Watch しているため通知を受け取ります。"
 };
