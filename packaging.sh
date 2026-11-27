@@ -117,3 +117,6 @@ else
 fi
 
 create_zip "$OUTPUT"
+
+# 生成した ZIP があるディレクトリを Finder で開く
+open "$(dirname "$OUTPUT")"
